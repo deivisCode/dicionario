@@ -1,11 +1,11 @@
 import json
 from jsonschema import validate
 
-with open("exemplo_RI.json") as f:
+with open("filtrado/exemplo_RI.json") as f:
     representacion_intermedia = json.loads(f.read())
     print(f"Hai {len(representacion_intermedia)} termos")
 
-with open("esquema_RI.json") as f:
+with open("filtrado/esquema_RI.json") as f:
     esquema = json.loads(f.read())
 
 validate(instance=representacion_intermedia, schema=esquema)
