@@ -1,0 +1,101 @@
+{
+  "title": "Entradas do dicionario",
+  "description": "Representación intermedia dos contidos do dicionario Baía",
+  "type": "array",
+  "uniqueItems": true,
+  "items": {
+    "type": "object",
+    "maxProperties": 1,
+    "minProperties": 1,
+    "additionalProperties": false,
+    "patternProperties": {
+      "^.+$": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "definición",
+            "lingua",
+            "clase",
+            "xénero",
+            "números",
+            "abreviación",
+            "sinónimos",
+            "áreas",
+            "referencias",
+            "modificado"
+          ],
+          "properties": {
+            "definición": {
+              "type": "string",
+              "pattern": "^.+$"
+            },
+            "lingua": {
+              "type": "object",
+              "required": [
+                "gl",
+                "en",
+                "es"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "gl": {
+                  "type": "string",
+                  "pattern": "^.+$"
+                },
+                "en": {
+                  "type": "string"
+                },
+                "es": {
+                  "type": "string"
+                }
+              }
+            },
+            "clase": {
+              "type": "string",
+              "pattern": "^substantivo$|^adxectivo$|^verbo$"
+            },
+            "xénero": {
+              "type": "string",
+              "pattern": "^masculino$|^feminino$"
+            },
+            "números": {
+              "type": "string",
+              "pattern": "^singular$|^plural$"
+            },
+            "abreviación": {
+              "type": "string",
+              "pattern": "^forma completa$|^siglas$"
+            },
+            "sinónimos": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^.+$"
+              }
+            },
+            "áreas": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^.+$"
+              }
+            },
+            "referencias": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^.+$"
+              }
+            },
+            "modificado": {
+              "type": "string",
+              "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-2][0-9]:[0-5][0-9]:[0-5][0-9]$"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "TERMO UN": [
+      { "definición": "unha descripción", "lingua": { "gl": "un termo en galego", "en": "termo en inglés", "es": "termo en español" }, "clase": "substantivo", "xénero": "feminino", "números": "singular", "abreviación": "forma completa", "sinónimos": [ "aa", "bb" ], "áreas": [ "area 1", "area 2" ], "referencias": [], "modificado": "2018-04-02 12:13:46" },
+      { "definición": "outra definición", "lingua": { "gl": "un termo en galego", "en": "termo en inglés", "es": "termo en español" }, "clase": "adxectivo", "xénero": "masculino", "números": "plural", "abreviación": "forma completa", "sinónimos": [ "cc" ], "áreas": [ "area 3" ], "referencias": [], "modificado": "2018-04-02 12:13:46" }
+    ]
+  },
+  {
+    "TERMO DOUS": [
+      {
+        "definición": "outra descripción distinta",
+        "lingua": {
+          "gl": "outro termo en galego",
+          "en": "outro termo en inglés",
+          "es": "outro termo en español"
+        },
+        "clase": "verbo",
+        "xénero": "feminino",
+        "números": "singular",
+        "abreviación": "siglas",
+        "sinónimos": [],
+        "áreas": [],
+        "referencias": [],
+        "modificado": "2018-04-02 12:13:46"
+      }
+    ]
+  }
+]
