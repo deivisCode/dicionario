@@ -1,0 +1,6 @@
+- Paxina 294: Lejeune Dirichlet, teorema de -> Non atopo ningunha referencia a este teorema, quero saber de onde o sacaron
+- Ecuación de Helmholtz -> Non está (ou igual ten outro nome)
+- Páxina 289: Langevin, función de -> O de non está en negrita, polo que o programa non o conta como parte do título, e por tanto non pilla tampouco a referencia
+- Onda monocromática -> Non está (fonte: Jaime Álvarez)
+- Medio dispersivo -> Non está
+- Relación de dispersión -> Tampouco está
