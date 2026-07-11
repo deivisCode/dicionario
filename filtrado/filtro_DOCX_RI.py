@@ -2,6 +2,7 @@
 
 class Documento: # Obxecto documento inicializado co nome do documento. Ten un atributo doc que contén o texto do documento
     def __init__(self,documento):
+        self.nome = documento
         file = open(documento,'r',encoding="utf-8")
         self.doc = file.read()
         paragrafo = contido("w:p",self.doc)
@@ -9,7 +10,7 @@ class Documento: # Obxecto documento inicializado co nome do documento. Ten un a
         for coso in paragrafo:
             self.paragrafos.append(Paragrafo(coso))
         pass
-    
+
 class Paragrafo: # Obxecto paragrafo inicializado co contido dun parágrafo. Ten como atributos un booleano titulo, e un conxunto de obxectos executables
     def __init__(self,texto):
         self.texto = texto
@@ -51,3 +52,21 @@ def contido(elemento,texto): # Esta función basicamente colle un texto e un ele
     return(textoFinal)
 
 # Falta saber que facer con figuras e ecuacións
+
+ficheiros = [
+    Documento("contido_orixinal/document_AB.xml"),
+    Documento("contido_orixinal/document_CDE.xml"),
+    Documento("contido_orixinal/document_FGHIJKLMNO.xml"),
+    Documento("contido_orixinal/document_PQRST.xml"),
+    Documento("contido_orixinal/document_UVXWYZ.xml")
+]
+
+# Mostramos algo de info dos documentos, para depurar
+for f in ficheiros:
+    print(f"Ficheiro {f.nome}: {len(f.paragrafos)} parágrafos")
+
+for f in ficheiros:
+    for p in f.paragrafos:
+        print()
+        for e in p.executables:
+            print(e.texto)
