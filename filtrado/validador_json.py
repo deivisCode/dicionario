@@ -1,7 +1,9 @@
 import json
 from jsonschema import validate
 
-with open("filtrado/exemplo_RI.json") as f:
+# :FACER: columna de termos relacionados (véxase, etc.)
+
+with open("filtrado/RI.json") as f:
     representacion_intermedia = json.loads(f.read())
     print(f"Hai {len(representacion_intermedia)} termos")
 

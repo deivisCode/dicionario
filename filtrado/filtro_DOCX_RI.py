@@ -1,3 +1,5 @@
+import json
+
 # AVISO -> Perdón, fáltame inspiración e dáseme fatal poñer nomes as variables, pero creo que se entende a idea
 
 class Documento: # Obxecto documento inicializado co nome do documento. Ten un atributo doc que contén o texto do documento
@@ -61,12 +63,125 @@ ficheiros = [
     Documento("XMLs/document_UVXWYZ.xml")
 ]
 
-# Mostramos algo de info dos documentos, para depurar
-for f in ficheiros:
-    print(f"Ficheiro {f.nome}: {len(f.paragrafos)} parágrafos")
+termos = []
+contidos = [
+    {
+        "termo de proba": [
+            {
+                "definición": "outra descripción distinta",
+                "lingua": {
+                    "gl": "termo de proba",
+                    "en": "termo de proba en inglés",
+                    "es": "termo de proba en español",
+                },
+                "clase": "verbo",
+                "xénero": "feminino",
+                "números": "singular",
+                "abreviación": "siglas",
+                "sinónimos": [],
+                "áreas": [],
+                "referencias": [],
+                "modificado": "2018-04-02 12:13:46",
+            }
+        ]
+    },
+]
+vistos = []
+duplicados = []
 
+# iteramos polos distintos FICHEIROS
 for f in ficheiros:
-    for p in f.paragrafos:
-        print()
-        for e in p.executables:
-            print(e.texto)
+    pars = f.paragrafos
+
+    # iteramos polos PARÁGRAFOS (en principio, un par. = un termo) Cada
+    # parágrafo ten unha lista de 'executables'. Os executables son os pedazos
+    # de cada parágrafo, que poden conter texto en itálica, ecuacións, etc.
+    for par, i  in zip(pars, range(len(pars))):
+
+        termo   = par.executables[0].texto.strip() # A primeira palabra do parágrafo
+        bolds   = []
+        italics = []
+
+        termos.append(termo)
+
+        # Estamos nun parágrafo, o cal ten un atributo que é unha lista de
+        # executables . Deles, collemos todos excepto o primeiro, collemos seu
+        # texto e unímolo.
+        #
+        # par.executables (o elemento 0 é o termo, asique o salto):
+        #
+        # [                             [
+        #     executable_1  map lambda      executable_1.texto
+        #     executable_2  --------->      executable_1.texto
+        #     executable_3                  executable_1.texto
+        #     ...                           ...
+        # ]                             ]
+        definicion = ''.join(list(map(lambda e: e.texto, par.executables[1:-1]))).strip()
+
+        # lista con todos os executables con estilo bold, por se os precisase
+        bolds = list(map(
+            lambda e: e.texto, # collemos o texto dos executables
+            filter( lambda e: e.estilo.b, par.executables[1:-1] ) # executables en Bold
+        ))
+
+        # lista con todos os executables con estilo italic. En principio, parte
+        # destes son as palabras relacionadas (p.e. *mecánica estatística)
+        # :FACER: En itálica so están os termos relacionados que teñen varias
+        #     palabras (p.e. *mecánica estatística). Se a palabra relacionada é
+        #     simple, aqui non está
+        italicas = list(map(
+            lambda e: e.texto, # collemos o texto dos executables
+            filter( lambda e: e.estilo.i, par.executables[1:-1] ) # executables en Italica
+        ))
+
+        # algo de depuración por STDOUT
+        if (
+            ((definicion == '') ^ (termo == '')) # non nos importan se non teñen nada
+            and
+            # Se o termo ten unha letra (A, B, etc.) pode que sexa un título dun
+            # capítulo. Se so ten un executable, é unha confirmación.
+            not (len(termo) == 1 and len(par.executables) == 1)
+        ):
+            print(f"OLLO: ficheiro {f.nome}, par {i+1}")
+            print(f"    T: {termo}\n    D: {definicion}")
+
+        # Dicionario que segue o esquema de JSON da Representación Intermedia
+        info = {
+            f"{termo}": [
+                {
+                    "definición": f"{definicion}",
+                    "lingua": {
+                        "gl": f"{termo}",
+                        "en": "",
+                        "es": ""
+                    },
+                    "clase"       : "",
+                    "xénero"      : "",
+                    "números"     : "",
+                    "abreviación" : "",
+                    "sinónimos": [],
+                    "áreas": [],
+                    "referencias": [],
+                    "modificado": "2018-04-02 12:13:46"
+                }
+            ]
+        }
+
+        if  (
+            # hai varios termos que están baleiros, non sei por que
+            termo != ''
+            and
+            # hai varios termos sen definición, non sei por que
+            definicion != ''
+            and
+            not (len(termo) == 1 and len(par.executables) == 1)
+            and
+            # se non o engadimos xa, hai varios que (por algún motivo) están duplicados
+            (info not in contidos)
+        ) :
+            # Se falta algunha palabra, véxase STDOUT máis arriba, onde se
+            # mostran cousas baleiras
+            contidos.append(info)
+
+with open("filtrado/RI.json", 'w', encoding = 'utf8') as f:
+    json.dump(contidos, f, indent = 2, ensure_ascii = False)

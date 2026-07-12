@@ -54,19 +54,19 @@
             },
             "clase": {
               "type": "string",
-              "pattern": "^substantivo$|^adxectivo$|^verbo$"
+              "pattern": "^substantivo$|^adxectivo$|^verbo$|^$"
             },
             "xénero": {
               "type": "string",
-              "pattern": "^masculino$|^feminino$"
+              "pattern": "^masculino$|^feminino$|^$"
             },
             "números": {
               "type": "string",
-              "pattern": "^singular$|^plural$"
+              "pattern": "^singular$|^plural$|^$"
             },
             "abreviación": {
               "type": "string",
-              "pattern": "^forma completa$|^siglas$"
+              "pattern": "^forma completa$|^siglas$|^$"
             },
             "sinónimos": {
               "type": "array",

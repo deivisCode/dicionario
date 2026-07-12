@@ -1,6 +1,14 @@
+Termos concretos:
+
 - Paxina 294: Lejeune Dirichlet, teorema de -> Non atopo ningunha referencia a este teorema, quero saber de onde o sacaron
 - Ecuación de Helmholtz -> Non está (ou igual ten outro nome)
 - Páxina 289: Langevin, función de -> O de non está en negrita, polo que o programa non o conta como parte do título, e por tanto non pilla tampouco a referencia
 - Onda monocromática -> Non está (fonte: Jaime Álvarez)
 - Medio dispersivo -> Non está
 - Relación de dispersión -> Tampouco está
+
+Notas xerais:
+- Hai termos que están no dicionario real e non nos DOCX
+- Hai termos que no XML están case duplicados pero con notas para usar un e non o outro
+- Hai termos (prágrafos do XML) completamente baleiros
+- Hai termos (prágrafos do XML) con termos pero sen definción
