@@ -54,11 +54,11 @@ def contido(elemento,texto): # Esta función basicamente colle un texto e un ele
 # Falta saber que facer con figuras e ecuacións
 
 ficheiros = [
-    Documento("contido_orixinal/document_AB.xml"),
-    Documento("contido_orixinal/document_CDE.xml"),
-    Documento("contido_orixinal/document_FGHIJKLMNO.xml"),
-    Documento("contido_orixinal/document_PQRST.xml"),
-    Documento("contido_orixinal/document_UVXWYZ.xml")
+    Documento("XMLs/document_AB.xml"),
+    Documento("XMLs/document_CDE.xml"),
+    Documento("XMLs/document_FGHIJKLMNO.xml"),
+    Documento("XMLs/document_PQRST.xml"),
+    Documento("XMLs/document_UVXWYZ.xml")
 ]
 
 # Mostramos algo de info dos documentos, para depurar
