@@ -79,8 +79,10 @@ contidos = [
                 "números": "singular",
                 "abreviación": "siglas",
                 "sinónimos": [],
+                "palabras relacionadas" : [],
                 "áreas": [],
                 "referencias": [],
+                "figuras" : [],
                 "modificado": "2018-04-02 12:13:46",
             }
         ]

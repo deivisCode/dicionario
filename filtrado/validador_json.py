@@ -1,7 +1,7 @@
 import json
 from jsonschema import validate
 
-# :FACER: columna de termos relacionados (véxase, etc.)
+# :FACER: nomes dos ficheiros como argumentos
 
 with open("filtrado/RI.json") as f:
     representacion_intermedia = json.loads(f.read())
