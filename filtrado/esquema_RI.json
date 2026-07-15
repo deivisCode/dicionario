@@ -22,8 +22,10 @@
             "números",
             "abreviación",
             "sinónimos",
+            "palabras relacionadas",
             "áreas",
             "referencias",
+            "figuras",
             "modificado"
           ],
           "properties": {
@@ -75,6 +77,12 @@
                 "pattern": "^.+$"
               }
             },
+            "palabras relacionadas" : {
+                "type" : "array",
+                "items" : {
+                    "type" : "string"
+                }
+            },
             "áreas": {
               "type": "array",
               "items": {
@@ -88,6 +96,12 @@
                 "type": "string",
                 "pattern": "^.+$"
               }
+            },
+            "figuras" : {
+                "type" : "array",
+                "items" : {
+                    "type" : "string"
+                }
             },
             "modificado": {
               "type": "string",

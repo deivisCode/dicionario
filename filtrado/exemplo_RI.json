@@ -1,8 +1,8 @@
 [
   {
     "TERMO UN": [
-      { "definición": "unha descripción", "lingua": { "gl": "un termo en galego", "en": "termo en inglés", "es": "termo en español" }, "clase": "substantivo", "xénero": "feminino", "números": "singular", "abreviación": "forma completa", "sinónimos": [ "aa", "bb" ], "áreas": [ "area 1", "area 2" ], "referencias": [], "modificado": "2018-04-02 12:13:46" },
-      { "definición": "outra definición", "lingua": { "gl": "un termo en galego", "en": "termo en inglés", "es": "termo en español" }, "clase": "adxectivo", "xénero": "masculino", "números": "plural", "abreviación": "forma completa", "sinónimos": [ "cc" ], "áreas": [ "area 3" ], "referencias": [], "modificado": "2018-04-02 12:13:46" }
+      { "definición": "unha descripción", "lingua": { "gl": "un termo en galego", "en": "termo en inglés", "es": "termo en español" }, "clase": "substantivo", "xénero": "feminino", "números": "singular", "abreviación": "forma completa", "sinónimos": [ "aa", "bb" ], "palabras relacionadas" : [], "áreas": [ "area 1", "area 2" ], "referencias": [], "figuras" : [], "modificado": "2018-04-02 12:13:46" },
+      { "definición": "outra definición", "lingua": { "gl": "un termo en galego", "en": "termo en inglés", "es": "termo en español" }, "clase": "adxectivo", "xénero": "masculino", "números": "plural", "abreviación": "forma completa", "sinónimos": [ "cc" ], "palabras relacionadas" : [], "áreas": [ "area 3" ], "referencias": [], "figuras" : [], "modificado": "2018-04-02 12:13:46" }
     ]
   },
   {
@@ -19,8 +19,10 @@
         "números": "singular",
         "abreviación": "siglas",
         "sinónimos": [],
+        "palabras relacionadas" : [],
         "áreas": [],
         "referencias": [],
+        "figuras" : [],
         "modificado": "2018-04-02 12:13:46"
       }
     ]

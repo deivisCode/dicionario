@@ -160,8 +160,10 @@ for f in ficheiros:
                     "números"     : "",
                     "abreviación" : "",
                     "sinónimos": [],
+                    "palabras relacionadas" : [],
                     "áreas": [],
                     "referencias": [],
+                    "figuras" : [],
                     "modificado": "2018-04-02 12:13:46"
                 }
             ]
