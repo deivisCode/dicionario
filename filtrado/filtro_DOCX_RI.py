@@ -2,7 +2,41 @@ import json
 
 # AVISO -> Perdón, fáltame inspiración e dáseme fatal poñer nomes as variables, pero creo que se entende a idea
 
-class Documento: # Obxecto documento inicializado co nome do documento. Ten un atributo doc que contén o texto do documento
+# Iste é un pequeno filtro caseiro que colle un XML do estilo dos ficheiros
+# XMLs/document_AB.xml e o separa en parágrafos; cada parágrafo, á súa vez, nos
+# seu constituintes (aquí chamados 'executables'); e tamén nos da certa info do
+# estilo do texto filtrado (itálica, negriña). Para explicalo mellor (simplificado):
+#
+# <w:p>
+#     <w:r>
+#         <w:rPr> <w:b/> <w:sz w:val="18"/> </w:rPr>
+#         <w:t>Abbe, invariante de</w:t>
+#     </w:r>
+#     <w:r>
+#         <w:rPr> <w:sz w:val="18"/> </w:rPr>
+#         <w:t>En óptica, e para o caso dunha superficie esférica de radio</w:t>
+#     </w:r>
+#     <w:r>
+#         <w:rPr> <w:sz w:val="18"/> </w:rPr>
+#         <w:t>, que separa dous medios transparentes de distinto *</w:t>
+#     </w:r>
+#     <w:r>
+#         <w:rPr> <w:i/> <w:sz w:val="18"/> </w:rPr>
+#         <w:t>índice de refracción</w:t>
+#     </w:r>
+# </w:p>
+#
+# máis simplificado inda:
+#
+# parágrafo      -->  <w:p>
+#     executable -->  <w:r> partes dun parágrafo. Separa estilos, imaxes, ecuacións, etc.
+#         estilo -->  <w:b> (negriña), <w:i> (itálica), <w:sz> (tamaño da fonte)
+#         texto  -->  O propio texto
+
+
+class Documento:
+    """Obxecto documento inicializado co nome do documento. Ten un atributo doc
+    que contén o texto do documento"""
     def __init__(self,documento):
         self.nome = documento
         file = open(documento,'r',encoding="utf-8")
@@ -13,7 +47,9 @@ class Documento: # Obxecto documento inicializado co nome do documento. Ten un a
             self.paragrafos.append(Paragrafo(coso))
         pass
 
-class Paragrafo: # Obxecto paragrafo inicializado co contido dun parágrafo. Ten como atributos un booleano titulo, e un conxunto de obxectos executables
+class Paragrafo:
+    """Obxecto paragrafo inicializado co contido dun parágrafo. Ten como
+    atributos un booleano titulo, e un conxunto de obxectos executables"""
     def __init__(self,texto):
         self.texto = texto
         self.titulo = False
@@ -24,14 +60,18 @@ class Paragrafo: # Obxecto paragrafo inicializado co contido dun parágrafo. Ten
         for coso in conten:
             self.executables.append(Executable(coso))
 
-class Executable: # Obxecto executable inicializado co contido dun elemento parágrafo. Ten como atributos un obxecto estilo, un obxecto e un texto
+class Executable:
+    """Obxecto executable inicializado co contido dun elemento parágrafo. Ten
+    como atributos un obxecto estilo, un obxecto e un texto"""
     def __init__(self,texto):
         estilo = contido("w:rPr",texto)[0]
         self.estilo = Estilo(estilo)
         self.texto = contido("w:t",texto)[0]
         self.obxecto = True if ("w:object" in texto) else False # Isto basicamente dime se o executable é unha ecuación. Xa mirarei máis o tema
 
-class Estilo: # Obxecto estilo inicializado co contido de calquera dos elementos executable ou parágrafo, ten atributos b, i e tamaño.
+class Estilo:
+    """Obxecto estilo inicializado co contido de calquera dos elementos
+    executable ou parágrafo, ten atributos b, i e tamaño."""
     b = False
     i = False
     def __init__(self,texto):
@@ -40,7 +80,9 @@ class Estilo: # Obxecto estilo inicializado co contido de calquera dos elementos
         if "w:i" in texto:
             self.i = True   # Podería meter tamén o tamaño da fonte (w:sz) pero de momento non é relevante
 
-def contido(elemento,texto): # Esta función basicamente colle un texto e un elemento, e me devolve un array co contido dos elementos dese tipo no texto
+def contido(elemento,texto):
+    """Esta función basicamente colle un texto e un elemento, e me devolve un
+    array co contido dos elementos dese tipo no texto"""
     textoSeparado = texto.split("</" + elemento + ">")[:-1]
     textoFinal = []
     for linea in textoSeparado:
@@ -55,6 +97,7 @@ def contido(elemento,texto): # Esta función basicamente colle un texto e un ele
 
 # Falta saber que facer con figuras e ecuacións
 
+# Nomes dos ficheiros XML ca información, para iterar por todos eles despois.
 ficheiros = [
     Documento("XMLs/document_AB.xml"),
     Documento("XMLs/document_CDE.xml"),
@@ -63,42 +106,19 @@ ficheiros = [
     Documento("XMLs/document_UVXWYZ.xml")
 ]
 
-termos = []
-contidos = [
-    {
-        "termo de proba": [
-            {
-                "definición": "outra descripción distinta",
-                "lingua": {
-                    "gl": "termo de proba",
-                    "en": "termo de proba en inglés",
-                    "es": "termo de proba en español",
-                },
-                "clase": "verbo",
-                "xénero": "feminino",
-                "números": "singular",
-                "abreviación": "siglas",
-                "sinónimos": [],
-                "palabras relacionadas" : [],
-                "áreas": [],
-                "referencias": [],
-                "figuras" : [],
-                "modificado": "2018-04-02 12:13:46",
-            }
-        ]
-    },
-]
-vistos = []
-duplicados = []
+termos = [] # Lista con todos os termos atopados
+vistos = [] # Lista de termos 'xa vistos'
+duplicados = [] # Lista de termos que está duplicados
+contidos = [] # Aquí gardaranse dicionarios co formato necesario para a RI
 
 # iteramos polos distintos FICHEIROS
 for f in ficheiros:
-    pars = f.paragrafos
+    paragrafos = f.paragrafos
 
     # iteramos polos PARÁGRAFOS (en principio, un par. = un termo) Cada
     # parágrafo ten unha lista de 'executables'. Os executables son os pedazos
     # de cada parágrafo, que poden conter texto en itálica, ecuacións, etc.
-    for par, i  in zip(pars, range(len(pars))):
+    for par, i  in zip(paragrafos, range(len(paragrafos))):
 
         termo   = par.executables[0].texto.strip() # A primeira palabra do parágrafo
         bolds   = []
@@ -107,7 +127,7 @@ for f in ficheiros:
         termos.append(termo)
 
         # Estamos nun parágrafo, o cal ten un atributo que é unha lista de
-        # executables . Deles, collemos todos excepto o primeiro, collemos seu
+        # executables. Deles, collemos todos excepto o primeiro, collemos seu
         # texto e unímolo.
         #
         # par.executables (o elemento 0 é o termo, asique o salto):
@@ -187,5 +207,6 @@ for f in ficheiros:
             # mostran cousas baleiras
             contidos.append(info)
 
+# Gardamos os contidos en formato JSON
 with open("filtrado/RI.json", 'w', encoding = 'utf8') as f:
     json.dump(contidos, f, indent = 2, ensure_ascii = False)
