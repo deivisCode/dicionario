@@ -1,0 +1,21 @@
+@all a representación intermedia está feita. O esquema é algo elaborado demáis, pero está ben así, permitiume entender mellor as necesidades á hora de clasificar os termos (enserio, o esquema non é arbitrario, nin quero simplificalo).
+
+O seguinte paso é revisar a RI _a man_ (é inevitable, hai que ler os contidos todos si ou si).
+
+Antes de tremendo traballo, porfa, botádelle unha ollada a todo esto que se fixo a ver se está ben ou tendes algunha idea ou algo :)
+
+O que hai que facer é, para todos (4361) os termos:
+- Ler os termos e definicións, acompañados do dicionario en papel (ou polo menos, do DOCX).
+- Eliminar termos que sobran (algún están duplicados porque teñen varias versións, unha vella e outra final).
+- Eliminar palabras e caracteres sobrantes do filtrado. Cousas como `Sb. .`, `0figure0`, ou calquera cousa rara
+- As palabras do estilo _Véxase tal palabra_ hai que engadilas ao array de palabras relacionadas (a maioría xa están).
+- Os sinónimos engádense ao array de sinónimos.
+- Os símbolos dos termos engádense á entrada `símbolo`, p.e. para a aceleración angular, engadiríamos `"$L$"`
+- Escribir as ecuacións en formato typst (si, todas).
+- Para as figuras, poñer algo como `#figure(image("ruta/a/figura.svg"))` en typst. Básicamente o qeu dicía Andrés, pero en lugar de hipervínculos directamente usamos funcións de typst.
+
+Non nos interesa nin corrección gramatical nin nada, nin clasificar os termos, NADA. Simplemente eses puntos.
+
+O que teño que facer eu antes é:
+- Subir as figuras en formato SVG.
+- Farei unha rama aparte para ir subindo o traballo ao pedazo JSON de 3MB, xa que supoño que serán moitas contribucións.
