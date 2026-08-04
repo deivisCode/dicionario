@@ -87,10 +87,14 @@ BEGIN TRANSACTION;
             ON Definicions.ext_definicion = Termos.id
     ;
 
-    -- INSERT INTO
-    --     Sinonimos(ext_sinonimo, sinonimo)
-    -- VALUES
-    --     (5, 6), -- Termos con id 5, 6 e 7 son sinónimos
-    --     (5, 7);
+    INSERT INTO Termos
+        ('gl','en','es','xenero','clase','numeros','abreviacion')
+    VALUES
+        ('otura', 'otero', 'akira', 'femenino', 'sustantivo', 'singular', 'forma completa'),
+        ('qtura', 'otero', 'akira', 'femenino', 'sustantivo', 'singular', 'forma completa'),
+        ('rtura', 'otero', 'akira', 'femenino', 'sustantivo', 'singular', 'forma completa'),
+        ('stura', 'otero', 'akira', 'femenino', 'sustantivo', 'singular', 'forma completa'),
+        ('ttura', 'otero', 'akira', 'femenino', 'sustantivo', 'singular', 'forma completa')
+    ;
 
 END TRANSACTION;
