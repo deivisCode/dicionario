@@ -1,0 +1,49 @@
+[
+  {
+    "termo" : "TERMO UN",
+    "acepcións": [
+      {
+        "lingua": {
+          "gl": {
+            "termo": "TERMO UN",
+            "definición" : "Definición 1 para o TERMO 1",
+            "clase": "substantivo",
+            "xénero": "feminino",
+            "número": "singular",
+            "forma" : "principal",
+            "abreviación": "",
+            "símbolo" : "",
+            "sinónimos": [ "aa", "bb" ],
+            "fontes" : []
+          },
+          "en": {
+            "termo": "TERM ONE",
+            "definición" : "Definition for the 1st term",
+            "clase": "frase sustantiva",
+            "xénero": "feminino",
+            "número": "singular",
+            "forma" : "principal",
+            "abreviación": "",
+            "símbolo" : "",
+            "sinónimos": [],
+            "fontes" : ["merriam webster"]
+          },
+          "es": {
+            "termo": "TERMO UNO",
+            "definición" : "Definición 1 para el término 1",
+            "clase": "substantivo",
+            "xénero": "feminino",
+            "número": "singular",
+            "forma" : "rexeitada",
+            "abreviación": "",
+            "símbolo" : "",
+            "sinónimos": [ "un sinónimo" ],
+            "fontes" : ["rae"]
+          }
+        },
+        "palabras relacionadas": [],
+        "áreas": [ "area 1", "area 2" ]
+      }
+    ]
+  }
+]

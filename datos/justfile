@@ -1,0 +1,4 @@
+test:
+    @sqlite3 datos.db '.read ordes_taboas.sql'
+    @sqlite3 datos.db '.read ordes_insert.sql'
+    @sqlite3 datos.db 'select * from Probas'

@@ -4,8 +4,14 @@ DROP TABLE IF EXISTS Definicions ;
 DROP TABLE IF EXISTS Termos ;
 DROP TABLE IF EXISTS AreasTematicas ;
 DROP TABLE IF EXISTS Fontes ;
+DROP TABLE IF EXISTS Probas ;
 
 BEGIN TRANSACTION;
+
+    CREATE TABLE IF NOT EXISTS Probas(
+        termo      TEXT,
+        definicion TEXT
+    );
 
     CREATE TABLE IF NOT EXISTS Termos(
         id          INTEGER PRIMARY KEY,
@@ -85,16 +91,6 @@ BEGIN TRANSACTION;
             INNER JOIN
             Definicions
             ON Definicions.ext_definicion = Termos.id
-    ;
-
-    INSERT INTO Termos
-        ('gl','en','es','xenero','clase','numeros','abreviacion')
-    VALUES
-        ('otura', 'otero', 'akira', 'femenino', 'sustantivo', 'singular', 'forma completa'),
-        ('qtura', 'otero', 'akira', 'femenino', 'sustantivo', 'singular', 'forma completa'),
-        ('rtura', 'otero', 'akira', 'femenino', 'sustantivo', 'singular', 'forma completa'),
-        ('stura', 'otero', 'akira', 'femenino', 'sustantivo', 'singular', 'forma completa'),
-        ('ttura', 'otero', 'akira', 'femenino', 'sustantivo', 'singular', 'forma completa')
     ;
 
 END TRANSACTION;
