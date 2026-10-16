@@ -260,7 +260,7 @@
         "lingua": {
           "gl": {
             "termo": "absorción",
-            "definicion": "Termo que recolle diversos procesos físico-químicos nos que unha substancia retén a outra, como a retención dun gas por un líquido ou a dun fluído por un sólido. Afecta a todo o volume do corpo, a diferencia da adsorción que é superficial. absorción atómica Técnica instrumental empregada para a análise química cuantitativa dos elementos dunha mostra, baseada na análise espectral. Nun aparello vaporízase a mostra e os vapores obtidos interpóñense no camiño dun feixe de luz, recolléndose a luz emerxente nun detector. Para cada elemento químico existen diferentes lonxitudes de onda características de especial absorción, para as que a diminución da súa intensidade luminosa se relaciona matematicamente coa concentración dese elemento na mostra problema. V. Beer, lei de; absorbancia.",
+            "definicion": "Termo que recolle diversos procesos físico-químicos nos que unha substancia retén a outra, como a retención dun gas por un líquido ou a dun fluído por un sólido. Afecta a todo o volume do corpo, a diferencia da adsorción que é superficial. absorción atómica ",
             "sinonimos": []
           }
         }
@@ -281,23 +281,48 @@
     "ten_figuras": false
   },
   {
+    "termo": "absorción atómica",
+    "acepcions" : [
+      {
+        "lingua" : {
+            "gl" : {
+              "termo" : "absorción atómica",
+              "definicion": "Técnica instrumental empregada para a análise química cuantitativa dos elementos dunha mostra, baseada na análise espectral. Nun aparello vaporízase a mostra e os vapores obtidos interpóñense no camiño dun feixe de luz, recolléndose a luz emerxente nun detector. Para cada elemento químico existen diferentes lonxitudes de onda características de especial absorción, para as que a diminución da súa intensidade luminosa se relaciona matematicamente coa concentración dese elemento na mostra problema."
+            }
+        }
+      }
+    ],
+    "relacionadas" : [
+        "Beer, lei de",
+        "absorbancia",
+        "absorción",
+        "análise espectral",
+        "lonxitudes de onda"
+    ],
+    "ten_ecuacions": false,
+    "ten_figuras": false
+  },
+  {
     "termo": "absortancia",
     "acepcions": [
       {
         "lingua": {
           "gl": {
             "termo": "absortancia",
-            "definicion": "Sb.. Fracción da radiación total incidente sobre un corpo que é absorbida polo mesmo. Por definición, a absortancia dun corpo negro é a unidade. V. factor de absorción; absorbancia; transmitancia; Lambert, lei de.",
+            "definicion": "Fracción da radiación total incidente sobre un corpo que é absorbida polo mesmo. Por definición, a absortancia dun corpo negro é a unidade.",
             "sinonimos": []
           }
         }
       }
     ],
     "relacionadas": [
-      "corpo",
-      "corpo negro"
+      "corpo negro",
+      "factor de absorción",
+      "absorbancia",
+      "transmitancia",
+      "Lambert, lei de"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -307,16 +332,13 @@
         "lingua": {
           "gl": {
             "termo": "absortividade",
-            "definicion": "Coeficiente de extinción.",
-            "sinonimos": []
+            "definicion": "",
+            "sinonimos": ["Coeficiente de extinción"]
           }
         }
       }
     ],
-    "relacionadas": [
-      "Coeficiente de extinción",
-      "Coeficiente"
-    ],
+    "relacionadas": [],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -355,7 +377,7 @@
         "lingua": {
           "gl": {
             "termo": "acción",
-            "definicion": "Magnitude física empregada na mecánica introducida por P.L. Maupertius (1698-1759) que expresa, en termos actuais, o producto do momento lineal dun móbil polo seu desprazamento, S = mvd. Tal expresión resulta equivalente ao producto dunha enerxía por un tempo, empregándose na mecánica analítica, para expresar a acción dun sistema, con enerxía cinética T e nun campo conservativo de enerxía potencial U, a ecuaciónNo SI exprésase en J·s.A constante de Planck, h, de emprego xeneralizado na mecánica cuántica, é un exemplo de acción. V. principio de mínima acción; Maupertius, principio de; Hamilton, principio de.",
+            "definicion": "Magnitude física empregada na mecánica introducida por P.L. Maupertius (1698-1759) que expresa, en termos actuais, o producto do momento lineal dun móbil polo seu desprazamento, $S = m v d$. Tal expresión resulta equivalente ao producto dunha enerxía por un tempo, empregándose na mecánica analítica, para expresar a acción dun sistema, con enerxía cinética T e nun campo conservativo de enerxía potencial U, a ecuación $ S = integral_(t_1)^(t_2) (T - U) d t $ No SI exprésase en J·s.A constante de Planck, h, de emprego xeneralizado na mecánica cuántica, é un exemplo de acción.",
             "sinonimos": []
           }
         }
@@ -364,28 +386,30 @@
         "lingua": {
           "gl": {
             "termo": "acción",
-            "definicion": "Conxunto de forzas que un corpo exerce sobre outro, provocando unha deformación ou variación no seu estado de movemento, e motivando unha reacción. V. Newton, leis de.",
+            "definicion": "Conxunto de forzas que un corpo exerce sobre outro, provocando unha deformación ou variación no seu estado de movemento, e motivando unha reacción.",
             "sinonimos": []
           }
         }
       }
     ],
     "relacionadas": [
-      "campo",
-      "S = mvd",
-      "enerxía",
-      "momento",
+      "magnitude",
       "mecánica",
-      "Planck",
+      "Planck, constante de",
       "momento lineal",
       "campo conservativo",
       "mecánica cuántica",
       "enerxía potencial",
       "mecánica analítica",
       "enerxía cinética",
-      "reacción"
+      "reacción",
+      "SI",
+      "Newton, leis de",
+      "Maupertius, principio de",
+      "Hamilton, principio de",
+      "principio de mínima acción"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
