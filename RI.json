@@ -28,7 +28,7 @@
         "lingua": {
           "gl": {
             "termo": "Abbe, invariante de",
-            "definicion": "En óptica, e para o caso dunha superficie esférica de radio $r$, que separa dous medios transparentes de distinto índice de refracción ($n$ e $n'$), cada un dos dous membros da igualdade $ n(1/r - 1/s) = n'(1/r - 1/(s')) $ onde $s$ e $s'$ son as respectivas distancias do obxecto, e da súa imaxe, á superficie de separación. A ecuación cúmprese, é dicir, o termo é invariante sempre que os feixes de luz que interveñen na formación da imaxe sexan próximos ao eixe óptico.",
+            "definicion": "En óptica, e para o caso dunha superficie esférica de radio $r$, que separa dous medios transparentes de distinto índice de refracción ($n$ e $n'$), cada un dos dous membros da igualdade $ n (1/r - 1/s) = n' (1/r - 1/(s')) $ onde $s$ e $s'$ son as respectivas distancias do obxecto e da súa imaxe, á superficie de separación. A ecuación cúmprese na aproximación paraxial. Para un espello esférico redúcese á ecuación máis sinxela $ 1/s + 1/(s') = 2/r. $",
             "sinonimos": []
           }
         }
@@ -36,6 +36,8 @@
     ],
     "relacionadas": [
       "índice de refracción",
+      "espello esférico",
+      "aproximación paraxial",
       "dioptrio",
       "lente",
       "zona paraxial",
@@ -45,36 +47,13 @@
     "ten_figuras": false
   },
   {
-    "termo": "Abbe, invariante de",
-    "acepcions": [
-      {
-        "lingua": {
-          "gl": {
-            "termo": "Abbe, invariante de",
-            "definicion": "En óptica, e para o caso dunha superficie esférica de radio r, que separa dous medios transparentes de distinto índice de refracción (n e n'), cada un dos dous membros da igualdadeonde s e s' son as respectivas distancias do obxecto e da súa imaxe, á superficie de separación. A ecuación cúmprese na aproximación paraxial. Para un espello esférico redúcese á ecuación máis sinxela:.V. dioptrio; lente; zona paraxial; Gauss, fórmula de. [SUBSTITÚE OUTRO].",
-            "sinonimos": []
-          }
-        }
-      }
-    ],
-    "relacionadas": [
-      "índice de refracción",
-      "espello esférico",
-      "aproximación",
-      "espello",
-      "índice"
-    ],
-    "ten_ecuacions": false,
-    "ten_figuras": false
-  },
-  {
     "termo": "Abbe, número de",
     "acepcions": [
       {
         "lingua": {
           "gl": {
             "termo": "Abbe, número de",
-            "definicion": "Número que caracteriza o comportamento dispersivo dun material en función dos índices de refracción do mesmo para as lonxitudes de onda correspondentes ás liñas espectrais *d* (587,6 nm); *F* (486,1 nm, e *C* (656,3 nm). Vén dado pola ecuación: $ nu_d = (n_d - 1)/(n_F - n_C) $",
+            "definicion": "Número que caracteriza o comportamento dispersivo dun material en función dos índices de refracción do mesmo para as lonxitudes de onda correspondentes ás liñas espectrais *d* (587,6 nm); *F* (486,1 nm, e *C* (656,3 nm). Vén dado pola ecuación $ nu_d = (n_d - 1)/(n_F - n_C). $",
             "sinonimos": []
           }
         }
@@ -145,8 +124,7 @@
       }
     ],
     "relacionadas": [
-      "Aberración",
-      "coordenadas",
+      "aberración",
       "coordenadas ecuatoriais",
       "aberración anual"
     ],
@@ -168,9 +146,8 @@
     ],
     "relacionadas": [
       "índice de refracción",
-      "índice",
-      "lentes",
-      "lentes acromáticas"
+      "lentes acromáticas",
+      "aberración"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -182,23 +159,24 @@
         "lingua": {
           "gl": {
             "termo": "aberracións xeométricas",
-            "definicion": "Posibles defectos da imaxe formada por un espello ou unha lente aínda cando se emprega luz monocromática. Na aberración esférica, presente en lentes e espellos esféricos, os raios procedentes do obxecto enfócanse en diferentes posicións debido á curvatura deses sistemas ópticos podendo verse nalgúns casos a imaxe rodeada dun círculo luminoso (aberración esférica transversal en espellos). Nas lentes danse, ademais, outros tipos de aberración xeométrica: o astigmatismo e coma, refírense, ao igual que a aberración esférica, á calidade do punto imaxe, mentres que a curvatura da imaxe e a distorsión, se refiren á posición do punto imaxe. V. sistemas ópticos; estigmatismo.",
+            "definicion": "Posibles defectos da imaxe formada por un espello ou unha lente aínda cando se emprega luz monocromática. Na aberración esférica, presente en lentes e espellos esféricos, os raios procedentes do obxecto enfócanse en diferentes posicións debido á curvatura deses sistemas ópticos podendo verse nalgúns casos a imaxe rodeada dun círculo luminoso (aberración esférica transversal en espellos). Nas lentes danse, ademais, outros tipos de aberración xeométrica: o astigmatismo e coma, refírense, ao igual que a aberración esférica, á calidade do punto imaxe, mentres que a curvatura da imaxe e a distorsión, se refiren á posición do punto imaxe.",
             "sinonimos": []
           }
         }
       }
     ],
     "relacionadas": [
-      "sistemas",
       "aberración esférica transversal en espellos",
       "curvatura",
       "astigmatismo",
       "espello",
       "coma",
-      "punto",
+      "punto imaxe",
       "aberración esférica",
       "distorsión",
-      "lente"
+      "lente",
+      "sistemas ópticos",
+      "estigmatismo"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -218,7 +196,6 @@
     ],
     "relacionadas": [
       "poder separador",
-      "poder",
       "telescopio"
     ],
     "ten_ecuacions": false,
@@ -248,8 +225,8 @@
         "lingua": {
           "gl": {
             "termo": "absorbancia",
-            "definicion": "Sb. A. Parámetro que caracteriza a absorción de enerxía dunha determinada radiación ao atravesar un medio material transparente. Exprésase como o logaritmo decimal do inverso da transmitancia do devandito medio. Para o caso dunha disolución, a absorbancia depende directamente da molaridade da mesma, M, e da distancia percorrida ao seu través, x, tal como indica a lei de Beer:A constante de proporcionalidade nesta expresión, , é o chamado coeficiente de extinción molar. Determinada a absorbancia da disolución por fotocolorimetría, e coñecido o espesor x, así como o valor do coeficiente de extinción molar nesas condicións, pódese determinar a concentración desa disolución, resultando de gran utilidade na análise química. A absorbancia tamén recibe o nome de extinción. V. absortancia.",
-            "sinonimos": []
+            "definicion": "Parámetro que caracteriza a absorción de enerxía dunha determinada radiación ao atravesar un medio material transparente. Exprésase como o logaritmo decimal do inverso da transmitancia do devandito medio. Para o caso dunha disolución, a absorbancia depende directamente da molaridade da mesma, $M$, e da distancia percorrida ao seu través, $Delta x$, tal como indica a lei de Beer $ A = log phi_(e 0)/phi_e = epsilon dot M dot Delta x $ A constante de proporcionalidade nesta expresión, $epsilon$ , é o chamado coeficiente de extinción molar. Determinada a absorbancia da disolución por fotocolorimetría, e coñecido o espesor $Delta x$, así como o valor do coeficiente de extinción molar nesas condicións, pódese determinar a concentración desa disolución, resultando de gran utilidade na análise química. A absorbancia tamén recibe o nome de extinción.",
+            "sinonimos": ["extinción"]
           }
         }
       }
@@ -258,13 +235,13 @@
       "extinción",
       "fotocolorimetría",
       "molaridade",
-      "coeficiente",
-      "Beer",
+      "Beer, lei de",
       "coeficiente de extinción molar",
       "transmitancia",
-      "absorción"
+      "absorción",
+      "absortancia"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -291,14 +268,14 @@
     ],
     "relacionadas": [
       "análise",
-      "lonxitudes",
-      "Lambert",
+      "Lambert, lei de",
       "amortecemento",
-      "*lonxitudes de onda",
+      "lonxitudes de onda",
       "intensidade",
       "análise espectral",
       "adsorción",
-      "absorción"
+      "absorción",
+      "amortecemento"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
