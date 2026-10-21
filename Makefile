@@ -14,7 +14,7 @@ contar:
 
 # Xera continuamente un borrador dos contidos en formato HTML, en 127.0.0.1:3000
 borrador:
-	typst watch --no-pdf-tags --pretty --root . --features html --format html dicionario/dicionario.typ dicionario/dicionario.html
+	typst watch --no-pdf-tags --pretty --root . --features html,bundle --format bundle dicionario/dicionario.typ dicionario/dicionario.html
 
 validar:
 	uv run trebellos/validador_json.py RI.json
