@@ -413,6 +413,40 @@
     "ten_figuras": false
   },
   {
+    "termo": "aceleración",
+    "acepcions" : [
+      {
+        "lingua" : {
+          "gl" : {
+            "termo": "aceleración",
+            "definicion": "Magnitude cinemática que expresa a variación temporal instantánea da velocidade lineal. Ten carácter vectorial e no SI mídese en m·s⁻². Matematicamente exprésase como o límite da aceleración media, cando os incrementos de tempo tenden a cero, é dicir, a derivada do vector velocidade con respecto ao tempo. Tamén é usual expresala como a derivada segunda do vector de posición respecto do tempo. $ arrow(a) = lim_(Delta t arrow.r 0) (Delta arrow(v))/(Delta t) = (d arrow(v))/(d t) = (d^2 arrow(r))/(d t^2) $ Gráficamente o seu valor vén dado pola pendente da recta tanxente á curva velocidade-tempo nun instante determinado. O seu valor pódese medir experimentalmente empregando un acelerómetro. Tamén se poden rexistrar os cambios que experimenta mediante un acelerógrafo. En xeral, se o sistema de referencia segundo o cal se estuda o movemento está, a súa vez, en movemento non uniforme con referencia a outro sistema, considerado fixo, a aceleración referida ao primeiro chámase aceleración relativa e non coincide coa medida no segundo sistema. Neste caso, de sistemas de referencia non inerciais, cúmprese que a aceleración conforme o sistema considerado fixo é igual á relativa máis a aceleración de arrastre, que dá conta do movemento relativo entre tales sistemas de referencia. No caso de que o sistema de referencia teña tamén un movemento de rotación hai que engadir a denominada aceleración de Coriolis, co cal podemos concluír que, no caso máis xeral, $ arrow(a)_#[absoluta] = arrow(a)_#[relativa] + arrow(a)_#[arrastre] + arrow(a)_#[coriolis]. $ É moi habitual analizar o movemento dende un sistema de coordenadas ligadas ao corpo, no cal a aceleración se define como a suma vectorial dos seus compoñentes intrínsecos: a aceleración normal e a aceleración tanxencial. No caso de que o móbil describa un movemento circular a aceleración angular calcúlase dividindo a lineal polo radio da circunferencia descrita. Neste caso é de uso común o termo aceleración areolar que se determina derivando dúas veces a área varrida polo radiovector de posición do móbil con referencia ao tempo.",
+            "sinonimos" : []
+          }
+        }
+      }
+    ],
+    "relacionadas" : [
+      "velocidade",
+      "SI",
+      "aceleración media",
+      "MRUA",
+      "acelerómetro",
+      "acelerógrafo",
+      "sistema de referencia",
+      "sistemas de referencia non inerciais",
+      "aceleración de arrastre",
+      "Galileo, relatividade de",
+      "Coriolis, aceleración de",
+      "compoñentes intrínsecos",
+      "aceleración normal",
+      "aceleración tanxencial",
+      "aceleración angular",
+      "movemento circular"
+    ],
+    "ten_ecuacions": true,
+    "ten_figuras": false
+  },
+  {
     "termo": "aceleración angular media",
     "acepcions": [
       {
