@@ -91,7 +91,7 @@
         "lingua": {
           "gl": {
             "termo": "aberración",
-            "definicion": "En astronomía, fenómeno, debido aos diferentes movementos da Terra e á finitude da velocidade da luz, polo que a luz, procedente dun astro, parece vir dun punto lixeiramente desprazado do que sería a verdadeira posición do astro. #html.frame(image(\"//dicionario/figuras/aberracion_luz.svg\"))",
+            "definicion": "En astronomía, fenómeno, debido aos diferentes movementos da Terra e á finitude da velocidade da luz, polo que a luz, procedente dun astro, parece vir dun punto lixeiramente desprazado do que sería a verdadeira posición do astro. #html.frame(image(\"/figuras/aberracion_luz.svg\"))",
             "sinonimos": []
           }
         }

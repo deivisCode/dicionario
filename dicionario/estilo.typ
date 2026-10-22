@@ -5,7 +5,7 @@
                 {
                     html.meta(charset: "utf-8")
                     html.title[Dicionario]
-                    html.style(read("/dicionario/estilo.css"))
+                    html.style(read("/estilo.css"))
                 }
             )
             html.body(html.main(doc))

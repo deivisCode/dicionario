@@ -1,25 +1,14 @@
 #document(
-    "/dicionario/dicionario.html",
+    "/dicionario.html",
     {
-        import("/dicionario/estilo.typ"): *
+        import("/estilo.typ"): *
         show: estilo_corpo
-        include("/dicionario/contidos.typ")
+        include("/contidos.typ")
     }
 )
 
-#asset(
-    "/dicionario/fontes/cochineal/Cochineal-Bold.otf",
-    read("/dicionario/fontes/cochineal/Cochineal-Bold.otf", encoding: none),
-)
-#asset(
-    "/dicionario/fontes/cochineal/Cochineal-BoldItalic.otf",
-    read("/dicionario/fontes/cochineal/Cochineal-BoldItalic.otf", encoding: none),
-)
-#asset(
-    "/dicionario/fontes/cochineal/Cochineal-Italic.otf",
-    read("/dicionario/fontes/cochineal/Cochineal-Italic.otf", encoding: none),
-)
-#asset(
-    "/dicionario/fontes/cochineal/Cochineal-Roman.otf",
-    read("/dicionario/fontes/cochineal/Cochineal-Roman.otf", encoding: none),
-)
+#asset("/fontes/Cochineal-Bold.otf"         , read("/fontes/cochineal/Cochineal-Bold.otf", encoding: none),)
+#asset("/fontes/Cochineal-BoldItalic.otf"   , read("/fontes/cochineal/Cochineal-BoldItalic.otf", encoding: none),)
+#asset("/fontes/Cochineal-Italic.otf"       , read("/fontes/cochineal/Cochineal-Italic.otf", encoding: none),)
+#asset("/fontes/Cochineal-Roman.otf"        , read("/fontes/cochineal/Cochineal-Roman.otf", encoding: none),)
+#asset("/fontes/LibertinusMath-Regular.otf" , read("/fontes/libertinus/LibertinusMath-Regular.otf", encoding: none),)

@@ -1,11 +1,10 @@
 @font-face {
     font-family: "Cochineal";
-    /* src: url("dicionario/fontes/newcm/NewCM08-Regular.otf"); */
-    src: url("/home/david/.local/share/fonts/cochineal/opentype/Cochineal-Roman.otf");
+    src: url("./fontes/Cochineal-Roman.otf");
 }
 @font-face {
     font-family: "Libertinus Math";
-    src: url("/home/david/.local/share/fonts/libertinus/otf/LibertinusMath-Regular.otf");
+    src: url("./fontes/LibertinusMath-Regular.otf");
 }
 body {
     background-color: white;
@@ -13,8 +12,4 @@ body {
 }
 math {
     font-family: "Libertinus Math";
-    background-color: #dba7ff;
-}
-.acepcion {
-    background-color: #DDDDDD;
 }
