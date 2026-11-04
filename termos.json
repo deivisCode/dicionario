@@ -1,0 +1,123 @@
+[
+  {
+    "termo": "ab-",
+    "acepcions": [
+      {
+        "lingua": {
+          "gl": {
+            "termo": "ab-",
+            "definicion": "Prefixo, abreviación de absoluto, engadido a certas unidades eléctricas para dar nome ás correspondentes unidades do sistema electromagnético ou absoluto como, p.e., o abcoulomb, abvolt ou abfarad.",
+            "sinonimos": [],
+            "clase": "",
+            "xenero": "",
+            "numero": "",
+            "forma": "",
+            "abreviacion": "",
+            "simbolo": "",
+            "fontes": [
+              "Dicionario de Física Bahía"
+            ]
+          },
+          "es": {
+            "termo": "",
+            "definicion": "",
+            "clase": "",
+            "xenero": "",
+            "numero": "",
+            "forma": "",
+            "abreviacion": "",
+            "simbolo": "",
+            "sinonimos": [],
+            "fontes": [
+              "Dicionario de Física Bahía"
+            ]
+          },
+          "en": {
+            "termo": "",
+            "definicion": "",
+            "clase": "",
+            "xenero": "",
+            "numero": "",
+            "forma": "",
+            "abreviacion": "",
+            "simbolo": "",
+            "sinonimos": [],
+            "fontes": [
+              "Dicionario de Física Bahía"
+            ]
+          }
+        }
+      }
+    ],
+    "relacionadas": [
+      "sistema electromagnético",
+      "absoluto",
+      "stat-",
+      "c.g.s."
+    ],
+    "ten_ecuacions": false,
+    "ten_figuras": false
+  },
+  {
+    "termo": "Abbe, invariante de",
+    "acepcions": [
+      {
+        "lingua": {
+          "gl": {
+            "termo": "Abbe, invariante de",
+            "definicion": "En óptica, e para o caso dunha superficie esférica de radio $r$, que separa dous medios transparentes de distinto índice de refracción ($n$ e $n'$), cada un dos dous membros da igualdade $ n (1/r - 1/s) = n' (1/r - 1/(s')) $ onde $s$ e $s'$ son as respectivas distancias do obxecto e da súa imaxe, á superficie de separación. A ecuación cúmprese na aproximación paraxial. Para un espello esférico redúcese á ecuación máis sinxela $ 1/s + 1/(s') = 2/r. $",
+            "sinonimos": [],
+            "clase": "",
+            "xenero": "",
+            "numero": "",
+            "forma": "",
+            "abreviacion": "",
+            "simbolo": "",
+            "fontes": [
+              "Dicionario de Física Bahía"
+            ]
+          },
+          "es": {
+            "termo": "",
+            "definicion": "",
+            "clase": "",
+            "xenero": "",
+            "numero": "",
+            "forma": "",
+            "abreviacion": "",
+            "simbolo": "",
+            "sinonimos": [],
+            "fontes": [
+              "Dicionario de Física Bahía"
+            ]
+          },
+          "en": {
+            "termo": "",
+            "definicion": "",
+            "clase": "",
+            "xenero": "",
+            "numero": "",
+            "forma": "",
+            "abreviacion": "",
+            "simbolo": "",
+            "sinonimos": [],
+            "fontes": [
+              "Dicionario de Física Bahía"
+            ]
+          }
+        }
+      }
+    ],
+    "relacionadas": [
+      "índice de refracción",
+      "espello esférico",
+      "aproximación paraxial",
+      "dioptrio",
+      "lente",
+      "zona paraxial",
+      "Gauss, fórmula de"
+    ],
+    "ten_ecuacions": true,
+    "ten_figuras": false
+  }
+]

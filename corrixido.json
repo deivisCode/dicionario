@@ -1,0 +1,64 @@
+[
+  {
+    "termo": "ab-",
+    "acepcions": [
+      {
+        "lingua": {
+          "gl": {
+            "termo": "ab-",
+            "definicion": "Prefixo, abreviación de absoluto, engadido a certas unidades eléctricas para dar nome ás correspondentes unidades do sistema electromagnético ou absoluto como, p.e., o abcoulomb, abvolt ou abfarad.",
+            "sinonimos": [
+              "ola",
+              "adeus"
+            ],
+            "clase": "verbo",
+            "xenero": "femenino",
+            "numero": "singular",
+            "forma": "completa",
+            "abreviacion": "non",
+            "simbolo": "alpha",
+            "fontes": [
+              "Dicionario de Física Bahía"
+            ]
+          },
+          "es": {
+            "termo": "ei bi",
+            "definicion": "def",
+            "clase": "verbo",
+            "xenero": "femenino",
+            "numero": "singular",
+            "forma": "completa",
+            "abreviacion": "non",
+            "simbolo": "alpha",
+            "sinonimos": [],
+            "fontes": [
+              "Dicionario de Física Bahía"
+            ]
+          },
+          "en": {
+            "termo": "a",
+            "definicion": "a",
+            "clase": "a",
+            "xenero": "a",
+            "numero": "a",
+            "forma": "a",
+            "abreviacion": "a",
+            "simbolo": "a",
+            "sinonimos": [],
+            "fontes": [
+              "Dicionario de Física Bahía"
+            ]
+          }
+        }
+      }
+    ],
+    "relacionadas": [
+      "sistema electromagnético",
+      "absoluto",
+      "stat-",
+      "c.g.s."
+    ],
+    "ten_ecuacions": false,
+    "ten_figuras": false
+  }
+]
