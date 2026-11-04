@@ -29,6 +29,10 @@ contar:
 validar:
 	uv run trebellos/validador_json.py RI.json
 
+para_snl:
+	# jaq -r -f trebellos/para_snl.jq --to yaml RI.json
+	yq -y -f trebellos/para_snl.jq RI.json > termos_0_50.yaml
+
 # Filtrar os ficheiros XML orixinais e xerar un JSON (agora mesmo non se usa para nada)
 filtrar:
 	uv run trebellos/filtro_XML_JSON/filtro_XML_JSON.py

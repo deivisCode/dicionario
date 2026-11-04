@@ -1,0 +1,1842 @@
+- termo: ab-
+  acepcions:
+    - lingua:
+        gl:
+          termo: ab-
+          definicion: Prefixo, abreviación de absoluto, engadido a certas unidades
+            eléctricas para dar nome ás correspondentes unidades do sistema electromagnético
+            ou absoluto como, p.e., o abcoulomb, abvolt ou abfarad.
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - sistema electromagnético
+    - absoluto
+    - stat-
+    - c.g.s.
+  ten_ecuacions: false
+  ten_figuras: false
+- termo: Abbe, invariante de
+  acepcions:
+    - lingua:
+        gl:
+          termo: Abbe, invariante de
+          definicion: En óptica, e para o caso dunha superficie esférica de radio
+            $r$, que separa dous medios transparentes de distinto índice de refracción
+            ($n$ e $n'$), cada un dos dous membros da igualdade $ n (1/r - 1/s) =
+            n' (1/r - 1/(s')) $ onde $s$ e $s'$ son as respectivas distancias do obxecto
+            e da súa imaxe, á superficie de separación. A ecuación cúmprese na aproximación
+            paraxial. Para un espello esférico redúcese á ecuación máis sinxela $
+            1/s + 1/(s') = 2/r. $
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - índice de refracción
+    - espello esférico
+    - aproximación paraxial
+    - dioptrio
+    - lente
+    - zona paraxial
+    - Gauss, fórmula de
+  ten_ecuacions: true
+  ten_figuras: false
+- termo: Abbe, número de
+  acepcions:
+    - lingua:
+        gl:
+          termo: Abbe, número de
+          definicion: Número que caracteriza o comportamento dispersivo dun material
+            en función dos índices de refracción do mesmo para as lonxitudes de onda
+            correspondentes ás liñas espectrais *d* (587.6 nm); *F* (486.1 nm, e *C*
+            (656.3 nm). Vén dado pola ecuación $ nu_d = (n_d - 1)/(n_F - n_C). $
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - lonxitudes de onda
+    - 'índices de refracción '
+    - liñas espectrais
+  ten_ecuacions: true
+  ten_figuras: false
+- termo: abeliano
+  acepcions:
+    - lingua:
+        gl:
+          termo: abeliano
+          definicion: ''
+          sinonimos:
+            - conmutativo
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas: []
+  ten_ecuacions: false
+  ten_figuras: false
+- termo: aberración
+  acepcions:
+    - lingua:
+        gl:
+          termo: aberración
+          definicion: 'En astronomía, fenómeno, debido aos diferentes movementos da
+            Terra e á finitude da velocidade da luz, polo que a luz, procedente dun
+            astro, parece vir dun punto lixeiramente desprazado do que sería a verdadeira
+            posición do astro. #figure(image("/figuras/aberracion_luz.svg"))'
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+    - lingua:
+        gl:
+          termo: aberración
+          definicion: En óptica, defectos da imaxe formada por unha lente ou por un
+            espello.
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - aberración cromática
+    - aberracións xeométricas
+    - sistemas ópticos
+  ten_ecuacions: false
+  ten_figuras: true
+- termo: aberración ánua
+  acepcions:
+    - lingua:
+        gl:
+          termo: aberración ánua
+          definicion: Aberración da luz debida ao movemento de translación da Terra
+            arredor do Sol que obriga a efectuar unha corrección nas coordenadas ecuatoriais
+            dun astro. Tamén chamada aberración anual.
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - aberración
+    - coordenadas ecuatoriais
+    - aberración anual
+  ten_ecuacions: false
+  ten_figuras: false
+- termo: aberración cromática
+  acepcions:
+    - lingua:
+        gl:
+          termo: aberración cromática
+          definicion: Aberración que se dá nas lentes debido a que o índice de refracción
+            dos medios materiais varía segundo a lonxitude de onda da radiación luminosa,
+            variando así o ángulo de refracción para cada feixe constituinte dunha
+            luz composta, como a branca. Como consecuencia a imaxe vese coa beira
+            coloreada. Para evitar este tipo de aberración empréganse lentes acromáticas.
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - índice de refracción
+    - lentes acromáticas
+    - aberración
+  ten_ecuacions: false
+  ten_figuras: false
+- termo: aberracións xeométricas
+  acepcions:
+    - lingua:
+        gl:
+          termo: aberracións xeométricas
+          definicion: 'Posibles defectos da imaxe formada por un espello ou unha lente
+            aínda cando se emprega luz monocromática. Na aberración esférica, presente
+            en lentes e espellos esféricos, os raios procedentes do obxecto enfócanse
+            en diferentes posicións debido á curvatura deses sistemas ópticos podendo
+            verse nalgúns casos a imaxe rodeada dun círculo luminoso (aberración esférica
+            transversal en espellos). Nas lentes danse, ademais, outros tipos de aberración
+            xeométrica: o astigmatismo e coma, refírense, ao igual que a aberración
+            esférica, á calidade do punto imaxe, mentres que a curvatura da imaxe
+            e a distorsión, se refiren á posición do punto imaxe.'
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - aberración esférica transversal en espellos
+    - curvatura
+    - astigmatismo
+    - espello
+    - coma
+    - punto imaxe
+    - aberración esférica
+    - distorsión
+    - lente
+    - sistemas ópticos
+    - estigmatismo
+  ten_ecuacions: false
+  ten_figuras: false
+- termo: abertura
+  acepcions:
+    - lingua:
+        gl:
+          termo: abertura
+          definicion: Diámetro do obxectivo ou do espello principal dun telescopio.
+            Da abertura do obxectivo dependen o poder separador do telescopio e a
+            cantidade de luz que pode recoller o mesmo, mellorando eses dous parámetros
+            canto maior sexa a abertura do telescopio.
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - poder separador
+    - telescopio
+  ten_ecuacions: false
+  ten_figuras: false
+- termo: abscisa
+  acepcions:
+    - lingua:
+        gl:
+          termo: abscisa
+          definicion: ''
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas: []
+  ten_ecuacions: false
+  ten_figuras: false
+- termo: absorbancia
+  acepcions:
+    - lingua:
+        gl:
+          termo: absorbancia
+          definicion: Parámetro que caracteriza a absorción de enerxía dunha determinada
+            radiación ao atravesar un medio material transparente. Exprésase como
+            o logaritmo decimal do inverso da transmitancia do devandito medio. Para
+            o caso dunha disolución, a absorbancia depende directamente da molaridade
+            da mesma, $M$, e da distancia percorrida ao seu través, $Delta x$, tal
+            como indica a lei de Beer $ A = log phi_(e 0)/phi_e = epsilon dot M dot
+            Delta x. $ A constante de proporcionalidade nesta expresión, $epsilon$
+            , é o chamado coeficiente de extinción molar. Determinada a absorbancia
+            da disolución por fotocolorimetría, e coñecido o espesor $Delta x$, así
+            como o valor do coeficiente de extinción molar nesas condicións, pódese
+            determinar a concentración desa disolución, resultando de gran utilidade
+            na análise química. A absorbancia tamén recibe o nome de extinción.
+          sinonimos:
+            - extinción
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - extinción
+    - fotocolorimetría
+    - molaridade
+    - Beer, lei de
+    - coeficiente de extinción molar
+    - transmitancia
+    - absorción
+    - absortancia
+  ten_ecuacions: true
+  ten_figuras: false
+- termo: absorción
+  acepcions:
+    - lingua:
+        gl:
+          termo: absorción
+          definicion: Forma de amortecemento dunha onda que supón unha diminución
+            da intensidade da mesma ao desprazarse por un medio material debido as
+            perdas de enerxía por rozamento e outras interaccións coas partículas
+            do devandito medio. En xeral a intensidade transmitida pola onda que se
+            propaga nun medio absorbente decrece exponencialmente co grosor segundo
+            a lei de Lambert.
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+    - lingua:
+        gl:
+          termo: absorción
+          definicion: 'Termo que recolle diversos procesos físico-químicos nos que
+            unha substancia retén a outra, como a retención dun gas por un líquido
+            ou a dun fluído por un sólido. Afecta a todo o volume do corpo, a diferencia
+            da adsorción que é superficial. absorción atómica '
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - análise
+    - Lambert, lei de
+    - amortecemento
+    - lonxitudes de onda
+    - intensidade
+    - análise espectral
+    - adsorción
+    - absorción
+    - amortecemento
+  ten_ecuacions: false
+  ten_figuras: false
+- termo: absorción atómica
+  acepcions:
+    - lingua:
+        gl:
+          termo: absorción atómica
+          definicion: Técnica instrumental empregada para a análise química cuantitativa
+            dos elementos dunha mostra, baseada na análise espectral. Nun aparello
+            vaporízase a mostra e os vapores obtidos interpóñense no camiño dun feixe
+            de luz, recolléndose a luz emerxente nun detector. Para cada elemento
+            químico existen diferentes lonxitudes de onda características de especial
+            absorción, para as que a diminución da súa intensidade luminosa se relaciona
+            matematicamente coa concentración dese elemento na mostra problema.
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - Beer, lei de
+    - absorbancia
+    - absorción
+    - análise espectral
+    - lonxitudes de onda
+  ten_ecuacions: false
+  ten_figuras: false
+- termo: absortancia
+  acepcions:
+    - lingua:
+        gl:
+          termo: absortancia
+          definicion: Fracción da radiación total incidente sobre un corpo que é absorbida
+            polo mesmo. Por definición, a absortancia dun corpo negro é a unidade.
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - corpo negro
+    - factor de absorción
+    - absorbancia
+    - transmitancia
+    - Lambert, lei de
+  ten_ecuacions: true
+  ten_figuras: false
+- termo: absortividade
+  acepcions:
+    - lingua:
+        gl:
+          termo: absortividade
+          definicion: ''
+          sinonimos:
+            - Coeficiente de extinción
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas: []
+  ten_ecuacions: false
+  ten_figuras: false
+- termo: abundancia relativa
+  acepcions:
+    - lingua:
+        gl:
+          termo: abundancia relativa
+          definicion: Proporción que dun elemento ou composto se atopa nunha determinada
+            mostra ou rexión, respecto doutro tomado como referencia.
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+    - lingua:
+        gl:
+          termo: abundancia relativa
+          definicion: En física nuclear, porcentaxe de cada isótopo dun mesmo elemento
+            químico que se atopa nunha mostra.
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - isótopo
+  ten_ecuacions: false
+  ten_figuras: false
+- termo: acción
+  acepcions:
+    - lingua:
+        gl:
+          termo: acción
+          definicion: Magnitude física empregada na mecánica introducida por P.L.
+            Maupertius (1698-1759) que expresa, en termos actuais, o producto do momento
+            lineal dun móbil polo seu desprazamento, $S = m v d$. Tal expresión resulta
+            equivalente ao producto dunha enerxía por un tempo, empregándose na mecánica
+            analítica, para expresar a acción dun sistema, con enerxía cinética $T$
+            e nun campo conservativo de enerxía potencial $U$, a ecuación $ S = integral_(t_1)^(t_2)
+            (T - U) d t $ No SI exprésase en J·s. A constante de Planck, $planck$,
+            de emprego xeneralizado na mecánica cuántica, é un exemplo de acción.
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+    - lingua:
+        gl:
+          termo: acción
+          definicion: Conxunto de forzas que un corpo exerce sobre outro, provocando
+            unha deformación ou variación no seu estado de movemento, e motivando
+            unha reacción.
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - magnitude
+    - mecánica
+    - Planck, constante de
+    - momento lineal
+    - campo conservativo
+    - mecánica cuántica
+    - enerxía potencial
+    - mecánica analítica
+    - enerxía cinética
+    - reacción
+    - SI
+    - Newton, leis de
+    - Maupertius, principio de
+    - Hamilton, principio de
+    - principio de mínima acción
+  ten_ecuacions: true
+  ten_figuras: false
+- termo: aceleración
+  acepcions:
+    - lingua:
+        gl:
+          termo: aceleración
+          definicion: 'Magnitude cinemática que expresa a variación temporal instantánea
+            da velocidade lineal. Ten carácter vectorial e no SI mídese en m·s⁻².
+            Matematicamente exprésase como o límite da aceleración media, cando os
+            incrementos de tempo tenden a cero, é dicir, a derivada do vector velocidade
+            con respecto ao tempo. Tamén é usual expresala como a derivada segunda
+            do vector de posición respecto do tempo. $ arrow(a) = lim_(Delta t arrow.r
+            0) (Delta arrow(v))/(Delta t) = (d arrow(v))/(d t) = (d^2 arrow(r))/(d
+            t^2) $ Gráficamente o seu valor vén dado pola pendente da recta tanxente
+            á curva velocidade-tempo nun instante determinado. O seu valor pódese
+            medir experimentalmente empregando un acelerómetro. Tamén se poden rexistrar
+            os cambios que experimenta mediante un acelerógrafo. En xeral, se o sistema
+            de referencia segundo o cal se estuda o movemento está, a súa vez, en
+            movemento non uniforme con referencia a outro sistema, considerado fixo,
+            a aceleración referida ao primeiro chámase aceleración relativa e non
+            coincide coa medida no segundo sistema. Neste caso, de sistemas de referencia
+            non inerciais, cúmprese que a aceleración conforme o sistema considerado
+            fixo é igual á relativa máis a aceleración de arrastre, que dá conta do
+            movemento relativo entre tales sistemas de referencia. No caso de que
+            o sistema de referencia teña tamén un movemento de rotación hai que engadir
+            a denominada aceleración de Coriolis, co cal podemos concluír que, no
+            caso máis xeral, $ arrow(a)_#[absoluta] = arrow(a)_#[relativa] + arrow(a)_#[arrastre]
+            + arrow(a)_#[coriolis]. $ É moi habitual analizar o movemento dende un
+            sistema de coordenadas ligadas ao corpo, no cal a aceleración se define
+            como a suma vectorial dos seus compoñentes intrínsecos: a aceleración
+            normal e a aceleración tanxencial. No caso de que o móbil describa un
+            movemento circular a aceleración angular calcúlase dividindo a lineal
+            polo radio da circunferencia descrita. Neste caso é de uso común o termo
+            aceleración areolar que se determina derivando dúas veces a área varrida
+            polo radiovector de posición do móbil con referencia ao tempo.'
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - velocidade
+    - SI
+    - aceleración media
+    - MRUA
+    - acelerómetro
+    - acelerógrafo
+    - sistema de referencia
+    - sistemas de referencia non inerciais
+    - aceleración de arrastre
+    - Galileo, relatividade de
+    - Coriolis, aceleración de
+    - compoñentes intrínsecos
+    - aceleración normal
+    - aceleración tanxencial
+    - aceleración angular
+    - movemento circular
+  ten_ecuacions: true
+  ten_figuras: false
+- termo: aceleración angular media
+  acepcions:
+    - lingua:
+        gl:
+          termo: aceleración angular media
+          definicion: Magnitude que mide o cambio que experimenta a velocidade angular,
+            $omega$, dun móbil nun intervalo de tempo, $t$. Matematicamente exprésase
+            como o cociente $Delta arrow(omega)\/ Delta t$.
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas: []
+  ten_ecuacions: true
+  ten_figuras: false
+- termo: aceleración angular
+  acepcions:
+    - lingua:
+        gl:
+          termo: aceleración angular
+          definicion: Magnitude cinemática que expresa a variación temporal instantánea
+            da velocidade angular. Ten carácter vectorial e no SI mídese en rad·s⁻².
+            Matematicamente exprésase como o límite da aceleración angular media cando
+            os incrementos de tempo tenden a cero, que vén sendo a a derivada temporal
+            da velocidade angular $ arrow(alpha) = lim_(Delta t arrow.r 0) (Delta
+            arrow(omega))/(Delta t) = (d omega)/(d t). $É análoga á aceleración lineal,
+            $arrow(a)$, e nos movementos circulares de radio $R$ relaciónase con ela
+            a través da expresión $arrow(a) = arrow(alpha) times arrow(R)$. A súa
+            dirección e sentido determínanse mediante a regra do parafuso.
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - aceleración
+    - aceleración angular
+    - velocidade angular
+    - regra do parafuso
+  ten_ecuacions: true
+  ten_figuras: false
+- termo: aceleración areolar
+  acepcions:
+    - lingua:
+        gl:
+          termo: aceleración areolar
+          definicion: ''
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - aceleración
+  ten_ecuacions: false
+  ten_figuras: false
+- termo: aceleración centrípeta
+  acepcions:
+    - lingua:
+        gl:
+          termo: aceleración centrípeta
+          definicion: ''
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - aceleración normal
+  ten_ecuacions: false
+  ten_figuras: false
+- termo: aceleración da gravidade
+  acepcions:
+    - lingua:
+        gl:
+          termo: aceleración da gravidade
+          definicion: Aceleración que posúe un corpo en cada intre debido a súa interacción
+            gravitatoria con outro corpo material.
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+    - lingua:
+        gl:
+          termo: aceleración da gravidade
+          definicion: Nun sentido máis restrinxido, valor aproximado á aceleración
+            con que caerían todos os corpos materiais no baleiro, para alturas próximas
+            á superficie terrestre ou de calquera outro astro, debido á acción da
+            gravidade. Na Terra, o seu valor varía coa latitude do lugar considerado,
+            $lambda$, debido á rotación do planeta e a que este non é perfectamente
+            esférico. Para o seu cálculo pódese empregar a ecuación $g_0 = 9.80622
+            - 0.025930 cos(2 lambda) + 0.000028 cos(4 lambda)$ m · s⁻²; valor correxible
+            segundo a altitude do lugar, $h$ (en m), mediante a ecuación $g =g_0 -
+            3.086·10^(-6)h$, obténdose para un lugar situado a 150 m sobre o nivel
+            do mar e 43º de latitude, o valor de 9.804391 m · s⁻². De todas formas,
+            nas condicións habituais a aceleración con que cada corpo cae nun punto
+            próximo á superficie terrestre non é o resultado exclusivo da gravidade,
+            resultando decisiva a acción das forzas de rozamento co aire e, en moita
+            menor medida, o empuxe do mesmo.
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - empuxe
+    - gravidade
+    - aceleración
+    - interacción gravitatoria
+    - forzas de rozamento
+    - caída libre dos corpos
+    - gravidade terrestre
+  ten_ecuacions: true
+  ten_figuras: false
+- termo: aceleración media
+  acepcions:
+    - lingua:
+        gl:
+          termo: aceleración media
+          definicion: Magnitude que dá conta do cambio de velocidade experimentado
+            por un móbil nun determinado intervalo de tempo. Este vector, con dirección
+            e sentido iguais aos de $Delta arrow(v)$, exprésase como o cociente $Delta
+            arrow(v)\/Delta t$.
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas: []
+  ten_ecuacions: true
+  ten_figuras: false
+- termo: aceleración normal
+  acepcions:
+    - lingua:
+        gl:
+          termo: aceleración normal
+          definicion: Compoñente intrínseca do vector aceleración que dá conta da
+            rapidez coa que varía a dirección do vector velocidade. Polo tanto só
+            se pon de manifesto en movementos curvilíneos. O seu módulo vén dado pola
+            expresión $ a_n = v^2/R $ onde $R$ é o radio de curvatura e v o módulo
+            da velocidade nun instante determinado. A dirección é a do radio da curva
+            descrita e o sentido cara o centro da curva. Tamén se coñece como aceleración
+            radial ou centrípeta. A aceleración normal pódese expresar vectorialmente
+            como o producto $arrow(a)_n = a_n arrow(n)$, sendo $arrow(n)$ o vector
+            unitario normal.
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - radio de curvatura
+    - aceleración centrípeta
+    - vector unitario normal
+    - compoñente intrínseco
+  ten_ecuacions: true
+  ten_figuras: false
+- termo: aceleración radial
+  acepcions:
+    - lingua:
+        gl:
+          termo: aceleración radial
+          definicion: ''
+          sinonimos:
+            - aceleración normal
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas: []
+  ten_ecuacions: false
+  ten_figuras: false
+- termo: aceleración tanxencial
+  acepcions:
+    - lingua:
+        gl:
+          termo: aceleración tanxencial
+          definicion: Compoñente intrínseca da aceleración que representa unha medida
+            da variación temporal que experimenta o módulo do vector velocidade. Exprésase
+            como $ a_t = (d abs(v))/(d t). $ A súa dirección coincide coa da velocidade,
+            tanxente á traxectoria. Se o sentido coincide tamén co da velocidade o
+            movemento é acelerado e se é contrario o movemento é retardado (ou decelerado).
+            Vectorialmente pódese expresar como $arrow(a)_t = a_t arrow(T)$ sendo
+            $arrow(t)$ o vector unitario tanxente.
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - vector unitario tanxente
+    - compoñente intrínseco
+  ten_ecuacions: true
+  ten_figuras: false
+- termo: aceleradores de partículas
+  acepcions:
+    - lingua:
+        gl:
+          termo: aceleradores de partículas
+          definicion: 'Diferentes aparellos cos que se pode aumentar a enerxía cinética
+            de partículas cargadas electricamente. Empréganse para bombardear núcleos
+            atómicos ou provocar colisións entre partículas subatómicas e estudiar
+            a súa estructura e interaccións entre as mesmas. Existen diferentes tipos
+            de aceleradores: os electrostáticos, como o de Cockroft e Walton, ou o
+            de Van der Graaf, os aceleradores lineais, o betatrón, o ciclotrón e o
+            sincrotrón. As partículas resultantes das colisións son detectadas, e
+            rexistradas as súas traxectorias, en cámaras de burbullas, cámaras de
+            néboa, e noutros tipos de detectores.'
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - ciclotrón
+    - Van de Graaff, xerador electrostático de
+    - betatrón
+    - aceleradores lineais
+    - sincrotrón
+    - cámaras de burbullas
+    - cámaras de néboa
+    - enerxía cinética
+    - electrostáticos
+  ten_ecuacions: false
+  ten_figuras: false
+- termo: aceleradores lineais
+  acepcions:
+    - lingua:
+        gl:
+          termo: aceleradores lineais
+          definicion: Acelerador de partículas no que estas son aceleradas ao través
+            dunha traxectoria rectilínea, aproveitando un gran campo electrostático
+            ou campos eléctricos variables do rango das radiofrecuencias. Así, os
+            grandes aceleradores deste tipo constan de tubos aliñados no interior
+            dun recinto no que se fai o baleiro e conectados alternativamente a un
+            e outro polo dunha fonte de corrente alterna de alta frecuencia. Os ións
+            son acelerados nos entreferros, polos que pasan xusto no intre en que
+            a corrente alterna cambia de polaridade, o que se consigue dando aos tubos
+            unha lonxitude proporcional á velocidade dos ións que se moven. Os electróns
+            poden acadar así ata 30 GeV de enerxía.
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - acelerador de partículas
+  ten_ecuacions: false
+  ten_figuras: false
+- termo: acelerógrafo
+  acepcions:
+    - lingua:
+        gl:
+          termo: acelerógrafo
+          definicion: Aparello para rexistrar o movemento acelerado.
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - aceleración
+  ten_ecuacions: false
+  ten_figuras: false
+- termo: acelerómetro
+  acepcions:
+    - lingua:
+        gl:
+          termo: acelerómetro
+          definicion: 'Aparello que permite medir a aceleración dun móbil. Un exemplo
+            sinxelo represéntase na figura adxunta (ver figura). O movemento acelerado
+            cara a dereita do móbil vai provocar un desprazamento do péndulo cara
+            a esquerda. Resolvendo o diagrama de forzas do sistema conclúese que o
+            módulo da aceleración do móbil vén dado pola expresión $a = g tan(theta)$
+            Polo tanto a observación directa do ángulo de desviación da vertical $theta$
+            que experimenta o péndulo permite avaliar rapidamente a aceleración do
+            carriño. Un dos acelerómetros máis sensibles que existen na natureza constitúeno
+            os canais semicirculares do oído interno que nos informan dos cambios
+            de velocidade que experimentamos. Son numerosos os estudios sobre a resposta
+            do corpo humano ao someterse a aceleracións elevadas; neste sentido é
+            moi común cuantificar a aceleración en forma de unidades $g$ dado que
+            o ambiente habitual do ser humano é o de $1g$ ($approx 9.80$ ms⁻²). #figure(image("/figuras/acelerometro.svg"))'
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas: []
+  ten_ecuacions: true
+  ten_figuras: true
+- termo: aceptor
+  acepcions:
+    - lingua:
+        gl:
+          termo: aceptor
+          definicion: Átomo de impureza que ten menor número de electróns de valencia
+            que o átomo ao que reempraza, dando lugar a un oco ao introducilo nun
+            semiconductor.
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - semiconductor extrínseco
+    - semiconductor
+  ten_ecuacions: false
+  ten_figuras: false
+- termo: acimut
+  acepcions:
+    - lingua:
+        gl:
+          termo: acimut
+          definicion: Ángulo correspondente ao arco descrito sobre o horizonte do
+            lugar, dende o sur ata o círculo vertical que pasa por un astro e no sentido
+            sur-oeste-norte-leste-sur. Xunto coa altura do astro forma as coordenadas
+            horizontais do mesmo.
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - coordenadas horizontais
+    - círculo vertical
+  ten_ecuacions: false
+  ten_figuras: false
+- termo: acomodación
+  acepcions:
+    - lingua:
+        gl:
+          termo: acomodación
+          definicion: En óptica, proceso que realizan os músculos ciliares curvando
+            o cristalino do ollo para conseguir enfocar os obxectos máis próximos.
+            O límite de acomodación é o punto próximo. Nun ollo con miopía o punto
+            próximo está máis preto do normal, mentres que nun ollo con hipermetropía
+            está máis lonxe.
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - cristalino
+    - punto próximo
+    - miopía
+    - hipermetropía
+  ten_ecuacions: false
+  ten_figuras: false
+- termo: acoplador
+  acepcions:
+    - lingua:
+        gl:
+          termo: acoplador
+          definicion: Elo que posúe un movemento complexo e non está unido a ningún
+            elemento fixo. É o máis importante dunha cadea cinemática e comunmente
+            é chamado biela.
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - biela
+    - cadea cinemática
+    - elo
+  ten_ecuacions: false
+  ten_figuras: false
+- termo: acoplamento
+  acepcions:
+    - lingua:
+        gl:
+          termo: acoplamento
+          definicion: 'Interacción entre dous sistemas ou partes dun mesmo sistema
+            que leva a que determinadas magnitudes físicas, características dos mesmos,
+            adopten determinados valores. Na teoría cuántica resultan de gran importancia
+            os acoplamentos en átomos con varios electróns opticamente activos. Nunha
+            primeira aproximación, a enerxía dos diferentes niveis enerxéticos, nun
+            átomo, vén determinada polos números cuánticos n e l, aparecendo niveis
+            dexenerados, segundo os valores dosoutros números cuánticos ($m_l$ e $m_s$).
+            Ao considerar interaccións máis débiles, como a interacción residual de
+            Coulomb ou a interacción espín-órbita, que afectan aos electróns en niveis
+            excitados, aparecen acoplamentos entre os momentos angulares de rotación
+            ($S$) e de translación ($L$), condicionándose os valores destas magnitudes
+            para o conxunto, e dando lugar a desdoblamentos enerxéticos característicos
+            nestes sistemas. Son exemplos de acoplamentos a este nivel: o acomplamento
+            de Russell-Saunders, o acoplamento JJ e o acoplamento espín-órbita.'
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - número cuántico
+    - acoplamento JJ
+    - dexenerado
+    - acoplamento
+    - electróns opticamente activos
+    - Coulomb, interacción residual de
+    - momento angulare
+    - interacción espín-órbita
+    - Russell-Saunders, acomplamento de
+    - acoplamento espín-órbita
+    - física cuántica
+  ten_ecuacions: true
+  ten_figuras: false
+- termo: acoplamento espín-órbita
+  acepcions:
+    - lingua:
+        gl:
+          termo: acoplamento espín-órbita
+          definicion: Interacción entre o momento angular de rotación intrínseco (espín),
+            $arrow(S)$, e o momento angular orbital (translación), $arrow(L)$, dunha
+            única partícula como, p.e., un electrón ou un nucleón. Tal interacción
+            motiva a tendencia á manter constante o módulo deses dous vectores, mentres
+            precesan arredor do vector momento angular total, $arrow(J)$, resultado
+            de sumar os dous momentos angulares iniciais.
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - espín
+    - nucleón
+    - momento angular de rotación
+    - electrón
+    - momento angular orbital
+    - precesión
+    - interacción espín-órbita
+  ten_ecuacions: true
+  ten_figuras: false
+- termo: acoplamento JJ
+  acepcions:
+    - lingua:
+        gl:
+          termo: acoplamento JJ
+          definicion: Tipo de acoplamento que aparece en sistemas de moitos fermións
+            (electróns nun átomo ou nucleóns nun núcleo atómico) cando as interaccións
+            espín-órbita son moito máis importantes que a interacción residual de
+            Coulomb. Isto ocorre nos átomos con número atómico (Z) grande.
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - acoplamento
+    - número atómico
+    - fermión
+    - interaccións espín-órbita
+    - Coulomb, interacción residual de
+  ten_ecuacions: false
+  ten_figuras: false
+- termo: acoplamento LS
+  acepcions:
+    - lingua:
+        gl:
+          termo: acoplamento LS
+          definicion: ''
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - Russell-Saunder, acoplamento de
+  ten_ecuacions: false
+  ten_figuras: false
+- termo: acorde
+  acepcions:
+    - lingua:
+        gl:
+          termo: acorde
+          definicion: En música, conxunto de tres ou máis sons diferentes combinados
+            harmonicamente. As notas incluídas nun acorde forman intervalos de terceira;
+            así un acorde de DO estaría formado polas notas do,mi,sol e un acorde
+            de FA, polas notas fa,la,do. Os acordes poden ser disonantes, cando conteñen
+            intervalos de séptima ou novena, ou consonantes, cando carecen deses intervalos
+            disonantes.
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - disonantes
+    - intervalos
+  ten_ecuacions: false
+  ten_figuras: false
+- termo: acritude
+  acepcions:
+    - lingua:
+        gl:
+          termo: acritude
+          definicion: Aumento da dureza, fraxilidade e resistencia en certos materiais
+            como consecuencia da súa deformación en frío.
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - dureza
+    - fraxilidade
+    - resistencia
+  ten_ecuacions: false
+  ten_figuras: false
+- termo: acromatopsia
+  acepcions:
+    - lingua:
+        gl:
+          termo: acromatopsia
+          definicion: Defecto da visión consistente na falta de dous, ou dos tres
+            tipos de receptores de cor presentes no ollo humano, debido ao cal o doente
+            non percibe as cores.
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - daltonismo
+    - visión das cores
+  ten_ecuacions: false
+  ten_figuras: false
+- termo: actínidos
+  acepcions:
+    - lingua:
+        gl:
+          termo: actínidos
+          definicion: Elementos químicos da serie de transición interna caracterizada
+            por que o último electrón ocupa un dos orbitais 5f. Son catorce elementos,
+            con números atómicos comprendidos entre o 90, do torio, e o 103, do laurencio,
+            con propiedades químicas moi semellantes ás do actinio. Todos os isótopos
+            destes elementos son inestables e moitos atópanse nas series radioactivas
+            naturais.
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - transición interna
+    - series radioactivas
+    - laurencio
+    - actinio
+    - torio
+    - orbitais
+    - transición
+    - táboa periódica
+  ten_ecuacions: false
+  ten_figuras: false
+- termo: actinio
+  acepcions:
+    - lingua:
+        gl:
+          termo: actinio
+          definicion: 'Elemento químico de número atómico 89 descuberto no 1899, por
+            A. Debierne. De aspecto metálico prateado, preséntase na natureza como
+            dous isótopos radioactivos: o Ac-227, cunha vida media de 21.7 días, atópase
+            acompañando ao uranio; o outro isótopo natural é o Ac-228, e hai 29 isótopos
+            artificiais máis. A principal aplicación deste elemento é o seu emprego
+            como fonte de partículas alfa. MA. 227.03 u; Pf. 1230 ºC; Peb. 2400 ºC;  10060
+            kg·m⁻³.'
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - partículas alfa
+    - vida media
+    - número atómico
+    - isótopos
+    - elemento químico
+  ten_ecuacions: true
+  ten_figuras: false
+- termo: actinón
+  acepcions:
+    - lingua:
+        gl:
+          termo: actinón
+          definicion: ''
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - radón
+  ten_ecuacions: false
+  ten_figuras: false
+- termo: actividade
+  acepcions:
+    - lingua:
+        gl:
+          termo: actividade
+          definicion: En química, función termodinámica introducida por G.N. Lewis
+            (1875-1946) que expresa a concentración dunha disolución non ideal. Relaciónase
+            coa concentración da mesma disolución de comportamento ideal, $x$, do
+            seguinte xeito $a= gamma x$; onde $gamma$ é o coeficiente de actividade,
+            un parámetro de valor sempre inferior á unidade. En disolucións de non-electrolitos
+            determínase a partir do potencial químico do compoñente $i$ na disolución
+            nas condicións experimentais, $mu_i$, e o mesmo pero nun estado de referencia
+            normal, $mu_i^0$, a través da expresión $a_i=exp((mu_i - mu_i^0)\/R T)$.
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - coeficiente de actividade
+    - potencial químico
+  ten_ecuacions: true
+  ten_figuras: false
+- termo: actividade óptica
+  acepcions:
+    - lingua:
+        gl:
+          termo: actividade óptica
+          definicion: Propiedade que posúen algunhas substancias de desviar o plano
+            de polarización da luz cara á dereita (dextróxiras) ou cara á esquerda
+            (levóxiras). A actividade óptica dun composto pode resultar de interese
+            para a súa identificación e adquiere especial importancia en bioquímica,
+            farmacoloxía, e outras ciencias da vida, dado o sensible que resultan
+            os seres vivos a diferentes isómeros ópticos. En xeral os aminoácidos
+            que forman parte das proteínas dos seres vivos son levóxiros e moitos
+            monosacáridos dextróxiros.
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - isómeros ópticos
+  ten_ecuacions: false
+  ten_figuras: false
+- termo: actividade radioactiva
+  acepcions:
+    - lingua:
+        gl:
+          termo: actividade radioactiva
+          definicion: 'Medida da velocidade de desaparición de núcleos radioactivos
+            dun material que, ao ser un proceso aleatorio, resulta proporcional ao
+            número de núcleos presentes inicialmente na mostra, $N$: $ A = (d N)/(d
+            t) = lambda dot N $ sendo  a chamada constante de desintegración, característica
+            de cada isótopo radioactivo. A unidade de actividade radioactiva no SI
+            é o becquerel, Bq, pero tamén é moi empregado o curie, Ci.'
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - constante de desintegración
+    - curie
+    - becquerel
+  ten_ecuacions: true
+  ten_figuras: false
+- termo: actividade solar
+  acepcions:
+    - lingua:
+        gl:
+          termo: actividade solar
+          definicion: ''
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - ciclo de actividade solar
+  ten_ecuacions: false
+  ten_figuras: false
+- termo: acumulador
+  acepcions:
+    - lingua:
+        gl:
+          termo: acumulador
+          definicion: Dispositivo constituído por unha pila galvánica que pode funcionar
+            de forma reversible. No proceso de descarga transfórmase enerxía química
+            en eléctrica. Cando no proceso inverso se fai pasar unha corrente a través
+            do acumulador cárgase, transformando enerxía eléctrica en enerxía química.
+            Coñecese normalmente como batería.
+          sinonimos: []
+          simbolo: ''
+          clase: ''
+          xenero: ''
+          numero: ''
+          forma: ''
+          abreviacion: ''
+          fontes:
+            - Dicionario de Física Bahía
+        es:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+        en:
+          termo: ''
+          fontes:
+            - Dicionario de Física Bahía
+  relacionadas:
+    - batería
+    - enerxía
+    - pila galvánica
+    - enerxía química
+  ten_ecuacions: false
+  ten_figuras: false
