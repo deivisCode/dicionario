@@ -57,7 +57,7 @@
             "termo": "Abbe, número de",
             "definicion": "Número que caracteriza o comportamento dispersivo dun material en función dos índices de refracción do mesmo para as lonxitudes de onda correspondentes ás liñas espectrais *d* (587,6 nm); *F* (486,1 nm, e *C* (656,3 nm). Vén dado pola ecuación $ nu_d = (n_d - 1)/(n_F - n_C). $",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$nu_d$"
           }
         }
       }
@@ -105,7 +105,7 @@
         "lingua": {
           "gl": {
             "termo": "aberración",
-            "definicion": "En óptica, defectos da imaxe formada por unha lente ou por un espello. V. aberración cromática; aberracións xeométricas; sistemas ópticos.",
+            "definicion": "En óptica, defectos da imaxe formada por unha lente ou por un espello.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -218,7 +218,7 @@
         "lingua": {
           "gl": {
             "termo": "abscisa",
-            "definicion": "V. coordenadas cartesianas.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -238,7 +238,7 @@
             "termo": "absorbancia",
             "definicion": "Parámetro que caracteriza a absorción de enerxía dunha determinada radiación ao atravesar un medio material transparente. Exprésase como o logaritmo decimal do inverso da transmitancia do devandito medio. Para o caso dunha disolución, a absorbancia depende directamente da molaridade da mesma, $M$, e da distancia percorrida ao seu través, $Delta x$, tal como indica a lei de Beer $ A = log phi_(e 0)/phi_e = epsilon dot M dot Delta x $ A constante de proporcionalidade nesta expresión, $epsilon$ , é o chamado coeficiente de extinción molar. Determinada a absorbancia da disolución por fotocolorimetría, e coñecido o espesor $Delta x$, así como o valor do coeficiente de extinción molar nesas condicións, pódese determinar a concentración desa disolución, resultando de gran utilidade na análise química. A absorbancia tamén recibe o nome de extinción.",
             "sinonimos": ["extinción"],
-            "simbolo": ""
+            "simbolo": "$A$"
           }
         }
       }
@@ -327,7 +327,7 @@
             "termo": "absortancia",
             "definicion": "Fracción da radiación total incidente sobre un corpo que é absorbida polo mesmo. Por definición, a absortancia dun corpo negro é a unidade.",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$alpha$"
           }
         }
       }
@@ -397,7 +397,7 @@
         "lingua": {
           "gl": {
             "termo": "acción",
-            "definicion": "Magnitude física empregada na mecánica introducida por P.L. Maupertius (1698-1759) que expresa, en termos actuais, o producto do momento lineal dun móbil polo seu desprazamento, $S = m v d$. Tal expresión resulta equivalente ao producto dunha enerxía por un tempo, empregándose na mecánica analítica, para expresar a acción dun sistema, con enerxía cinética T e nun campo conservativo de enerxía potencial U, a ecuación $ S = integral_(t_1)^(t_2) (T - U) d t $ No SI exprésase en J·s.A constante de Planck, h, de emprego xeneralizado na mecánica cuántica, é un exemplo de acción.",
+            "definicion": "Magnitude física empregada na mecánica introducida por P.L. Maupertius (1698-1759) que expresa, en termos actuais, o producto do momento lineal dun móbil polo seu desprazamento, $S = m v d$. Tal expresión resulta equivalente ao producto dunha enerxía por un tempo, empregándose na mecánica analítica, para expresar a acción dun sistema, con enerxía cinética $T$ e nun campo conservativo de enerxía potencial $U$, a ecuación $ S = integral_(t_1)^(t_2) (T - U) d t $ No SI exprésase en J·s. A constante de Planck, $planck$, de emprego xeneralizado na mecánica cuántica, é un exemplo de acción.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -443,7 +443,7 @@
             "termo": "aceleración",
             "definicion": "Magnitude cinemática que expresa a variación temporal instantánea da velocidade lineal. Ten carácter vectorial e no SI mídese en m·s⁻². Matematicamente exprésase como o límite da aceleración media, cando os incrementos de tempo tenden a cero, é dicir, a derivada do vector velocidade con respecto ao tempo. Tamén é usual expresala como a derivada segunda do vector de posición respecto do tempo. $ arrow(a) = lim_(Delta t arrow.r 0) (Delta arrow(v))/(Delta t) = (d arrow(v))/(d t) = (d^2 arrow(r))/(d t^2) $ Gráficamente o seu valor vén dado pola pendente da recta tanxente á curva velocidade-tempo nun instante determinado. O seu valor pódese medir experimentalmente empregando un acelerómetro. Tamén se poden rexistrar os cambios que experimenta mediante un acelerógrafo. En xeral, se o sistema de referencia segundo o cal se estuda o movemento está, a súa vez, en movemento non uniforme con referencia a outro sistema, considerado fixo, a aceleración referida ao primeiro chámase aceleración relativa e non coincide coa medida no segundo sistema. Neste caso, de sistemas de referencia non inerciais, cúmprese que a aceleración conforme o sistema considerado fixo é igual á relativa máis a aceleración de arrastre, que dá conta do movemento relativo entre tales sistemas de referencia. No caso de que o sistema de referencia teña tamén un movemento de rotación hai que engadir a denominada aceleración de Coriolis, co cal podemos concluír que, no caso máis xeral, $ arrow(a)_#[absoluta] = arrow(a)_#[relativa] + arrow(a)_#[arrastre] + arrow(a)_#[coriolis]. $ É moi habitual analizar o movemento dende un sistema de coordenadas ligadas ao corpo, no cal a aceleración se define como a suma vectorial dos seus compoñentes intrínsecos: a aceleración normal e a aceleración tanxencial. No caso de que o móbil describa un movemento circular a aceleración angular calcúlase dividindo a lineal polo radio da circunferencia descrita. Neste caso é de uso común o termo aceleración areolar que se determina derivando dúas veces a área varrida polo radiovector de posición do móbil con referencia ao tempo.",
             "sinonimos" : [],
-            "simbolo" : ""
+            "simbolo" : "$arrow(a)$"
           }
         }
       }
@@ -478,7 +478,7 @@
             "termo": "aceleración angular media",
             "definicion": "Magnitude que mide o cambio que experimenta a velocidade angular, $omega$, dun móbil nun intervalo de tempo, $t$. Matematicamente exprésase como o cociente $Delta arrow(omega)\\/ Delta t$.",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$arrow(alpha)_m$"
           }
         }
       }
@@ -496,7 +496,7 @@
             "termo": "aceleración angular",
             "definicion": "Magnitude cinemática que expresa a variación temporal instantánea da velocidade angular. Ten carácter vectorial e no SI mídese en rad·s⁻². Matematicamente exprésase como o límite da aceleración angular media cando os incrementos de tempo tenden a cero, que vén sendo a a derivada temporal da velocidade angular $ arrow(alpha) = lim_(Delta t arrow.r 0) (Delta arrow(omega))/(Delta t) = (d omega)/(d t). $É análoga á aceleración lineal, $arrow(a)$, e nos movementos circulares de radio $R$ relaciónase con ela a través da expresión $arrow(a) = arrow(alpha) times arrow(R)$. A súa dirección e sentido determínanse mediante a regra do parafuso.",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$arrow(alpha)$"
           }
         }
       }
@@ -557,9 +557,9 @@
         "lingua": {
           "gl": {
             "termo": "aceleración da gravidade",
-            "definicion": "Sb. g. 1. Aceleración que posúe un corpo en cada intre debido a súa interacción gravitatoria con outro corpo material. V. gravidade.",
+            "definicion": "Aceleración que posúe un corpo en cada intre debido a súa interacción gravitatoria con outro corpo material.",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$g$"
           }
         }
       },
@@ -567,7 +567,7 @@
         "lingua": {
           "gl": {
             "termo": "aceleración da gravidade",
-            "definicion": "Nun sentido máis restrinxido, valor aproximado á aceleración con que caerían todos os corpos materiais no baleiro, para alturas próximas á superficie terrestre ou de calquera outro astro, debido á acción da gravidade. Na Terra, o seu valor varía coa latitude do lugar considerado, debido á rotación do planeta e a que este non é perfectamente esférico. Para o seu cálculo pódese empregar a ecuaciónms-2; valor correxible segundo a altitude do lugar, h (en m), mediante a ecuación: g=g0 -3,086·10-6h, obténdose para un lugar situado a 150 m sobre o nivel do mar e 43º de latitude, o valor de 9,804 391 ms-2. De todas formas, nas condicións habituais a aceleración con que cada corpo cae nun punto próximo á superficie terrestre non é o resultado exclusivo da gravidade, resultando decisiva a acción das forzas de rozamento co aire e, en moita menor medida, o empuxe do mesmo. V. caída libre dos corpos; gravidade terrestre.",
+            "definicion": "Nun sentido máis restrinxido, valor aproximado á aceleración con que caerían todos os corpos materiais no baleiro, para alturas próximas á superficie terrestre ou de calquera outro astro, debido á acción da gravidade. Na Terra, o seu valor varía coa latitude do lugar considerado, $lambda$, debido á rotación do planeta e a que este non é perfectamente esférico. Para o seu cálculo pódese empregar a ecuación $g_0 = 9.80622 - 0.025930 cos(2 lambda) + 0.000028 cos(4 lambda)$ m · s⁻²; valor correxible segundo a altitude do lugar, $h$ (en m), mediante a ecuación $g =g_0 - 3.086·10^(-6)h$, obténdose para un lugar situado a 150 m sobre o nivel do mar e 43º de latitude, o valor de 9,804 391 m · s⁻². De todas formas, nas condicións habituais a aceleración con que cada corpo cae nun punto próximo á superficie terrestre non é o resultado exclusivo da gravidade, resultando decisiva a acción das forzas de rozamento co aire e, en moita menor medida, o empuxe do mesmo.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -576,17 +576,14 @@
     ],
     "relacionadas": [
       "empuxe",
-      "interacción",
       "gravidade",
-      "Aceleración",
-      "g=g",
-      "h, ",
+      "aceleración",
       "interacción gravitatoria",
-      "-3,086·10",
-      "forzas",
-      "forzas de rozamento"
+      "forzas de rozamento",
+      "caída libre dos corpos",
+      "gravidade terrestre"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -596,8 +593,49 @@
         "lingua": {
           "gl": {
             "termo": "aceleración media",
-            "definicion": "Sb. . Magnitude que dá conta do cambio de velocidade experimentado por un móbil nun determinado intervalo de tempo. Este vector, con dirección e sentido iguais aos de , exprésase como o cociente. (0figura0).",
+            "definicion": "Magnitude que dá conta do cambio de velocidade experimentado por un móbil nun determinado intervalo de tempo. Este vector, con dirección e sentido iguais aos de $Delta arrow(v)$, exprésase como o cociente $Delta arrow(v)\\/Delta t$.",
             "sinonimos": [],
+            "simbolo": "$arrow(a)_m$"
+          }
+        }
+      }
+    ],
+    "relacionadas": [],
+    "ten_ecuacions": true,
+    "ten_figuras": false
+  },
+  {
+    "termo": "aceleración normal",
+    "acepcions": [
+      {
+        "lingua": {
+          "gl": {
+            "termo": "aceleración normal",
+            "definicion": "Compoñente intrínseca do vector aceleración que dá conta da rapidez coa que varía a dirección do vector velocidade. Polo tanto só se pon de manifesto en movementos curvilíneos. O seu módulo vén dado pola expresión $ a_n = v^2/R $ onde $R$ é o radio de curvatura e v o módulo da velocidade nun instante determinado. A dirección é a do radio da curva descrita e o sentido cara o centro da curva. Tamén se coñece como aceleración radial ou centrípeta. A aceleración normal pódese expresar vectorialmente como o producto $arrow(a)_n = a_n arrow(n)$, sendo $arrow(n)$ o vector unitario normal.",
+            "sinonimos": [],
+            "simbolo": "$a_n$"
+          }
+        }
+      }
+    ],
+    "relacionadas": [
+      "radio de curvatura",
+      "aceleración centrípeta",
+      "vector unitario normal",
+      "compoñente intrínseco"
+    ],
+    "ten_ecuacions": true,
+    "ten_figuras": false
+  },
+  {
+    "termo": "aceleración radial",
+    "acepcions": [
+      {
+        "lingua": {
+          "gl": {
+            "termo": "aceleración radial",
+            "definicion": "",
+            "sinonimos": ["aceleración normal"],
             "simbolo": ""
           }
         }
@@ -608,113 +646,24 @@
     "ten_figuras": false
   },
   {
-    "termo": "aceleración normal",
-    "acepcions": [
-      {
-        "lingua": {
-          "gl": {
-            "termo": "aceleración normal",
-            "definicion": "Sb. an Compoñente intrínseca do vector aceleración que dá conta da rapidez coa que varía a dirección do vector velocidade. Polo tanto só se pon de manifesto en movementos curvilíneos. O seu módulo vén dado pola expresión onde R é o radio de curvatura e v o módulo da velocidade nun instante determinado. A dirección é a do radio da curva descrita e o sentido cara o centro da curva. Tamén se coñece como aceleración radial ou centrípeta. A aceleración normal pódese expresar vectorialmente como o producto , sendo o vector unitario normal.",
-            "sinonimos": [],
-            "simbolo": ""
-          }
-        }
-      }
-    ],
-    "relacionadas": [
-      "vector",
-      "centrípeta",
-      "radio de curvatura",
-      "radio",
-      "aceleración radial",
-      "vector unitario normal",
-      "Compoñente"
-    ],
-    "ten_ecuacions": false,
-    "ten_figuras": false
-  },
-  {
-    "termo": "aceleración radial",
-    "acepcions": [
-      {
-        "lingua": {
-          "gl": {
-            "termo": "aceleración radial",
-            "definicion": "Aceleración normal.",
-            "sinonimos": [],
-            "simbolo": ""
-          }
-        }
-      }
-    ],
-    "relacionadas": [
-      "Aceleración",
-      "Aceleración normal"
-    ],
-    "ten_ecuacions": false,
-    "ten_figuras": false
-  },
-  {
-    "termo": "aceleración",
-    "acepcions": [
-      {
-        "lingua": {
-          "gl": {
-            "termo": "aceleración",
-            "definicion": "Sb. . Magnitude cinemática que expresa a variación temporal instantánea da velocidade lineal. Ten carácter vectorial e no SI mídese en ms-2. Matematicamente exprésase como o límite da aceleración media cando os incrementos de tempo tenden a cero, é dicir, a derivada do vector velocidade con respecto ao tempo. (V. MRUA).Tamén é usual expresala como a derivada segunda do vector de posición respecto ao tempo.Graficamente o seu valor vén dado pola pendente da recta tanxente á curva velocidade-tempo nun instante determinado (0figura0). O seu valor pódese medir experimentalmente empregando un acelerómetro. Asemade pódense rexistrar os cambios que experimenta mediante un acelerógrafo. En xeral se o sistema de referencia respecto ao cal se estudia o movemento está, a súa vez, en movemento non uniforme respecto a outro sistema, considerado fixo, a aceleración con respecto ao primeiro chámase aceleración relativa e non coincide coa medida no segundo sistema. Neste caso, de sistemas de referencia non inerciais, cúmprese que a aceleración respecto ao sistema considerado fixo é igual á relativa máis a aceleración de arrastre, que dá conta do movemento relativo entre tales sistemas de referencia (V. Galileo, relatividade de). No caso de que o sistema de referencia teña tamén un movemento de rotación hai que engadir a denominada aceleración de Coriolis, co cal podemos concluír que no caso máis xeral . É moi habitual analizar o movemento dende un sistema de coordenadas ligado ao corpo no cal a aceleración defínese como suma vectorial das súas compoñentes intrínsecas, a aceleración tanxencial e a aceleración normal. No caso de que o móbil describa un movemento circular a aceleración angular calcúlase dividindo a lineal polo radio da circunferencia descrita. Neste caso é de uso común o termo aceleración areolar que se determina derivando dúas veces a área varrida polo radiovector de posición do móbil con respecto ao tempo.",
-            "sinonimos": [],
-            "simbolo": ""
-          }
-        }
-      }
-    ],
-    "relacionadas": [
-      "aceleración angular",
-      "aceleración relativa",
-      "aceleración tanxencial",
-      "movemento circular",
-      "sistemas de referencia non inerciais",
-      "sistema de referencia",
-      "acelerómetro",
-      "compoñentes",
-      "aceleración de *Coriolis",
-      "velocidade",
-      "sistemas",
-      "aceleración normal",
-      "aceleración areolar",
-      "acelerógrafo",
-      "compoñentes intrínsecas",
-      "aceleración de arrastre",
-      "movemento",
-      "aceleración media",
-      "aceleración",
-      "sistema",
-      "Coriolis"
-    ],
-    "ten_ecuacions": false,
-    "ten_figuras": false
-  },
-  {
     "termo": "aceleración tanxencial",
     "acepcions": [
       {
         "lingua": {
           "gl": {
             "termo": "aceleración tanxencial",
-            "definicion": "Sb. at .Compoñente intrínseca da aceleración que representa unha medida da variación temporal que experimenta o módulo do vector velocidade. Exprésase comoA súa dirección coincide coa da velocidade, tanxente á traxectoria. Se o sentido coincide tamén co da velocidade o movemento é acelerado e se é contrario o movemento é retardado (ou decelerado). Vectorialmente pódese expresar como sendoo vector unitario tanxente.",
+            "definicion": "Compoñente intrínseca da aceleración que representa unha medida da variación temporal que experimenta o módulo do vector velocidade. Exprésase como $ a_t = (d abs(v))/(d t). $ A súa dirección coincide coa da velocidade, tanxente á traxectoria. Se o sentido coincide tamén co da velocidade o movemento é acelerado e se é contrario o movemento é retardado (ou decelerado). Vectorialmente pódese expresar como $arrow(a)_t = a_t arrow(T)$ sendo $arrow(t)$ o vector unitario tanxente.",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$a_r$"
           }
         }
       }
     ],
     "relacionadas": [
-      "vector",
       "vector unitario tanxente",
-      "Compoñente",
-      "Compoñente intrínseca"
+      "compoñente intrínseco"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -732,13 +681,13 @@
       }
     ],
     "relacionadas": [
-      "enerxía",
       "ciclotrón",
-      "Van",
+      "Van de Graaff, xerador electrostático de",
       "betatrón",
-      "aceleradores",
+      "aceleradores lineais",
       "sincrotrón",
-      "cámaras",
+      "cámaras de burbullas",
+      "cámaras de néboa",
       "enerxía cinética",
       "electrostáticos"
     ],
@@ -760,8 +709,7 @@
       }
     ],
     "relacionadas": [
-      "Acelerador de partículas",
-      "Acelerador"
+      "acelerador de partículas"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -773,14 +721,14 @@
         "lingua": {
           "gl": {
             "termo": "acelerógrafo",
-            "definicion": "Aparello para rexistrar o movemento acelerado. V. aceleración.",
+            "definicion": "Aparello para rexistrar o movemento acelerado.",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": ["aceleración"],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -791,7 +739,7 @@
         "lingua": {
           "gl": {
             "termo": "acelerómetro",
-            "definicion": "Aparello que permite medir a aceleración dun móbil. Un exemplo sinxelo represéntase na figura adxunta (0figura0). O movemento acelerado cara a dereita do móbil vai provocar un desprazamento do péndulo cara a esquerda. Resolvendo o diagrama de forzas do sistema conclúese que o módulo da aceleración do móbil vén dado pola expresiónPolo tanto a observación directa do ángulo de desviación da vertical  que experimenta o péndulo permite avaliar rapidamente a aceleración do carriño. Un dos acelerómetros máis sensibles que existen na natureza constitúeno os canais semicirculares do oído interno que nos informan dos cambios de velocidade que experimentamos. Son numerosos os estudios sobre a resposta do corpo humano ao someterse a aceleracións elevadas; neste senso é moi común cuantificar a aceleración en forma de unidades g dado que o ambiente habitual do ser humano é o de 1g (9,80 ms-2).",
+            "definicion": "Aparello que permite medir a aceleración dun móbil. Un exemplo sinxelo represéntase na figura adxunta (ver figura). O movemento acelerado cara a dereita do móbil vai provocar un desprazamento do péndulo cara a esquerda. Resolvendo o diagrama de forzas do sistema conclúese que o módulo da aceleración do móbil vén dado pola expresión $a = g tan(theta)$ Polo tanto a observación directa do ángulo de desviación da vertical $theta$ que experimenta o péndulo permite avaliar rapidamente a aceleración do carriño. Un dos acelerómetros máis sensibles que existen na natureza constitúeno os canais semicirculares do oído interno que nos informan dos cambios de velocidade que experimentamos. Son numerosos os estudios sobre a resposta do corpo humano ao someterse a aceleracións elevadas; neste sentido é moi común cuantificar a aceleración en forma de unidades $g$ dado que o ambiente habitual do ser humano é o de $1g$ ($approx 9.80$ ms⁻²). #html.frame(image(\"//dicionario/figuras/acelerometro.svg\"))",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -799,8 +747,8 @@
       }
     ],
     "relacionadas": [],
-    "ten_ecuacions": false,
-    "ten_figuras": false
+    "ten_ecuacions": true,
+    "ten_figuras": true
   },
   {
     "termo": "aceptor",
@@ -809,7 +757,7 @@
         "lingua": {
           "gl": {
             "termo": "aceptor",
-            "definicion": "Átomo de impureza que ten menor número de electróns de valencia que o átomo ao que reempraza, dando lugar a un oco ao introducilo nun semiconductor. V. semiconductor extrínseco.",
+            "definicion": "Átomo de impureza que ten menor número de electróns de valencia que o átomo ao que reempraza, dando lugar a un oco ao introducilo nun semiconductor.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -817,6 +765,7 @@
       }
     ],
     "relacionadas": [
+      "semiconductor extrínseco",
       "semiconductor"
     ],
     "ten_ecuacions": false,
@@ -837,8 +786,8 @@
       }
     ],
     "relacionadas": [
-      "coordenadas",
-      "círculo"
+      "coordenadas horizontais",
+      "círculo vertical"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -860,7 +809,6 @@
     "relacionadas": [
       "cristalino",
       "punto próximo",
-      "punto",
       "miopía",
       "hipermetropía"
     ],
@@ -882,35 +830,9 @@
       }
     ],
     "relacionadas": [
-      "cadea",
       "biela",
       "cadea cinemática",
-      "Elo"
-    ],
-    "ten_ecuacions": false,
-    "ten_figuras": false
-  },
-  {
-    "termo": "acoplamento espín-órbita",
-    "acepcions": [
-      {
-        "lingua": {
-          "gl": {
-            "termo": "acoplamento espín-órbita",
-            "definicion": "Interacción entre o momento angular de rotación intrínseco (espín), , e o momento angular orbital (translación), , dunha única partícula como, p.e., un electrón ou un nucleón. Tal interacción motiva a tendencia á manter constante o módulo deses dous vectores, mentres precesan arredor do vector momento angular total, , resultado de sumar os dous momentos angulares iniciais. V. precesión; interacción espín-órbita.",
-            "sinonimos": [],
-            "simbolo": ""
-          }
-        }
-      }
-    ],
-    "relacionadas": [
-      "espín",
-      "nucleón",
-      "momento angular de rotación",
-      "momento",
-      "electrón",
-      "momento angular orbital"
+      "elo"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -922,7 +844,7 @@
         "lingua": {
           "gl": {
             "termo": "acoplamento",
-            "definicion": "Interacción entre dous sistemas ou partes dun mesmo sistema que leva a que determinadas magnitudes físicas, características dos mesmos, adopten determinados valores. Na teoría cuántica resultan de gran importancia os acoplamentos en átomos con varios electróns opticamente activos. Nunha primeira aproximación, a enerxía dos diferentes niveis enerxéticos, nun átomo, vén determinada polos números cuánticos n e l, aparecendo niveis dexenerados, segundo os valores dosoutros números cuánticos (ml e ms). Ao considerar interaccións máis débiles, como a interacción residual de Coulomb ou a interacción espín-órbita, que afectan aos electróns en niveis excitados, aparecen acoplamentos entre os momentos angulares de rotación (S) e de translación (L), condicionándose os valores destas magnitudes para o conxunto, e dando lugar a desdoblamentos enerxéticos característicos nestes sistemas. Son exemplos de acoplamentos a este nivel: o acomplamento de Russell-Saunders, o acoplamento JJ e o acoplamento espín-órbita. V. física cuántica.",
+            "definicion": "Interacción entre dous sistemas ou partes dun mesmo sistema que leva a que determinadas magnitudes físicas, características dos mesmos, adopten determinados valores. Na teoría cuántica resultan de gran importancia os acoplamentos en átomos con varios electróns opticamente activos. Nunha primeira aproximación, a enerxía dos diferentes niveis enerxéticos, nun átomo, vén determinada polos números cuánticos n e l, aparecendo niveis dexenerados, segundo os valores dosoutros números cuánticos ($m_l$ e $m_s$). Ao considerar interaccións máis débiles, como a interacción residual de Coulomb ou a interacción espín-órbita, que afectan aos electróns en niveis excitados, aparecen acoplamentos entre os momentos angulares de rotación ($S$) e de translación ($L$), condicionándose os valores destas magnitudes para o conxunto, e dando lugar a desdoblamentos enerxéticos característicos nestes sistemas. Son exemplos de acoplamentos a este nivel: o acomplamento de Russell-Saunders, o acoplamento JJ e o acoplamento espín-órbita.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -930,25 +852,45 @@
       }
     ],
     "relacionadas": [
-      "números",
-      "niveis",
-      "interacción",
-      "momentos",
-      "electróns",
-      "números cuánticos",
+      "número cuántico",
       "acoplamento JJ",
-      "dexenerados",
+      "dexenerado",
       "acoplamento",
       "electróns opticamente activos",
-      "interacción residual de *Coulomb",
-      "momentos angulares",
+      "Coulomb, interacción residual de",
+      "momento angulare",
       "interacción espín-órbita",
-      "Russell",
-      "acomplamento de *Russell-Saunders",
+      "Russell-Saunders, acomplamento de",
       "acoplamento espín-órbita",
-      "Coulomb"
+      "física cuántica"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
+    "ten_figuras": false
+  },
+  {
+    "termo": "acoplamento espín-órbita",
+    "acepcions": [
+      {
+        "lingua": {
+          "gl": {
+            "termo": "acoplamento espín-órbita",
+            "definicion": "Interacción entre o momento angular de rotación intrínseco (espín), $arrow(S)$, e o momento angular orbital (translación), $arrow(L)$, dunha única partícula como, p.e., un electrón ou un nucleón. Tal interacción motiva a tendencia á manter constante o módulo deses dous vectores, mentres precesan arredor do vector momento angular total, $arrow(J)$, resultado de sumar os dous momentos angulares iniciais.",
+            "sinonimos": [],
+            "simbolo": ""
+          }
+        }
+      }
+    ],
+    "relacionadas": [
+      "espín",
+      "nucleón",
+      "momento angular de rotación",
+      "electrón",
+      "momento angular orbital",
+      "precesión",
+      "interacción espín-órbita"
+    ],
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -967,11 +909,10 @@
     ],
     "relacionadas": [
       "acoplamento",
-      "número",
-      "interaccións",
-      "fermións",
+      "número atómico",
+      "fermión",
       "interaccións espín-órbita",
-      "Coulomb"
+      "Coulomb, interacción residual de"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -983,7 +924,7 @@
         "lingua": {
           "gl": {
             "termo": "acoplamento LS",
-            "definicion": "Russell-Saunder, acoplamento de.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -991,19 +932,18 @@
       }
     ],
     "relacionadas": [
-      "Russell",
       "Russell-Saunder, acoplamento de"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
   {
-    "termo": "acordes",
+    "termo": "acorde",
     "acepcions": [
       {
         "lingua": {
           "gl": {
-            "termo": "acordes",
+            "termo": "acorde",
             "definicion": "En música, conxunto de tres ou máis sons diferentes combinados harmonicamente. As notas incluídas nun acorde forman intervalos de terceira; así un acorde de DO estaría formado polas notas do,mi,sol e un acorde de FA, polas notas fa,la,do. Os acordes poden ser disonantes, cando conteñen intervalos de séptima ou novena, ou consonantes, cando carecen deses intervalos disonantes.",
             "sinonimos": [],
             "simbolo": ""
@@ -1013,7 +953,6 @@
     ],
     "relacionadas": [
       "disonantes",
-      "harmonicamente",
       "intervalos"
     ],
     "ten_ecuacions": false,
@@ -1048,14 +987,17 @@
         "lingua": {
           "gl": {
             "termo": "acromatopsia",
-            "definicion": "Defecto da visión consistente na falta de dous, ou dos tres tipos de receptores de cor presentes no ollo humano, debido ao cal o doente non percibe as cores. V. daltonismo; visión das cores.",
+            "definicion": "Defecto da visión consistente na falta de dous, ou dos tres tipos de receptores de cor presentes no ollo humano, debido ao cal o doente non percibe as cores.",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": [
+        "daltonismo",
+        "visión das cores"
+    ],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -1066,7 +1008,7 @@
         "lingua": {
           "gl": {
             "termo": "actínidos",
-            "definicion": "Elementos químicos da serie de transición interna caracterizada por que o último electrón ocupa un dos orbitais 5f. Son catorce elementos, con números atómicos comprendidos entre o 90, do torio, e o 103, do laurencio, con propiedades químicas moi semellantes ás do actinio. Todos os isótopos destes elementos son inestables e moitos atópanse nas series radioactivas naturais. V. táboa periódica.",
+            "definicion": "Elementos químicos da serie de transición interna caracterizada por que o último electrón ocupa un dos orbitais 5f. Son catorce elementos, con números atómicos comprendidos entre o 90, do torio, e o 103, do laurencio, con propiedades químicas moi semellantes ás do actinio. Todos os isótopos destes elementos son inestables e moitos atópanse nas series radioactivas naturais.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -1081,7 +1023,7 @@
       "torio",
       "orbitais",
       "transición",
-      "series"
+      "táboa periódica"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -1093,25 +1035,21 @@
         "lingua": {
           "gl": {
             "termo": "actinio",
-            "definicion": "Sb. Ac. Elemento químico de número atómico 89 descuberto no 1899, por A. Debierne. De aspecto metálico prateado, preséntase na natureza como dous isótopos radioactivos: o Ac-227, cunha vida media de 21,7 días, atópase acompañando ao uranio; o outro isótopo natural é o Ac-228, e hai 29 isótopos artificiais máis. A principal aplicación deste elemento é o seu emprego como fonte de partículas alfa. MA. 227,03 u; Pf. 1230 ºC; Peb. 2400 ºC;  10060 kgm-3.",
+            "definicion": "Elemento químico de número atómico 89 descuberto no 1899, por A. Debierne. De aspecto metálico prateado, preséntase na natureza como dous isótopos radioactivos: o Ac-227, cunha vida media de 21,7 días, atópase acompañando ao uranio; o outro isótopo natural é o Ac-228, e hai 29 isótopos artificiais máis. A principal aplicación deste elemento é o seu emprego como fonte de partículas alfa. MA. 227,03 u; Pf. 1230 ºC; Peb. 2400 ºC;  10060 kg·m⁻³.",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$#[Ac]$"
           }
         }
       }
     ],
     "relacionadas": [
-      "número",
       "partículas alfa",
       "vida media",
-      "vida",
       "número atómico",
-      "partículas",
-      "Elemento",
       "isótopos",
-      "Elemento químico"
+      "elemento químico"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -1121,15 +1059,36 @@
         "lingua": {
           "gl": {
             "termo": "actinón",
-            "definicion": "V. radon.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": ["radón"],
     "ten_ecuacions": false,
+    "ten_figuras": false
+  },
+  {
+    "termo": "actividade",
+    "acepcions": [
+      {
+        "lingua": {
+          "gl": {
+            "termo": "actividade",
+            "definicion": "En química, función termodinámica introducida por G.N. Lewis (1875-1946) que expresa a concentración dunha disolución non ideal. Relaciónase coa concentración da mesma disolución de comportamento ideal, $x$, do seguinte xeito $a= gamma x$; onde $gamma$ é o coeficiente de actividade, un parámetro de valor sempre inferior á unidade. En disolucións de non-electrolitos determínase a partir do potencial químico do compoñente $i$ na disolución nas condicións experimentais, $mu_i$, e o mesmo pero nun estado de referencia normal, $mu_i^0$, a través da expresión $a_i=exp((mu_i - mu_i^0)\\/R T)$.",
+            "sinonimos": [],
+            "simbolo": "$a$"
+          }
+        }
+      }
+    ],
+    "relacionadas": [
+      "coeficiente de actividade",
+      "potencial químico"
+    ],
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -1147,7 +1106,6 @@
       }
     ],
     "relacionadas": [
-      "isómeros",
       "isómeros ópticos"
     ],
     "ten_ecuacions": false,
@@ -1160,9 +1118,9 @@
         "lingua": {
           "gl": {
             "termo": "actividade radioactiva",
-            "definicion": "Sb. A. Medida da velocidade de desaparición de núcleos radioactivos dun material que, ao ser un proceso aleatorio, resulta proporcional ao número de núcleos presentes inicialmente na mostra, N:sendo  a chamada constante de desintegración, característica de cada isótopo radioactivo. A unidade de actividade radioactiva no SI é o becquerel, Bq, pero tamén é moi empregado o curie, Ci.",
+            "definicion": "Medida da velocidade de desaparición de núcleos radioactivos dun material que, ao ser un proceso aleatorio, resulta proporcional ao número de núcleos presentes inicialmente na mostra, $N$: $ A = (d N)/(d t) = lambda dot N $ sendo  a chamada constante de desintegración, característica de cada isótopo radioactivo. A unidade de actividade radioactiva no SI é o becquerel, Bq, pero tamén é moi empregado o curie, Ci.",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$A$"
           }
         }
       }
@@ -1170,34 +1128,9 @@
     "relacionadas": [
       "constante de desintegración",
       "curie",
-      "becquerel",
-      "constante"
+      "becquerel"
     ],
-    "ten_ecuacions": false,
-    "ten_figuras": false
-  },
-  {
-    "termo": "actividade",
-    "acepcions": [
-      {
-        "lingua": {
-          "gl": {
-            "termo": "actividade",
-            "definicion": "Sb. a. En química, función termodinámica introducida por G.N. Lewis (1875-1946) que expresa a concentración dunha disolución non ideal. Relaciónase coa concentración da mesma disolución de comportamento ideal, x, do seguinte xeito a=x; onde  é o coeficiente de actividade, un parámetro de valor sempre inferior á unidade. En disolucións de non-electrolitos determínase a partir do potencial químico do compoñente i na disolución nas condicións experimentais, i, e o mesmo pero nun estado de referencia normal, i0, a través da expresión",
-            "sinonimos": [],
-            "simbolo": ""
-          }
-        }
-      }
-    ],
-    "relacionadas": [
-      "coeficiente de actividade",
-      "potencial químico",
-      "coeficiente",
-      "potencial",
-      "x; "
-    ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -1207,14 +1140,14 @@
         "lingua": {
           "gl": {
             "termo": "actividade solar",
-            "definicion": "V. ciclo de actividade solar.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": ["ciclo de actividade solar"],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -1233,9 +1166,8 @@
       }
     ],
     "relacionadas": [
-      "batería.",
+      "batería",
       "enerxía",
-      "pila",
       "pila galvánica",
       "enerxía química"
     ],
@@ -1261,7 +1193,8 @@
       "acústica musical",
       "electroacústica",
       "acústica arquitectónica",
-      "acústica fisiolóxica"
+      "acústica fisiolóxica",
+      "ondas"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -1273,9 +1206,9 @@
         "lingua": {
           "gl": {
             "termo": "achatamento",
-            "definicion": "Sb. f.  Parámetro empregado en xeodesia para definir o elipsoide de referencia. Defínese en función do radio ecuatorial, Re, e o radio polar, Rp, do devandito elipsoide, como.",
+            "definicion": "Parámetro empregado en xeodesia para definir o elipsoide de referencia. Defínese en función do radio ecuatorial, $R_e$, e o radio polar, $R_p$, do devandito elipsoide, como $ f = (R_e - R_p)/R_e = 1 - R_p/R_e. $",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$f$"
           }
         }
       }
@@ -1283,11 +1216,10 @@
     "relacionadas": [
       "radio ecuatorial",
       "xeodesia",
-      "elipsoide",
-      "radio polar",
-      "radio"
+      "elipsoide de referencia",
+      "radio polar"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -1297,7 +1229,7 @@
         "lingua": {
           "gl": {
             "termo": "adaptador de vídeo",
-            "definicion": "Circuíto electrónico que produce a imaxe que aparece no monitor dun ordenador.ADC Convertedor analóxico dixital.",
+            "definicion": "Circuíto electrónico que produce a imaxe que aparece no monitor dun ordenador.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -1312,13 +1244,31 @@
     "ten_figuras": false
   },
   {
+    "termo": "ADC",
+    "acepcions": [
+      {
+        "lingua": {
+          "gl": {
+            "termo": "ADC",
+            "definicion": "",
+            "sinonimos": ["convertedor analóxico dixital"],
+            "simbolo" : ""
+          }
+        }
+      }
+    ],
+    "relacionadas": [],
+    "ten_ecuacions": false,
+    "ten_figuras": false
+  },
+  {
     "termo": "adiabática",
     "acepcions": [
       {
         "lingua": {
           "gl": {
             "termo": "adiabática",
-            "definicion": "Curva que representa as variacións que experimentan as distintas variables de estado dun sistema termodinámico durante un proceso adiabático. Soe expresarse como unha función da presión e do volume deste tipo , coñecida como ecuación de Laplace. Onde  é un coeficiente chamado razón de capacidade calorífica gamma.",
+            "definicion": "Curva que representa as variacións que experimentan as distintas variables de estado dun sistema termodinámico durante un proceso adiabático. Soe expresarse como unha función da presión e do volume deste tipo $ P V^gamma = #[cte], $ coñecida como ecuación de Laplace. Onde $gamma$ é un coeficiente chamado razón de capacidade calorífica gamma.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -1326,13 +1276,11 @@
       }
     ],
     "relacionadas": [
-      "proceso",
-      "razón",
       "razón de capacidade calorífica",
-      "ecuación de Laplace.",
+      "Laplace, ecuación de",
       "proceso adiabático"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -1342,7 +1290,7 @@
         "lingua": {
           "gl": {
             "termo": "adsorción",
-            "definicion": "Retención de moléculas dun fluído, ou dunha substancia disolta, por unha superficie sólida, ou arredor das partículas dun coloide en suspensión. A adsorción é un fenómeno superficial, a diferencia da absorción que afecta a todo o volume. Cando esa retención é debida á formación de enlaces químicos fálase de adsorción química ou quimisorción, mentres que nos demáis casos fálase de adsorción física ou fisisorción. Un bo adsorbente do vapor de auga é o xel de sílice; tamén o carbón activo se emprega como adsorbente para decolorar aceites, solucións de azúcar, etc, ou para eliminar gases tóxicos ou cheirentos do aire. V. tensión superficial.",
+            "definicion": "Retención de moléculas dun fluído, ou dunha substancia disolta, por unha superficie sólida, ou arredor das partículas dun coloide en suspensión. A adsorción é un fenómeno superficial, a diferencia da absorción que afecta a todo o volume. Cando esa retención é debida á formación de enlaces químicos fálase de adsorción química ou quimisorción, mentres que nos demáis casos fálase de adsorción física ou fisisorción. Un bo adsorbente do vapor de auga é o xel de sílice; tamén o carbón activo se emprega como adsorbente para decolorar aceites, solucións de azúcar, etc, ou para eliminar gases tóxicos ou cheirentos do aire.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -1353,7 +1301,8 @@
       "fisisorción",
       "coloide",
       "quimisorción",
-      "absorción"
+      "absorción",
+      "tensión superficial"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -1365,7 +1314,7 @@
         "lingua": {
           "gl": {
             "termo": "aerodinámica",
-            "definicion": "Parte da mecánica que estudia o movemento dos gases e dos corpos dentro deles, particularmente no aire. Base da industria aeronáutica, esencialmente trata de determinar a resistencia que opón o aire a ser atravesado por sólidos de diferentes formas. A ecuación fundamental da aerodinámica é o resultado da experimentación en túneles de vento e establece que esa resistencia responde á ecuación.Onde Cd é o chamado coeficiente aerodinámico ou de arrastre, un factor que depende da forma do corpo e do número de Reynolds e que soe tomar valores entre 0,3 e 0,5. A representa a área da sección transversal que o corpo ofrece ao aire,  a densidade do aire e v dá conta da velocidade do corpo.",
+            "definicion": "Parte da mecánica que estudia o movemento dos gases e dos corpos dentro deles, particularmente no aire. Base da industria aeronáutica, esencialmente trata de determinar a resistencia que opón o aire a ser atravesado por sólidos de diferentes formas. A ecuación fundamental da aerodinámica é o resultado da experimentación en túneles de vento e establece que esa resistencia responde á ecuación $ R = 1/2 C_d A rho v^2. $Onde $C d$ é o chamado coeficiente aerodinámico ou de arrastre, un factor que depende da forma do corpo e do número de Reynolds e que soe tomar valores entre 0.3 e 0.5. $A$ representa a área da sección transversal que o corpo ofrece ao aire, $rho$ a densidade do aire e $v$ dá conta da velocidade do corpo.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -1374,10 +1323,10 @@
     ],
     "relacionadas": [
       "túneles",
-      "Reynolds",
+      "Reynolds, número de",
       "túneles de vento"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -1387,7 +1336,7 @@
         "lingua": {
           "gl": {
             "termo": "aerófono",
-            "definicion": "V. tubos sonoros.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -1425,14 +1374,14 @@
         "lingua": {
           "gl": {
             "termo": "aeromotor",
-            "definicion": "V. enerxía eólica.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": ["enerxía eólica"],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -1464,14 +1413,14 @@
         "lingua": {
           "gl": {
             "termo": "aerosol",
-            "definicion": "Sistema coloidal que ten un gas como medio de dispersión. A fase dispersa pode ser un líquido, como por exemplo a néboa, ou un sólido, como o fume. Nos últimos anos os aerosois apuntáronse como unha das principais causa do deterioro da capa de ozono do planeta por conter dentro compostos cloroflúorcarbonados (CFCs).",
+            "definicion": "Coloide que ten un gas como medio de dispersión. A fase dispersa pode ser un líquido, como por exemplo a néboa, ou un sólido, como o fume. Nos últimos anos os aerosois apuntáronse como unha das principais causa do deterioro da capa de ozono do planeta por conter dentro compostos cloroflúorcarbonados (CFCs).",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": ["coloide"],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -1500,14 +1449,14 @@
         "lingua": {
           "gl": {
             "termo": "aeroxerador",
-            "definicion": "V. enerxía eólica.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": ["enerxía eólica"],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -1518,16 +1467,14 @@
         "lingua": {
           "gl": {
             "termo": "afelio",
-            "definicion": "Aphelio.",
-            "sinonimos": [],
+            "definicion": "",
+            "sinonimos": ["aphelio"],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [
-      "Aphelio"
-    ],
+    "relacionadas": [],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -1538,9 +1485,9 @@
         "lingua": {
           "gl": {
             "termo": "afinidade electrónica",
-            "definicion": "Sb. A. Enerxía liberada (ou absorbida) cando un átomo ou molécula gana un electrón para formar un ión negativo. Mídese en electronvolt (eV).",
+            "definicion": "Enerxía liberada (ou absorbida) cando un átomo ou molécula gana un electrón para formar un ión negativo. Mídese en electronvolt (eV).",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$A$"
           }
         }
       }
@@ -1548,7 +1495,7 @@
     "relacionadas": [
       "electronvolt"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -1558,7 +1505,7 @@
         "lingua": {
           "gl": {
             "termo": "afocal",
-            "definicion": "Sistema óptico cos focos situados no infinito. V. lentes.",
+            "definicion": "Sistema óptico cos focos situados no infinito.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -1567,7 +1514,8 @@
     ],
     "relacionadas": [
       "focos",
-      "Sistema"
+      "sistema óptico",
+      "lentes"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -1579,17 +1527,14 @@
         "lingua": {
           "gl": {
             "termo": "agulla magnética",
-            "definicion": "compás magnético.",
-            "sinonimos": [],
+            "definicion": "",
+            "sinonimos": ["compás magnético"],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [
-      "compás",
-      "compás magnético"
-    ],
+    "relacionadas": [],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -1600,7 +1545,7 @@
         "lingua": {
           "gl": {
             "termo": "Aharanov-Bohm, efecto de",
-            "definicion": "Efecto polo que a fase da onda asociada a un electrón vese modificada ao pasar preto dun imán ou dunha carga eléctrica. V. dualidade onda-partícula.",
+            "definicion": "Efecto polo que a fase da onda asociada a un electrón vese modificada ao pasar preto dun imán ou dunha carga eléctrica.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -1608,10 +1553,10 @@
       }
     ],
     "relacionadas": [
-      "carga",
       "carga eléctrica",
       "fase",
-      "imán"
+      "imán",
+      "dualidade onda-partícula"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -1623,7 +1568,7 @@
         "lingua": {
           "gl": {
             "termo": "aire",
-            "definicion": "Mestura gasosa que constitúe a atmosfera terrestre e fai posible a vida dos organismos aerobios. Está composto principalmente por nitróxeno (78%), osíxeno (21%) e argon (1%) aínda que contén tamén pequenas cantidades de dióxido de carbono, vapor de auga e outros gases nobres. A proporción entre os diferentes constituíntes cambia lixeiramente en función da altura sobre a superficie. En condicións normais a súa densidade é de 1,292 gL-1.",
+            "definicion": "Mestura gasosa que constitúe a atmosfera terrestre e fai posible a vida dos organismos aerobios. Está composto principalmente por nitróxeno (78%), osíxeno (21%) e argon (1%) aínda que contén tamén pequenas cantidades de dióxido de carbono, vapor de auga e outros gases nobres. A proporción entre os diferentes constituíntes cambia lixeiramente en función da altura sobre a superficie. En condicións normais a súa densidade é de 1.292 gL⁻¹.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -1684,14 +1629,14 @@
         "lingua": {
           "gl": {
             "termo": "alcance",
-            "definicion": "V. movemento de proxectís.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": ["movemento de proxectís"],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -1738,7 +1683,7 @@
         "lingua": {
           "gl": {
             "termo": "almicantaradas",
-            "definicion": "Círculos horizontais.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -1746,8 +1691,7 @@
       }
     ],
     "relacionadas": [
-      "Círculos horizontais",
-      "Círculos"
+      "Círculos horizontais"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -1769,8 +1713,8 @@
     "relacionadas": [
       "carbono",
       "osíxeno",
-      "alótropos",
-      "formas alotrópicas"
+      "alótropo",
+      "forma alotrópica"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -1782,14 +1726,14 @@
         "lingua": {
           "gl": {
             "termo": "alótropo",
-            "definicion": "V. alotropía.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": ["alotropía"],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -1840,7 +1784,7 @@
         "lingua": {
           "gl": {
             "termo": "alternador",
-            "definicion": "Dispositivo para xerar corrente alterna baseado no fenómeno da inducción electromagnética. No caso máis sinxelo consiste nunha bobina que xira no interior dun campo magnético producido por un imán. Na práctica o campo magnético é producido por unha bobina, o inductor, alimentada cun xerador de corrente continua e disposta de xeito que xire no interior doutra bobina fixa, o inducido. A primeira bobina chámase rotor e a segunda estator. As bobinas dos rotores con frecuencia son multipolares: dispóñense de xeito que presenten varios pares de polos. No estator, hai tantas bobinas, conectadas en serie e uniformemente distribuídas, como polos teña o rotor e montadas de xeito que a corrente inducida nelas sexa concordante. Nesta situación, a corrente producida chámase monofásica, pero se no inducido existe un segundo xogo de bobinas independentes do primeiro e intercaladas con el, a corrente producida chámase bifásica e estará constituída por dúas correntes desfasadas 90º. Cando hai tres sistemas de bobinas  independentes, a corrente producida denomínase trifásica e está constituída por tres correntes desfasadas 120º. Aínda que son posibles correntes eléctricas polifásicas cun número maior de bobinas, na práctica, as correntes trifásicas son as máis utilizadas. Para o seu transporte, en lugar de empregar seis conductores, empréganse só tres, conectados en estrela ou en triangulo. V. conexión en estrela; conexión en triángulo.",
+            "definicion": "Dispositivo para xerar corrente alterna baseado no fenómeno da inducción electromagnética. No caso máis sinxelo consiste nunha bobina que xira no interior dun campo magnético producido por un imán. Na práctica o campo magnético é producido por unha bobina, o inductor, alimentada cun xerador de corrente continua e disposta de xeito que xire no interior doutra bobina fixa, o inducido. A primeira bobina chámase rotor e a segunda estator. As bobinas dos rotores con frecuencia son multipolares: dispóñense de xeito que presenten varios pares de polos. No estator, hai tantas bobinas, conectadas en serie e uniformemente distribuídas, como polos teña o rotor e montadas de xeito que a corrente inducida nelas sexa concordante. Nesta situación, a corrente producida chámase monofásica, pero se no inducido existe un segundo xogo de bobinas independentes do primeiro e intercaladas con el, a corrente producida chámase bifásica e estará constituída por dúas correntes desfasadas 90º. Cando hai tres sistemas de bobinas  independentes, a corrente producida denomínase trifásica e está constituída por tres correntes desfasadas 120º. Aínda que son posibles correntes eléctricas polifásicas cun número maior de bobinas, na práctica, as correntes trifásicas son as máis utilizadas. Para o seu transporte, en lugar de empregar seis conductores, empréganse só tres, conectados en estrela ou en triangulo.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -1849,21 +1793,22 @@
     ],
     "relacionadas": [
       "campo",
-      "corrente alterna ",
-      "monofásica,",
+      "corrente alterna",
+      "corrente monofásica",
       "inducido",
       "campo magnético ",
-      "inducción electromagnética. ",
+      "inducción electromagnética",
       "rotor",
-      "bifásica",
-      "polifásicas",
+      "corrente bifásica",
+      "corrente polifásica",
       "inducción",
       "imán",
       "estator",
       "bobina",
       "inductor",
-      "corrente",
-      "trifásica"
+      "corrente trifásica",
+      "conexión en estrela",
+      "conexión en triángulo"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -1875,14 +1820,14 @@
         "lingua": {
           "gl": {
             "termo": "alternador multipolar",
-            "definicion": "V. alternador.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": ["alternador"],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -1893,7 +1838,7 @@
         "lingua": {
           "gl": {
             "termo": "altímetro",
-            "definicion": "Dispositivo que mide a altura sobre o nivel do mar. Existen dous grandes tipos, os que fan uso da reflexión do son ou ultrasóns (sonda-eco) e os baseados na variación da presión atmosférica coa altura. Estes últimos son barómetros metálicos que levan unha escala na que se pode ler directamente en metros de altitude o valor de presión atmosférica convertido axeitadamente mediante unha relación exponencial como a seguinteque dá a altura h en metros en función das alturas barométricas de dous lugares, un máis baixo, H1, normalmente o nivel do mar, e outro máis alto , H2.",
+            "definicion": "Dispositivo que mide a altura sobre o nivel do mar. Existen dous grandes tipos, os que fan uso da reflexión do son ou ultrasóns (sonda-eco) e os baseados na variación da presión atmosférica coa altura. Estes últimos son barómetros metálicos que levan unha escala na que se pode ler directamente en metros de altitude o valor de presión atmosférica convertido axeitadamente mediante unha relación exponencial como a seguinte $ h = 18400 log(H_1/H_2), $ que dá a altura $h$ en metros en función das alturas barométricas de dous lugares, un máis baixo, $H_1$, normalmente o nivel do mar, e outro máis alto , $H_2$.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -1901,7 +1846,7 @@
       }
     ],
     "relacionadas": [],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -1931,8 +1876,8 @@
         "lingua": {
           "gl": {
             "termo": "altura",
-            "definicion": "V. altura dun astro.",
-            "sinonimos": [],
+            "definicion": "",
+            "sinonimos": ["altura dun astro"],
             "simbolo": ""
           }
         }
@@ -1941,8 +1886,8 @@
         "lingua": {
           "gl": {
             "termo": "altura",
-            "definicion": "V. altura dun son.",
-            "sinonimos": [],
+            "definicion": "",
+            "sinonimos": ["altura dun son"],
             "simbolo": ""
           }
         }
@@ -1951,8 +1896,8 @@
         "lingua": {
           "gl": {
             "termo": "altura",
-            "definicion": "V. altura de presión.",
-            "sinonimos": [],
+            "definicion": "",
+            "sinonimos": ["altura de presión"],
             "simbolo": ""
           }
         }
@@ -1961,8 +1906,8 @@
         "lingua": {
           "gl": {
             "termo": "altura",
-            "definicion": "V. movemento de proxectís.",
-            "sinonimos": [],
+            "definicion": "",
+            "sinonimos": ["movemento de proxectís"],
             "simbolo": ""
           }
         }
@@ -1997,7 +1942,7 @@
         "lingua": {
           "gl": {
             "termo": "altura cinética",
-            "definicion": "Altura dinámica.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -2005,8 +1950,7 @@
       }
     ],
     "relacionadas": [
-      "Altura dinámica",
-      "Altura"
+      "altura dinámica"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -2026,7 +1970,7 @@
       }
     ],
     "relacionadas": [
-      "Bernouilli"
+      "Bernouilli, ecuación de"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -2038,7 +1982,7 @@
         "lingua": {
           "gl": {
             "termo": "altura dinámica",
-            "definicion": "Medida da enerxía cinética por unidade de peso que leva nun determinado instante un elemento de volume dun fluído en movemento (V. Bernouilli, ecuación de). Toma o valor de v2/(2g) se se considera que a distribución de velocidades na conducción é uniforme. En caso contrario é preciso multiplicar a anterior expresión por un factor de corrección  que soe tomar un valor entre 1,02 e 1,15 para  fluxos turbulentos e 2 para fluxos laminares.",
+            "definicion": "Medida da enerxía cinética por unidade de peso que leva nun determinado instante un elemento de volume dun fluído en movemento. Toma o valor de $v^2\\/2g$ se se considera que a distribución de velocidades na conducción é uniforme. En caso contrario é preciso multiplicar a anterior expresión por un factor de corrección que soe tomar un valor entre 1,02 e 1,15 para  fluxos turbulentos e 2 para fluxos laminares.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -2046,10 +1990,11 @@
       }
     ],
     "relacionadas": [
-      "fluxos",
-      "/(2g) "
+      "Bernouilli, ecuación de",
+      "fluxos turbulentos",
+      "fluxos laminares"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -2059,7 +2004,7 @@
         "lingua": {
           "gl": {
             "termo": "altura dun astro",
-            "definicion": "En astronomía, ángulo correspondente ao arco do círculo vertical que pasa polo astro, medido dende o horizonte do lugar ata ese astro. A altura cero corresponde á dun astro situado xusto no horizonte do lugar, mentres que con 90º de altura estaría situado xusto na vertical, no cénit do lugar. V. coordenadas horizontais.",
+            "definicion": "En astronomía, ángulo correspondente ao arco do círculo vertical que pasa polo astro, medido dende o horizonte do lugar ata ese astro. A altura cero corresponde á dun astro situado xusto no horizonte do lugar, mentres que con 90º de altura estaría situado xusto na vertical, no cénit do lugar.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -2069,7 +2014,7 @@
     "relacionadas": [
       "cénit",
       "círculo vertical",
-      "círculo"
+      "coordenadas horizontais"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -2081,7 +2026,7 @@
         "lingua": {
           "gl": {
             "termo": "altura dun son",
-            "definicion": "É o que se quere indicar cando se di que un son é máis agudo ou máis grave que outro, relacionándose directamente co seu ton. V. características do son.",
+            "definicion": "É o que se quere indicar cando se di que un son é máis agudo ou máis grave que outro, relacionándose directamente co seu ton.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -2089,7 +2034,8 @@
       }
     ],
     "relacionadas": [
-      "ton"
+      "ton",
+      "características do son"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -2101,7 +2047,7 @@
         "lingua": {
           "gl": {
             "termo": "altura estática",
-            "definicion": "Medida da relación entre a enerxía potencial e o peso dun elemento de volume nun fluído. Coñecese tamén co nome de gradiente hidráulico e obtense ao sumar as alturas de presión e xeométrica na ecuación de Bernouilli..",
+            "definicion": "Medida da relación entre a enerxía potencial e o peso dun elemento de volume nun fluído. Coñecese tamén co nome de gradiente hidráulico e obtense ao sumar as alturas de presión e xeométrica na ecuación de Bernouilli.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -2109,9 +2055,9 @@
       }
     ],
     "relacionadas": [
-      "alturas",
-      "Bernouilli",
-      "alturas de presión"
+      "Bernouilli, ecuación de",
+      "altura de presión",
+      "altura xeométrica"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -2123,17 +2069,14 @@
         "lingua": {
           "gl": {
             "termo": "altura piezométrica",
-            "definicion": "Altura de presión.",
-            "sinonimos": [],
+            "definicion": "",
+            "sinonimos": ["altura de presión"],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [
-      "Altura de presión",
-      "Altura"
-    ],
+    "relacionadas": [],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -2152,7 +2095,7 @@
       }
     ],
     "relacionadas": [
-      "Bernouilli"
+      "Bernouilli, ecuación de"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -2164,7 +2107,7 @@
         "lingua": {
           "gl": {
             "termo": "altura xeométrica",
-            "definicion": "Altura piezométrica.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -2184,21 +2127,19 @@
         "lingua": {
           "gl": {
             "termo": "aluminio",
-            "definicion": "Sb. Al. Elemento químico de número atómico13, descuberto no 1825, por H. C. Oersted. De aspecto metálico e cor branca prateada, é bo conductor da calor e da electricidade, sendo o metal máis abundante (8 %) na codia terrestre. O aluminio natural está constituído de forma exclusiva polo isótopo Al-27, pero hai 18 isótopos artificiais máis. Preséntase en multitude de compostos entre os que destacan os silicatos de aluminio complexos como as arxilas. A maioría do que se consume extráese da bauxita (Al2O3·xH2O). Debido á súa baixa densidade, as súas aliaxes teñen moitos usos industriais. MA. 26,981 5 u; Pf. 660 ºC; Peb. 2519 ºC;  2700 kgm-3.",
+            "definicion": "Elemento químico de número atómico13, descuberto no 1825, por H. C. Oersted. De aspecto metálico e cor branca prateada, é bo conductor da calor e da electricidade, sendo o metal máis abundante (8 %) na codia terrestre. O aluminio natural está constituído de forma exclusiva polo isótopo Al-27, pero hai 18 isótopos artificiais máis. Preséntase en multitude de compostos entre os que destacan os silicatos de aluminio complexos como as arxilas. A maioría do que se consume extráese da bauxita (Al2O3·xH2O). Debido á súa baixa densidade, as súas aliaxes teñen moitos usos industriais. MA. 26,981 5 u; Pf. 660 ºC; Peb. 2519 ºC; $rho$ 2700 kg·m⁻³.",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$#[Al]$"
           }
         }
       }
     ],
     "relacionadas": [
-      "número",
       "isótopo",
-      "*número atómico",
-      "Elemento",
-      "Elemento químico"
+      "número atómico",
+      "elemento químico"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -2226,23 +2167,20 @@
         "lingua": {
           "gl": {
             "termo": "americio",
-            "definicion": "Sb. Am. Elemento químico de número atómico 95, descuberto (Am-241) no 1944, por G. T. Seaborg, R. A. James, L. O. Morgan e A. Ghiorso. Todos os seus 19 isótopos que se coñecen son radioactivos, sendo o máis estable o Am-243 unha vida media de 7360 anos. MA. 243,06 u; Pf. 1 176 ºC;  13670 kgm-3.",
+            "definicion": "Elemento químico de número atómico 95, descuberto (Am-241) no 1944, por G. T. Seaborg, R. A. James, L. O. Morgan e A. Ghiorso. Todos os seus 19 isótopos que se coñecen son radioactivos, sendo o máis estable o Am-243 unha vida media de 7360 anos. MA. 243,06 u; Pf. 1 176 ºC; $rho$ 13670 kg·m⁻³.",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$#[Am]$"
           }
         }
       }
     ],
     "relacionadas": [
-      "número",
-      "*número atómico",
-      "vida",
-      "*vida media",
-      "Elemento",
+      "número atómico",
+      "vida media",
       "isótopos",
-      "Elemento químico"
+      "elemento químico"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -2252,7 +2190,7 @@
         "lingua": {
           "gl": {
             "termo": "amortecemento",
-            "definicion": "Diminución da amplitude de oscilación dun sistema debido a unha cesión de enerxía por parte do mesmo (V. movemento vibratorio amortecido). Nun sistema  oscilante caracterizado por unha constante elástica K, unha masa m e unha forza de rozamento proporcional á velocidade (FR=-Rv), a amplitude diminúe co tempo segundo a ecuaciónUn sistema así vén caracterizado polo chamado coeficiente de amortecemento k;  aumentando a constante R, aumenta o coeficiente k, producíndose unha diminución na súa frecuencia de oscilación e unha, aínda máis rápida, diminución da súa amplitude. Para o caso particular en que, o coeficiente do sistema vale infinito e a frecuencia de oscilación é igual a cero, deixando de oscilar. O sistema acada, entón, un amortecemento crítico. Este amortecemento crítico búscase ás veces en aparellos de medida para evitar a oscilación das agullas indicadoras, mellorándose a súa lectura. V. oscilacións.",
+            "definicion": "Diminución da amplitude de oscilación dun sistema debido a unha cesión de enerxía por parte do mesmo. Nun sistema  oscilante caracterizado por unha constante elástica $K$, unha masa $m$ e unha forza de rozamento proporcional á velocidade ($F_R = -R v$), a amplitude diminúe co tempo segundo a ecuación $ A = A_0 e^(-(R)/(2m) t). $ Un sistema así vén caracterizado polo chamado coeficiente de amortecemento $k$; aumentando a constante $R$, aumenta o coeficiente $k$, producíndose unha diminución na súa frecuencia de oscilación e unha, aínda máis rápida, diminución da súa amplitude. Para o caso particular en que $R=sqrt(4 K m)$, o coeficiente do sistema vale infinito e a frecuencia de oscilación é igual a cero, deixando de oscilar. O sistema acada, entón, un amortecemento crítico. Este amortecemento crítico búscase ás veces en aparellos de medida para evitar a oscilación das agullas indicadoras, mellorándose a súa lectura.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -2270,18 +2208,17 @@
       }
     ],
     "relacionadas": [
-      "=-Rv",
-      "forza",
       "forza de rozamento",
-      "coeficiente",
       "atenuación",
       "intensidade",
+      "oscilacións",
       "amplitude",
       "amortecemento crítico",
       "coeficiente de amortecemento",
-      "absorción"
+      "absorción",
+      "movemento vibratorio amortecido"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -2291,14 +2228,17 @@
         "lingua": {
           "gl": {
             "termo": "amortecemento crítico",
-            "definicion": "V. amortecemento; coeficiente de amortecemento.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": [
+        "amortecemento",
+        "coeficiente de amortecemento"
+    ],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -2309,7 +2249,7 @@
         "lingua": {
           "gl": {
             "termo": "amortecemento viscoso",
-            "definicion": "Amortecemento debido á existencia de forzas de rozamento proporcionais á velocidade do móbil segundo:, sendo R a constante de amortecemento.",
+            "definicion": "Amortecemento debido á existencia de forzas de rozamento proporcionais á velocidade do móbil segundo $arrow(F) = - R dot arrow(v)$, sendo $R$ a constante de amortecemento.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -2318,12 +2258,10 @@
     ],
     "relacionadas": [
       "constante de amortecemento",
-      "Amortecemento",
-      "forzas",
-      "forzas de rozamento",
-      "constante"
+      "amortecemento",
+      "forzas de rozamento"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -2333,18 +2271,19 @@
         "lingua": {
           "gl": {
             "termo": "ampere",
-            "definicion": "Sb. A. Unidade de intensidade de corrente eléctrica no SI, en lembranza do físico André-Marie Ampère(1775-1836). É a intensidade dunha corrente constante que, circulando por dous conductores paralelos e rectilíneos, de lonxitude infinita con sección circular desprezable e situados, no baleiro, a unha distancia dun metro un do outro,  produce entre eles unha forza, por cada metro de lonxitude, de 2·107 N.",
+            "definicion": "Unidade de intensidade de corrente eléctrica no SI, en lembranza do físico André-Marie Ampère (1775-1836). É a intensidade dunha corrente constante que, circulando por dous conductores paralelos e rectilíneos, de lonxitude infinita con sección circular desprezable e situados, no baleiro, a unha distancia dun metro un do outro,  produce entre eles unha forza, por cada metro de lonxitude, de 2·10⁻⁷ N.",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$A$"
           }
         }
       }
     ],
     "relacionadas": [
       "intensidade de corrente",
-      "intensidade"
+      "intensidade",
+      "SI"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -2354,7 +2293,7 @@
         "lingua": {
           "gl": {
             "termo": "Ampère, lei de",
-            "definicion": "Relaciona a circulación da inducción magnética ao longo dunha liña pechada coa corrente total I que atravesa calquera superficie limitada pola liña ao longo da que se integra e a permeabilidade magnética do medio.",
+            "definicion": "Relaciona a circulación da inducción magnética $arrow(B)$ ao longo dunha liña pechada coa corrente total $I$ que atravesa calquera superficie limitada pola liña ao longo da que se integra e a permeabilidade magnética do medio, $mu$: $ integral.cont_C arrow(B) dot arrow(d l) = mu I. $",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -2363,12 +2302,10 @@
     ],
     "relacionadas": [
       "inducción magnética",
-      "inducción",
-      "permeabilidade",
       "permeabilidade magnética",
       "corrente"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -2378,7 +2315,7 @@
         "lingua": {
           "gl": {
             "termo": "Ampère-Maxwell, lei de",
-            "definicion": "Expresión que relaciona a circulación do vector inducción magnética, B, ao longo dunha liña pechada, coa variación segundo o tempo do fluxo eléctrico,, e coa corrente total, I, que atravesa calquera superficie limitada pola liña pechada ao longo da que se integra, segundo:O primeiro termo no segundo membro desta ecuación amplía a lei de Ampere, no senso de que un campo magnético se pode producir ademais de por unha corrente eléctrica, por un campo eléctrico variable ou calquera outro fenómeno que supoña un cambio no fluxo eléctrico que atravesa a superficie limitada por unha liña pechada. Constitúe a cuarta ecuación de Maxwell.",
+            "definicion": "Expresión que relaciona a circulación do vector inducción magnética, $B$, ao longo dunha liña pechada, coa variación segundo o tempo do fluxo eléctrico, $Phi_E$, e coa corrente total, $I$, que atravesa calquera superficie limitada pola liña pechada ao longo da que se integra, segundo: $ integral.cont_C arrow(B) arrow(d l) = mu_0 epsilon_0 (d Phi_E)/(d t) + mu_0 I. $ O primeiro termo no segundo membro desta ecuación amplía a lei de Ampere, no senso de que un campo magnético se pode producir ademais de por unha corrente eléctrica, por un campo eléctrico variable ou calquera outro fenómeno que supoña un cambio no fluxo eléctrico que atravesa a superficie limitada por unha liña pechada. Constitúe a cuarta ecuación de Maxwell.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -2386,17 +2323,14 @@
       }
     ],
     "relacionadas": [
-      "circulación do vector",
-      "fluxo",
-      "Maxwell",
-      "inducción magnética, B,",
-      "inducción",
-      "Ampere",
-      "circulación",
+      "circulación dun vector",
+      "Maxwell, ecuacións de",
+      "inducción magnética",
+      "Ampere, lei de",
       "corrente",
       "fluxo eléctrico"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -2406,19 +2340,19 @@
         "lingua": {
           "gl": {
             "termo": "ampere-volta",
-            "definicion": "Sb. A·volta. Unidade de forza magnetomotriz no SI que equivale ao campo producido por unha corrente de 1 ampere que circula por unha espira. V. gilbert.",
+            "definicion": "Unidade de forza magnetomotriz no SI que equivale ao campo producido por unha corrente de 1 ampere que circula por unha espira.",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$#[A·Volta]$"
           }
         }
       }
     ],
     "relacionadas": [
       "ampere",
-      "forza",
-      "forza magnetomotriz "
+      "forza magnetomotriz",
+      "gilbert"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -2436,8 +2370,7 @@
       }
     ],
     "relacionadas": [
-      "intensidade de corrente",
-      "intensidade"
+      "intensidade de corrente"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -2449,16 +2382,14 @@
         "lingua": {
           "gl": {
             "termo": "amperio",
-            "definicion": "Ampere.",
-            "sinonimos": [],
+            "definicion": "",
+            "sinonimos": ["ampere"],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [
-      "Ampere"
-    ],
+    "relacionadas": [],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -2469,7 +2400,7 @@
         "lingua": {
           "gl": {
             "termo": "amplificador",
-            "definicion": "Dispositivo que é capaz de producir un sinal de saída de idénticas características ao sinal que se lle subministra incrementando a súa intensidade ou tensión. Os primeiros amplificadores foron construídos con válvulas, logo usáronse os transistores e actualmente empréganse para este fin os circuítos integrados. V. ganancia.",
+            "definicion": "Dispositivo que é capaz de producir un sinal de saída de idénticas características ao sinal que se lle subministra incrementando a súa intensidade ou tensión. Os primeiros amplificadores foron construídos con válvulas, logo usáronse os transistores e actualmente empréganse para este fin os circuítos integrados.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -2477,10 +2408,10 @@
       }
     ],
     "relacionadas": [
-      "circuítos",
       "válvulas",
       "circuítos integrados",
-      "transistores"
+      "transistores",
+      "ganancia"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -2501,8 +2432,7 @@
     ],
     "relacionadas": [
       "intensidade de corrente",
-      "tensión",
-      "intensidade"
+      "tensión"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -2514,9 +2444,9 @@
         "lingua": {
           "gl": {
             "termo": "amplitude",
-            "definicion": "Sb. A. Nun movemento oscilatorio valor máximo da elongación",
+            "definicion": "Nun movemento oscilatorio valor máximo da elongación",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$A$"
           }
         }
       }
@@ -2524,7 +2454,7 @@
     "relacionadas": [
       "elongación"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -2534,7 +2464,7 @@
         "lingua": {
           "gl": {
             "termo": "analema",
-            "definicion": "Curva parecida a un 8 que se obtén ao recoller, durante un ano e cada mediodía local, a traxectoria da sombra que se produce nun reloxo de sol. Esta curva emprégase no cálculo da hora local media nun lugar, partindo da hora local real e expresa a  chamada compensación horaria ou ecuación do tempo. É a base dun tipo de reloxo de Sol que recibe o nome de reloxo analemático. 0figura0.",
+            "definicion": "Curva parecida a un 8 que se obtén ao recoller, durante un ano e cada mediodía local, a traxectoria da sombra que se produce nun reloxo de sol. Esta curva emprégase no cálculo da hora local media nun lugar, partindo da hora local real e expresa a  chamada compensación horaria ou ecuación do tempo. É a base dun tipo de reloxo de Sol que recibe o nome de reloxo analemático.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -2543,16 +2473,11 @@
     ],
     "relacionadas": [
       "mediodía local",
-      "reloxo",
       "hora local media",
-      "ecuación",
-      "hora",
       "reloxo analemático",
-      "hora local real ",
+      "hora local real",
       "ecuación do tempo",
       "reloxo de sol",
-      "reloxo de Sol",
-      "mediodía",
       "compensación horaria"
     ],
     "ten_ecuacions": false,
@@ -2565,14 +2490,14 @@
         "lingua": {
           "gl": {
             "termo": "análise dimensional",
-            "definicion": "Método empregado para comprobar se unha ecuación, que expresa unha relación entre diferentes magnitudes físicas, pode ser válida ou non. Baséase no feito de que os dous membros dunha igualdade deben presentar as mesmas dimensións (expresión en base ás magnitudes fundamentais); de non ocorrer tal cousa, a ecuación non é válida. V. dimensións.",
+            "definicion": "Método empregado para comprobar se unha ecuación, que expresa unha relación entre diferentes magnitudes físicas, pode ser válida ou non. Baséase no feito de que os dous membros dunha igualdade deben presentar as mesmas dimensións (expresión en base ás magnitudes fundamentais); de non ocorrer tal cousa, a ecuación non é válida.",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": ["dimensións"],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -2583,7 +2508,7 @@
         "lingua": {
           "gl": {
             "termo": "análise espectral",
-            "definicion": "Método de análise química fundado na observación do espectro de emisión producido pola chama dunha determinada mostra ou polo espectro de absorción dunha mostra interposta entre un foco de luz e o observador. Resulta de gran utilidade en astrofísica, para determinar a composición química e outros datos como a temperatura superficial das estrelas; de feito foi o estudio realizado por G. Kirchoff (1824-1887) e R.W. Bunsen (1811-1899) sobre as chamadas liñas de Fraunhofer, presentes no espectro de luz solar, a orixe deste tipo de análise. Actualmente, a análise espectral é a base de numerosas técnicas instrumentais como a absorción atómica ou a fotocolorimetría. V. Bohr, modelo atómico de.",
+            "definicion": "Método de análise química fundado na observación do espectro de emisión producido pola chama dunha determinada mostra ou polo espectro de absorción dunha mostra interposta entre un foco de luz e o observador. Resulta de gran utilidade en astrofísica, para determinar a composición química e outros datos como a temperatura superficial das estrelas; de feito foi o estudio realizado por G. Kirchoff (1824-1887) e R.W. Bunsen (1811-1899) sobre as chamadas liñas de Fraunhofer, presentes no espectro de luz solar, a orixe deste tipo de análise. Actualmente, a análise espectral é a base de numerosas técnicas instrumentais como a absorción atómica ou a fotocolorimetría.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -2594,8 +2519,8 @@
       "absorción atómica",
       "fotocolorimetría",
       "espectro",
-      "Fraunhofer",
-      "absorción"
+      "Fraunhofer, liñas de",
+      "Bohr, modelo atómico de"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -2615,8 +2540,6 @@
       }
     ],
     "relacionadas": [
-      "cálculo",
-      "teoría",
       "cálculo infinitesimal",
       "teoría da relatividade",
       "tensores",
@@ -2633,14 +2556,17 @@
         "lingua": {
           "gl": {
             "termo": "analóxico",
-            "definicion": "Dise de sinais que poden variar de forma continua. V. dixital; ordenador analóxico.",
+            "definicion": "Dise de sinais que poden variar de forma continua.",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": [
+      "dixital",
+      "ordenador analóxico"
+    ],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -2669,7 +2595,7 @@
         "lingua": {
           "gl": {
             "termo": "anana branca",
-            "definicion": "Estado da evolución dunha estrela con masa próxima á do Sol e ao que chega na súa vellez. Nese estado a estrela é moitísimo máis densa e de radio moito máis pequeno que o Sol A gravitación, forza que goberna todas as fases estelares, é freada, neste estado tan compactado da materia, pola chamada presión de Fermi, de natureza cuántica. As ananas brancas están formadas maioritariamente por núcleos de helio ou de elementos máis pesados e os electróns libres, correspondentes á estes átomos. Estes electróns, como todos os fermións, cumpren o principio de exclusión de Pauli, ofrecendo unha gran resistencia a ser compactados, o que orixina a presión de Fermi e fai que estes aparezan completamente dexenerados. Para estrelas cunha masa superior a uns 1,4 veces a masa do Sol (masa de Chandrasekhar), a presión de Fermi resulta insuficiente para deter o colapso gravitatorio e a estrela evoluciona a unha estrela de neutróns, ou ata convertirse nun buraco negro. V. estrela; Fermi-Dirac, estatística. de.",
+            "definicion": "Estado da evolución dunha estrela con masa próxima á do Sol e ao que chega na súa vellez. Nese estado a estrela é moitísimo máis densa e de radio moito máis pequeno que o Sol A gravitación, forza que goberna todas as fases estelares, é freada, neste estado tan compactado da materia, pola chamada presión de Fermi, de natureza cuántica. As ananas brancas están formadas maioritariamente por núcleos de helio ou de elementos máis pesados e os electróns libres, correspondentes á estes átomos. Estes electróns, como todos os fermións, cumpren o principio de exclusión de Pauli, ofrecendo unha gran resistencia a ser compactados, o que orixina a presión de Fermi e fai que estes aparezan completamente dexenerados. Para estrelas cunha masa superior a uns 1,4 veces a masa do Sol (masa de Chandrasekhar), a presión de Fermi resulta insuficiente para deter o colapso gravitatorio e a estrela evoluciona a unha estrela de neutróns, ou ata convertirse nun buraco negro.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -2677,17 +2603,18 @@
       }
     ],
     "relacionadas": [
-      "Fermi",
+      "Fermi, presión de",
       "buraco negro",
-      "fermións",
-      "buraco",
+      "fermión",
       "estrela de neutróns",
-      "dexenerados",
+      "dexenerado",
       "vellez",
-      "Pauli",
+      "Pauli, principio de exclusión de",
       "estrela",
       "gravitación",
-      "Chandrasekhar"
+      "Chandrasekhar, masa de",
+      "estrela",
+      "Fermi-Dirac, estatística de"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -2699,7 +2626,7 @@
         "lingua": {
           "gl": {
             "termo": "anana marrón",
-            "definicion": "Astro de tan pouca masa (sempre inferior á 0,3 veces a masa do Sol), que non chegan a producirse os procesos evolutivos típicos das estrelas que chegan á Secuencia Principal. A contracción gravitatoria, que levaría a un aumento de temperatura suficiente como para producir emisión de luz visible, non ten lugar pois é contrarrestada axiña pola dexeneración do material do astro. Así pois, os núcleos destas estrelas están parcialmente dexenerados, de igual forma que o dos planetas xigantes como Xúpiter e Saturno, compostos fundamentalmente de hidróxeno metálico. V. xupíteres.",
+            "definicion": "Astro de tan pouca masa (sempre inferior á 0,3 veces a masa do Sol), que non chegan a producirse os procesos evolutivos típicos das estrelas que chegan á Secuencia Principal. A contracción gravitatoria, que levaría a un aumento de temperatura suficiente como para producir emisión de luz visible, non ten lugar pois é contrarrestada axiña pola dexeneración do material do astro. Así pois, os núcleos destas estrelas están parcialmente dexenerados, de igual forma que o dos planetas xigantes como Xúpiter e Saturno, compostos fundamentalmente de hidróxeno metálico.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -2709,11 +2636,10 @@
     "relacionadas": [
       "estrelas",
       "dexeneración",
-      "Secuencia",
       "Secuencia Principal",
-      "dexenerados",
       "hidróxeno metálico",
-      "hidróxeno"
+      "hidróxeno",
+      "xupíteres"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -2725,7 +2651,7 @@
         "lingua": {
           "gl": {
             "termo": "ancho de banda",
-            "definicion": "Intervalo de frecuencias correspondente a un determinado sinal, como un feixe de luz u outro tipo de radiación, unha transmisión telefónica, a voz humana, etc. V. ancho natural.",
+            "definicion": "Intervalo de frecuencias correspondente a un determinado sinal, como un feixe de luz u outro tipo de radiación, unha transmisión telefónica, a voz humana, etc.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -2755,7 +2681,7 @@
     "relacionadas": [
       "feixe de luz",
       "frecuencias",
-      "feixe"
+      "ancho natural"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -2767,17 +2693,14 @@
         "lingua": {
           "gl": {
             "termo": "ancho espectral",
-            "definicion": "Ancho de banda.",
-            "sinonimos": [],
+            "definicion": "",
+            "sinonimos": ["ancho de banda"],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [
-      "Ancho",
-      "Ancho de banda"
-    ],
+    "relacionadas": [],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -2788,7 +2711,7 @@
         "lingua": {
           "gl": {
             "termo": "ancho natural",
-            "definicion": "Ancho espectral mínimo con que se pode obter luz dun sistema emisor. Este mínimo limita a posibilidade de obter unha verdadeira luz monocromática debido ao principio de incertidume de Heisenberg. V. láser; emisión estimulada.",
+            "definicion": "Ancho espectral mínimo con que se pode obter luz dun sistema emisor. Este mínimo limita a posibilidade de obter unha verdadeira luz monocromática debido ao principio de incertidume de Heisenberg.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -2796,11 +2719,11 @@
       }
     ],
     "relacionadas": [
-      "luz",
-      "Ancho",
-      "Ancho espectral",
-      "Heisenberg",
-      "luz monocromática"
+      "ancho espectral",
+      "Heisenberg, principio de",
+      "luz monocromática",
+      "láser",
+      "emisión estimulada"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -2812,7 +2735,7 @@
         "lingua": {
           "gl": {
             "termo": "Andrews, isotermas de",
-            "definicion": "Diagrama P-V froito das experiencias por T. Andrews en 1869 con dióxido de carbono. Mediu experimentalmente a presión que soportaba un recinto cheo de CO2 a diferentes temperaturas. Como resultado obtivo que por debaixo de 30,8 ºC podía pasar da fase gas á líquida comprimindo a substancia, nun proceso que tiña tres tramos moi diferenciados. O lugar xeométrico dos puntos das isotermas nos que toda a masa está como vapor saturado ou líquido saturado coñécese como curva de saturación. A 30,8ºC, temperatura denominada crítica, ten lugar a transición sen que varíe o volume das fases ou se libere calor algunha. Por encima de 30,8ºC non se pode conseguir CO2 líquido a partir do gas por simple compresión isoterma. 0figura0.",
+            "definicion": "Diagrama P-V froito das experiencias por T. Andrews en 1869 con dióxido de carbono. Nelas comprimiu este gas nun tubo a diferentes presións e volumes en cada momento. Descubriu que a temperaturas inferiores aos 31.1ºC obtiña curvas con tres tramos moi diferenciados (ver curva *a* na figura, correspondente a 25ºC). Ao comprimir un determinado volume de gas chegaba ao punto A (vapor saturado), a partir do cal detectaba un paso á fase líquida a unha presión constante, chamada presión de vapor (tramo recto AB na figura). A partir de B (líquido saturado) todo o $#[CO]_2$ está líquido e un aumento de presión non produce cambios significativos no volume. Andrews comprobou que este patrón repetíase a medida que elevaba a temperatura da experiencia coa única diferencia de que o tramo recto facíase cada vez máis pequeno, ata converterse nun punto, chamado punto crítico (PC na figura) cando a temperatura se situaba sobre os 31.1ºC. Neste punto ten lugar a transición entre fases sen que varía o volume delas ou se libere calor algunha. Por encima de 31.1ºC non se pode conseguir $#[CO]_2$ líquido a partir do gas por simple compresión isoterma. #html.frame(image(\"/dicionario/figuras/andrews_isotermas_de.svg\"))",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -2821,10 +2744,10 @@
     ],
     "relacionadas": [
       "curva de saturación",
-      "Diagrama P-V"
+      "presión de vapor"
     ],
     "ten_ecuacions": false,
-    "ten_figuras": false
+    "ten_figuras": true
   },
   {
     "termo": "anecoide",
@@ -2862,7 +2785,7 @@
       }
     ],
     "relacionadas": [
-      "Fraunhofer"
+      "Fraunhofer, difracción de"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -2874,7 +2797,7 @@
         "lingua": {
           "gl": {
             "termo": "aneis planetarios",
-            "definicion": "Conxunto de multitude de partículas sólidas, de diferente composición e tamaño, que se atopan xirando arredor dalgúns planetas seguindo as leis de Kepler. No Sistema Solar presentan aneis Saturno e Urano. No caso de Saturno, o conxunto de aneis exténdese entre os 13 000 e 76 000 km de distancia da superficie ecuatorial. Algúns aneis, como os chamados A, B, C e D, son visibles dende a Terra; foron descubertos cos primeiros telescopios do s. XVII e correctamente descritos por C. Huygens no 1655. Presentan miles de divisións, sendo as máis importantes a de Cassini, que separa os aneis A e B, e a de Encke, dentro do anel A. Están formados por pó finísimo e partículas maiores de xeo, especialmente de amoníaco e de metano. Visto dende a Terra, o maior brillo dos aneis acádase pouco antes ou pouco despois da oposición de Saturno. Urano presenta unha decena de aneis, descubertos despois do 1977. Moitas agrupacións de partículas manteñen a súa estructura estable gracias aos chamados satélites pastores, que controlan gravitatoriamente o movemento das mesmas. V. Sistema Solar; Saturno; Urano.",
+            "definicion": "Conxunto de multitude de partículas sólidas, de diferente composición e tamaño, que se atopan xirando arredor dalgúns planetas seguindo as leis de Kepler. No Sistema Solar presentan aneis Saturno e Urano. No caso de Saturno, o conxunto de aneis exténdese entre os 13000 e 76000 km de distancia da superficie ecuatorial. Algúns aneis, como os chamados A, B, C e D, son visibles dende a Terra; foron descubertos cos primeiros telescopios do s. XVII e correctamente descritos por C. Huygens no 1655. Presentan miles de divisións, sendo as máis importantes a de Cassini, que separa os aneis A e B, e a de Encke, dentro do anel A. Están formados por pó finísimo e partículas maiores de xeo, especialmente de amoníaco e de metano. Visto dende a Terra, o maior brillo dos aneis acádase pouco antes ou pouco despois da oposición de Saturno. Urano presenta unha decena de aneis, descubertos despois do 1977. Moitas agrupacións de partículas manteñen a súa estructura estable gracias aos chamados satélites pastores, que controlan gravitatoriamente o movemento das mesmas.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -2887,7 +2810,10 @@
       "Encke",
       "oposición",
       "Cassini",
-      "satélites pastores"
+      "satélites pastores",
+      "Sistema Solar",
+      "Saturno",
+      "Urano"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -2917,15 +2843,15 @@
         "lingua": {
           "gl": {
             "termo": "angstrom",
-            "definicion": "Sb.. Unidade de lonxitude equivalente a 10-10 m (= 0,1 nm), empregada fundamentalmente en física atómica e molecular.",
+            "definicion": "Unidade de lonxitude equivalente a 10⁻¹⁰ m (= 0,1 nm), empregada fundamentalmente en física atómica e molecular.",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$angstrom$"
           }
         }
       }
     ],
     "relacionadas": [],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -2953,7 +2879,7 @@
         "lingua": {
           "gl": {
             "termo": "ángulo de avance",
-            "definicion": "Aquel que forma a liña de avance dun parafuso respecto ao plano perpendicular ao eixe de xiro. Lembrando que o parafuso é o resultado de arrolar un plano inclinado ao redor dun cilindro, a tanxente do ángulo de avance é igual ao paso de rosca dividido pola lonxitude da circunferencia descrita no xiro. V. parafuso.",
+            "definicion": "Aquel que forma a liña de avance dun parafuso respecto ao plano perpendicular ao eixe de xiro. Lembrando que o parafuso é o resultado de arrolar un plano inclinado ao redor dun cilindro, a tanxente do ángulo de avance é igual ao paso de rosca dividido pola lonxitude da circunferencia descrita no xiro.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -2961,7 +2887,7 @@
       }
     ],
     "relacionadas": [
-      "paso",
+      "parafuso",
       "paso de rosca"
     ],
     "ten_ecuacions": false,
@@ -2974,9 +2900,9 @@
         "lingua": {
           "gl": {
             "termo": "ángulo de contacto",
-            "definicion": "Sb. c. Na superficie libre dun líquido, ángulo formado pola tanxente ao menisco coa parede do recipiente. É característico de cada parella sólido-líquido e o seu valor dá unha idea da relación que existe nese medio entre as forzas de cohesión, C, que se establecen entre as moléculas do líquido e as forzas de adhesión, A, entre estas e as moléculas do recipiente. Se A&gt;&gt;C c é case cero; se A=C c vale 90º. En ambos casos o menisco formado é cóncavo e dise que o líquido “molla” as paredes. Un exemplo constitúeo a interface auga-vidro. Sen embargo se C&gt;A c&gt;90º, o menisco é convexo e dise que o líquido “non molla” as paredes, como ocorre na interface mercurio-vidro. A combinación destes dous tipos de forzas coa tensión superficial é a responsable dos fenómenos de capilaridade. 0figura0.",
+            "definicion": "Sb. c. Na superficie libre dun líquido, ángulo formado pola tanxente ao menisco coa parede do recipiente. É característico de cada parella sólido-líquido e o seu valor dá unha idea da relación que existe nese medio entre as forzas de cohesión, $C$, que se establecen entre as moléculas do líquido e as forzas de adhesión, $A$, entre estas e as moléculas do recipiente. Se $A > > C$, $theta_c$ é case cero; se $A=C$, $theta_c$ vale 90º. En ambos casos o menisco formado é cóncavo e dise que o líquido \"molla\" as paredes. Un exemplo constitúeo a interface auga-vidro. Sen embargo se $C > A$, $theta_c > 90º$, o menisco é convexo e dise que o líquido \"non molla\" as paredes, como ocorre na interface mercurio-vidro. A combinación destes dous tipos de forzas coa tensión superficial é a responsable dos fenómenos de capilaridade. #html.frame(image(\"/dicionario/figuras/angulo_de_contacto.svg\"))",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$theta_c$"
           }
         }
       }
@@ -2986,13 +2912,10 @@
       "forzas de adhesión,",
       "menisco",
       "capilaridade",
-      "forzas de cohesión,",
-      "tensión",
-      "forzas",
-      "A, "
+      "forzas de cohesión"
     ],
-    "ten_ecuacions": false,
-    "ten_figuras": false
+    "ten_ecuacions": true,
+    "ten_figuras": true
   },
   {
     "termo": "ángulo de conxunción",
@@ -3001,7 +2924,7 @@
         "lingua": {
           "gl": {
             "termo": "ángulo de conxunción",
-            "definicion": "Ángulo de contacto.ángulo de rozamento cinético Ángulo de rozamento dinámico.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3009,8 +2932,6 @@
       }
     ],
     "relacionadas": [
-      "Ángulo de rozamento dinámico",
-      "Ángulo",
       "Ángulo de contacto"
     ],
     "ten_ecuacions": false,
@@ -3023,7 +2944,7 @@
         "lingua": {
           "gl": {
             "termo": "ángulo de desviación nun prisma",
-            "definicion": "Ángulo formado polas direccións de propagación dos raios incidentes e emerxentes nun prisma óptico. O seu valor depende do ángulo de incidencia, do ángulo de refrinxencia e do índice de refracción do prisma. V. refracción.ángulo de fase En astronomía, ángulo formado polas direccións planeta-Terra e planeta-Sol, expresado en graos.",
+            "definicion": "Ángulo formado polas direccións de propagación dos raios incidentes e emerxentes nun prisma óptico. O seu valor depende do ángulo de incidencia, do ángulo de refrinxencia e do índice de refracción do prisma.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3034,13 +2955,29 @@
       "ángulo de incidencia",
       "índice de refracción",
       "prisma óptico",
-      "prisma",
       "ángulo de refrinxencia",
-      "índice",
-      "ángulo"
+      "refracción"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
+  },
+  {
+    "termo" : "ángulo de fase",
+    "acepcions": [
+      {
+        "lingua": {
+          "gl": {
+            "termo": "ángulo de fase",
+            "definicion" : "En astronomía, ángulo formado polas direccións planeta-Terra e planeta-Sol, expresado en grados.",
+            "simbolo" : "",
+            "sinonimos": []
+          }
+        }
+      }
+    ],
+    "relacionadas" : [],
+    "ten_ecuacions" : false,
+    "ten_figuras" : false
   },
   {
     "termo": "ángulo de incidencia",
@@ -3049,7 +2986,7 @@
         "lingua": {
           "gl": {
             "termo": "ángulo de incidencia",
-            "definicion": "Ángulo formado polo raio incidente e a normal á superficie de separación de dous medios materiais no punto de incidencia. V. reflexión; refracción dunha onda.",
+            "definicion": "Ángulo formado polo raio incidente e a normal á superficie de separación de dous medios materiais no punto de incidencia.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3058,7 +2995,8 @@
     ],
     "relacionadas": [
       "raio incidente",
-      "raio"
+      "reflexión",
+      "refracción dunha onda"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -3070,7 +3008,7 @@
         "lingua": {
           "gl": {
             "termo": "ángulo de polarización",
-            "definicion": "Ángulo de incidencia necesario para que o raio reflectido por unha superficie de separación entre dous medios estea totalmente polarizado. V. polarización; Brewster, lei de.",
+            "definicion": "Ángulo de incidencia necesario para que o raio reflectido por unha superficie de separación entre dous medios estea totalmente polarizado.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3078,9 +3016,10 @@
       }
     ],
     "relacionadas": [
-      "raio",
-      "Ángulo de incidencia",
-      "raio reflectido"
+      "ángulo de incidencia",
+      "raio reflectido",
+      "polarización",
+      "Brewster, lei de"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -3112,7 +3051,7 @@
         "lingua": {
           "gl": {
             "termo": "ángulo de refracción",
-            "definicion": "Ángulo formado polo raio refractado e a normal á superficie de separación de dous medios no punto de incidencia. Na refracción, o ángulo de refracción e o de incidencia están relacionados segundo a lei de Snell. V. refracción.",
+            "definicion": "Ángulo formado polo raio refractado e a normal á superficie de separación de dous medios no punto de incidencia. Na refracción, o ángulo de refracción e o de incidencia están relacionados segundo a lei de Snell.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3120,7 +3059,8 @@
       }
     ],
     "relacionadas": [
-      "Snell"
+      "Snell, lei de",
+      "refracción"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -3132,7 +3072,7 @@
         "lingua": {
           "gl": {
             "termo": "ángulo de refrinxencia dun prisma",
-            "definicion": "Ángulo que forman entre si dúas caras dun prisma óptico. V. refracción.",
+            "definicion": "Ángulo que forman entre si dúas caras dun prisma óptico.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3140,11 +3080,29 @@
       }
     ],
     "relacionadas": [
-      "prisma",
+      "refracción",
       "prisma óptico"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
+  },
+  {
+    "termo" : "ángulo de rozamento cinético",
+    "acepcions": [
+      {
+        "lingua": {
+          "gl": {
+            "termo": "ángulo de rozamento cinético",
+            "definicion" : "",
+            "simbolo" : "",
+            "sinonimos": ["ángulo de rozamento dinámico"]
+          }
+        }
+      }
+    ],
+    "relacionadas" : [],
+    "ten_ecuacions" : false,
+    "ten_figuras" : false
   },
   {
     "termo": "ángulo de rozamento dinámico",
@@ -3153,18 +3111,17 @@
         "lingua": {
           "gl": {
             "termo": "ángulo de rozamento dinámico",
-            "definicion": "Sb. d. Aquel que marca o inicio do movemento dun corpo sobre un plano inclinado. A súa tanxente coincide co coeficiente de rozamento dinámico e numericamente sempre é inferior ao ángulo de rozamento estático.",
+            "definicion": "Aquel que marca o inicio do movemento dun corpo sobre un plano inclinado. A súa tanxente coincide co coeficiente de rozamento dinámico e numericamente sempre é inferior ao ángulo de rozamento estático.",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$phi.alt_d$"
           }
         }
       }
     ],
     "relacionadas": [
-      "coeficiente",
       "coeficiente de rozamento dinámico"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -3174,19 +3131,18 @@
         "lingua": {
           "gl": {
             "termo": "ángulo de rozamento estático",
-            "definicion": "Sb. s. O máximo que pode acadar un plano inclinado antes de que o corpo que sostén se poña en movemento; por iso tamén se coñece como ángulo límite de equilibrio. A tanxente deste ángulo coincide co coeficiente de rozamento estático.",
+            "definicion": "O máximo que pode acadar un plano inclinado antes de que o corpo que sostén se poña en movemento; por iso tamén se coñece como ángulo límite de equilibrio. A tanxente deste ángulo coincide co coeficiente de rozamento estático.",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$phi.alt_s$"
           }
         }
       }
     ],
     "relacionadas": [
       "coeficiente de rozamento estático",
-      "coeficiente",
       "ángulo límite de equilibrio"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -3196,7 +3152,7 @@
         "lingua": {
           "gl": {
             "termo": "ángulo de torsión",
-            "definicion": "Aquel que mide a deformación que se produce cando un par de forzas actúa sobre un corpo e o retorce. Así, nun cilindro de lonxitude L e radio R fixo nun extremo, o ángulo de torsión producido por un par de forzas, de momento M respecto ao eixe de xiro central, vén dado pola expresiónonde G é o módulo de esvaramento.",
+            "definicion": "Aquel que mide a deformación que se produce cando un par de forzas actúa sobre un corpo e o retorce. Así, nun cilindro de lonxitude $L$ e radio $R$ fixo nun extremo, o ángulo de torsión producido por un par de forzas, de momento $M$ respecto ao eixe de xiro central, vén dado pola expresión $ alpha = 1/G M (2L)/(pi R^4) $ onde $G$ é o módulo de esvaramento.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3204,12 +3160,10 @@
       }
     ],
     "relacionadas": [
-      "par",
       "módulo de esvaramento",
-      "par de forzas",
-      "módulo"
+      "par de forzas"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -3219,9 +3173,9 @@
         "lingua": {
           "gl": {
             "termo": "ángulo de transmisión",
-            "definicion": "Sb. . En cinemática de mecanismos, ángulo que forma o elo de saída e o acoplador. Constitúe unha medida da calidade da transmisión da forza e a velocidade na xunta cinemática.",
+            "definicion": "En cinemática de mecanismos, ángulo que forma o elo de saída e o acoplador. Constitúe unha medida da calidade da transmisión da forza e a velocidade na xunta cinemática.",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$mu$"
           }
         }
       }
@@ -3229,10 +3183,9 @@
     "relacionadas": [
       "elo",
       "acoplador",
-      "xunta",
       "xunta cinemática"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -3260,7 +3213,7 @@
         "lingua": {
           "gl": {
             "termo": "ángulo horario",
-            "definicion": "En astronomía, ángulo medido sobre o plano do Ecuador, partindo dende o sur do observador ou observadora e virando no sentido sur-oeste-norte-leste-sur, ou sexa, no sentido de xiro aparente da propia esfera celeste. Exprésase en graos e, máis frecuentemente, en unidades de tempo, de tal xeito que cada 15º equivalen a 1 hora. V. coordenadas ecuatoriais horarias.",
+            "definicion": "En astronomía, ángulo medido sobre o plano do Ecuador, partindo dende o sur do observador ou observadora e virando no sentido sur-oeste-norte-leste-sur, ou sexa, no sentido de xiro aparente da propia esfera celeste. Exprésase en graos e, máis frecuentemente, en unidades de tempo, de tal xeito que cada 15º equivalen a 1 hora.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3269,7 +3222,7 @@
     ],
     "relacionadas": [
       "esfera celeste",
-      "esfera"
+      "coordenadas ecuatoriais horarias"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -3281,7 +3234,7 @@
         "lingua": {
           "gl": {
             "termo": "ángulo límite",
-            "definicion": "Ángulo de incidencia con que debe chegar un raio luminoso á superficie de separación de dous medios para que o ángulo de refracción sexa igual a 90º. Para ángulos de incidencia maiores ten lugar a reflexión total. O valor deste ángulo L, vén dado pola lei de Snell, segundo.",
+            "definicion": "Ángulo de incidencia con que debe chegar un raio luminoso á superficie de separación de dous medios para que o ángulo de refracción sexa igual a 90º. Para ángulos de incidencia maiores ten lugar a reflexión total. O valor deste ángulo $L$, vén dado pola lei de Snell, segundo $ (sin(hat(L)))/(sin(90º)) = (n_2)/(n_1) => sin(hat(L)) = (n_2)/(n_1) = n_(21). $",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3289,14 +3242,13 @@
       }
     ],
     "relacionadas": [
-      "Snell",
-      "Ángulo",
+      "Snell, lei de",
       "reflexión total",
       "refracción",
-      "Ángulo de incidencia",
+      "ángulo de incidencia",
       "reflexión"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -3306,7 +3258,7 @@
         "lingua": {
           "gl": {
             "termo": "ángulo límite de equilibrio",
-            "definicion": "Ángulo de rozamento estático.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3314,8 +3266,7 @@
       }
     ],
     "relacionadas": [
-      "Ángulo de rozamento estático",
-      "Ángulo"
+      "ángulo de rozamento estático"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -3327,9 +3278,9 @@
         "lingua": {
           "gl": {
             "termo": "ángulo sólido",
-            "definicion": "Sb.. Superficie que determina nunha esfera de radio unidade un cono co vértice no centro desa esfera. A unidade de ángulo sólido no SI é o estereorradián. .0figura0.",
+            "definicion": "Superficie que determina nunha esfera de radio unidade un cono co vértice no centro desa esfera. A unidade de ángulo sólido no SI é o estereorradián. #html.frame(image(\"/dicionario/figuras/angulo_solido.svg\"))",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$Omega$"
           }
         }
       }
@@ -3337,8 +3288,8 @@
     "relacionadas": [
       "estereorradián"
     ],
-    "ten_ecuacions": false,
-    "ten_figuras": false
+    "ten_ecuacions": true,
+    "ten_figuras": true
   },
   {
     "termo": "ángulo visual",
@@ -3355,7 +3306,6 @@
       }
     ],
     "relacionadas": [
-      "obxectivo",
       "obxectivo fotográfico"
     ],
     "ten_ecuacions": false,
@@ -3368,14 +3318,14 @@
         "lingua": {
           "gl": {
             "termo": "anharmonicidade",
-            "definicion": "V. oscilador anharmónico.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": ["oscilador anharmónico"],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -3406,7 +3356,7 @@
         "lingua": {
           "gl": {
             "termo": "aniquilación de pares",
-            "definicion": "Reacción entre unha partícula e a súa antipartícula, na que desaparecen as dúas para dar lugar á formación de fotóns e/ou outras partículas fundamentais. Así, o choque entre un protón e un antiprotón produce a aniquilación do par, dando lugar a diferentes partículas, maioritariamente pións. V. mecánica cuántica; Einstein, ecuación de; baleiro cuántico.",
+            "definicion": "Reacción entre unha partícula e a súa antipartícula, na que desaparecen as dúas para dar lugar á formación de fotóns e/ou outras partículas fundamentais. Así, o choque entre un protón e un antiprotón produce a aniquilación do par, dando lugar a diferentes partículas, maioritariamente pións.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3415,7 +3365,10 @@
     ],
     "relacionadas": [
       "antipartícula",
-      "pións"
+      "pión",
+      "mecánica cuántica",
+      "Einstein, ecuación de",
+      "baleiro cuántico"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -3465,7 +3418,7 @@
         "lingua": {
           "gl": {
             "termo": "ano anomalístico",
-            "definicion": "Intervalo de tempo que transcorre entre dous pasos consecutivos da Terra polo seu perihelio. Equivale, en promedio a 365,259 63 días ou sexa 365 d 06 h 13 min 52 s.",
+            "definicion": "Intervalo de tempo que transcorre entre dous pasos consecutivos da Terra polo seu perihelio. Equivale, en promedio a 365.25963 días ou sexa 365 d 06 h 13 min 52 s.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3485,7 +3438,7 @@
         "lingua": {
           "gl": {
             "termo": "ano dracónico",
-            "definicion": "Ano eclíptico.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3493,7 +3446,6 @@
       }
     ],
     "relacionadas": [
-      "Ano",
       "Ano eclíptico"
     ],
     "ten_ecuacions": false,
@@ -3515,7 +3467,8 @@
     ],
     "relacionadas": [
       "ano dracónico",
-      "nodo"
+      "nodo",
+      "Saros, ciclo de"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -3527,7 +3480,7 @@
         "lingua": {
           "gl": {
             "termo": "ano gregoriano",
-            "definicion": "Unidade de tempo, base do calendario gregoriano, introducido polo papa Gregorio XIII, no 1582, e pouco a pouco establecido como base do calendario eclesiástico dos cristianos, e do calendario civil, actualmente vixente nas relacións internacionais. Ao haber anos comúns, de 365 días, e anos bisestos, cada catro anos exceptuando os divisibles por 100 e non por 400 (o 1900 non foi bisesto e o 2000 si), a duración media dun ano gregoriano é de 365, 242 50 días, o que representa uns 27 segundos máis que o ano trópico real.",
+            "definicion": "Unidade de tempo, base do calendario gregoriano, introducido polo papa Gregorio XIII, no 1582, e pouco a pouco establecido como base do calendario eclesiástico dos cristianos, e do calendario civil, actualmente vixente nas relacións internacionais. Ao haber anos comúns, de 365 días, e anos bisestos, cada catro anos exceptuando os divisibles por 100 e non por 400 (o 1900 non foi bisesto e o 2000 si), a duración media dun ano gregoriano é de 365.24250 días, o que representa uns 27 segundos máis que o ano trópico real.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3536,11 +3489,46 @@
     ],
     "relacionadas": [
       "calendario",
-      "ano",
       "ano trópico"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
+  },
+  {
+    "termo" : "ano-luz",
+    "acepcions": [
+      {
+        "lingua": {
+          "gl": {
+            "termo": "ano-luz",
+            "definicion" : "Unidade de distancia empregada en astronomía, equivalente á distancia percorrida pola luz no baleiro nun ano terrestre. Un ano-luz considérase igual a 9.46073047·10¹² km",
+            "simbolo" : "",
+            "sinonimos": []
+          }
+        }
+      }
+    ],
+    "relacionadas" : [],
+    "ten_ecuacions" : false,
+    "ten_figuras" : false
+  },
+  {
+    "termo" : "ano platónico",
+    "acepcions": [
+      {
+        "lingua": {
+          "gl": {
+            "termo": "ano platónico",
+            "definicion" : "Intervalo de tempo en que a Terra completa unha oscilación no seu movemento de precesión e que dura uns 25700 anos",
+            "simbolo" : "",
+            "sinonimos": []
+          }
+        }
+      }
+    ],
+    "relacionadas" : ["precesión"],
+    "ten_ecuacions" : false,
+    "ten_figuras" : false
   },
   {
     "termo": "ano sidéreo",
@@ -3549,7 +3537,7 @@
         "lingua": {
           "gl": {
             "termo": "ano sidéreo",
-            "definicion": "Intervalo de tempo transcorrido entre dous pasos consecutivos do Sol polo círculo horario dunha mesma estrela. En promedio dura uns 365,256 36 días solares medios, equivalente a 365 d 6 h 9 min 10 s. V. tempo sidéreo.",
+            "definicion": "Intervalo de tempo transcorrido entre dous pasos consecutivos do Sol polo círculo horario dunha mesma estrela. En promedio dura uns 365.256 36 días solares medios, equivalente a 365 d 6 h 9 min 10 s.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3558,9 +3546,8 @@
     ],
     "relacionadas": [
       "círculo horario",
-      "días",
-      "círculo",
-      "días solares medios"
+      "días solares medios",
+      "tempo sidéreo"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -3572,7 +3559,7 @@
         "lingua": {
           "gl": {
             "termo": "ano trópico",
-            "definicion": "Intervalo de tempo transcorrido entre dous pasos consecutivos do Sol polo punto vernal.  En promedio dura uns 365,242 19 días solares medios, equivalente a 365 d 5 h 48 min 45,6 s.",
+            "definicion": "Intervalo de tempo transcorrido entre dous pasos consecutivos do Sol polo punto vernal.  En promedio dura uns 365,242 19 días solares medios, equivalente a 365 d 5 h 48 min 45.6 s.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3581,8 +3568,6 @@
     ],
     "relacionadas": [
       "punto vernal",
-      "punto",
-      "días",
       "días solares medios"
     ],
     "ten_ecuacions": false,
@@ -3595,7 +3580,7 @@
         "lingua": {
           "gl": {
             "termo": "ano xuliano",
-            "definicion": "Unidade de tempo, base do calendario xuliano, introducido por Xulio César no ano 45 a.n.e. e seguido na Europa cristiana e as súas colonias ata a adopción do calendario gregoriano, a partir do 1582. Constaba de 365 días e, cada 4 anos intercalábase 1 día (ano bisesto), polo que a súa duración media é de 365,25 días, uns 11 minutos máis longo que a duración do ano trópico real.",
+            "definicion": "Unidade de tempo, base do calendario xuliano, introducido por Xulio César no ano 45 a.n.e. e seguido na Europa cristiana e as súas colonias ata a adopción do calendario gregoriano, a partir do 1582. Constaba de 365 días e, cada 4 anos intercalábase 1 día (ano bisesto), polo que a súa duración media é de 365.25 días, uns 11 minutos máis longo que a duración do ano trópico real.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3604,7 +3589,6 @@
     ],
     "relacionadas": [
       "calendario",
-      "ano",
       "ano trópico"
     ],
     "ten_ecuacions": false,
@@ -3617,7 +3601,7 @@
         "lingua": {
           "gl": {
             "termo": "ánodo",
-            "definicion": "Nunha célula electroquímica é o electrodo no que ten lugar a oxidación. Segundo este criterio, na pila galvánica é o polo negativo e na cela electrolítica o positivo. V. cátodo.",
+            "definicion": "Nunha célula electroquímica é o electrodo no que ten lugar a oxidación. Segundo este criterio, na pila galvánica é o polo negativo e na cela electrolítica o positivo.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3636,55 +3620,14 @@
     ],
     "relacionadas": [
       "célula electroquímica",
-      "pila",
+      "pila galvánica",
       "tubo de baleiro",
       "electrodo",
-      "galvánica",
-      "cela",
+      "cela electrolítica",
       "cátodo",
-      "tubo",
+      "tubo de baleiro",
       "válvula",
-      "célula",
       "cela electrolítica"
-    ],
-    "ten_ecuacions": false,
-    "ten_figuras": false
-  },
-  {
-    "termo": "ano-luz",
-    "acepcions": [
-      {
-        "lingua": {
-          "gl": {
-            "termo": "ano-luz",
-            "definicion": "Unidade de distancia empregada en astronomía, equivalente á distancia percorrida pola luz no baleiro durante un ano terrestre. Un ano-luz considérase igual a 9,460 730 47.1012 km.",
-            "sinonimos": [],
-            "simbolo": ""
-          }
-        }
-      }
-    ],
-    "relacionadas": [],
-    "ten_ecuacions": false,
-    "ten_figuras": false
-  },
-  {
-    "termo": "anomalía  verdadeira",
-    "acepcions": [
-      {
-        "lingua": {
-          "gl": {
-            "termo": "anomalía  verdadeira",
-            "definicion": "Ángulo empregado para indicar a posición dun corpo celeste, como un planeta ou un satélite, que xira arredor doutro seguindo unha órbita elíptica. Para o caso dun planeta defínese como o ángulo, v, formado polo vector que vai dende o Sol ao perihelio do planeta e o que vai dende o Sol á posición ocupada polo planeta en cada intre. V. elementos dunha órbita.0figura0común.",
-            "sinonimos": [],
-            "simbolo": ""
-          }
-        }
-      }
-    ],
-    "relacionadas": [
-      "perihelio",
-      "órbita"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -3717,7 +3660,7 @@
         "lingua": {
           "gl": {
             "termo": "anomalía excéntrica",
-            "definicion": "Considerando a órbita elíptica dun corpo celeste arredor doutro, como un planeta arredor do Sol, e imaxinando unha circunferencia concéntrica con esa órbita e de radio igual ao semieixe maior desa elipse, chámase anomalía excéntrica ao ángulo (E na figura) formado polo vector que vai dende o centro da órbita ao perihelio do planeta e o vector que vai dende ese centro a un punto da circunferencia, P\", obtido como punto de corte entre a circunferencia imaxinaria e unha recta perpendicular ao semieixe maior da órbita elíptica que pasa pola posición ocupada polo planeta, P', en cada intre.0figura0común.",
+            "definicion": "Considerando a órbita elíptica dun corpo celeste arredor doutro, como un planeta arredor do Sol, e imaxinando unha circunferencia concéntrica con esa órbita e de radio igual ao semieixe maior desa elipse, chámase anomalía excéntrica ao ángulo ($E$ na figura) formado polo vector que vai dende o centro da órbita ao perihelio do planeta e o vector que vai dende ese centro a un punto da circunferencia, $P''$, obtido como punto de corte entre a circunferencia imaxinaria e unha recta perpendicular ao semieixe maior da órbita elíptica que pasa pola posición ocupada polo planeta, $P'$, en cada intre. #html.frame(image(\"/dicionario/figuras/anomalia_verdad_e_excent.svg\"))",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3727,8 +3670,8 @@
     "relacionadas": [
       "perihelio"
     ],
-    "ten_ecuacions": false,
-    "ten_figuras": false
+    "ten_ecuacions": true,
+    "ten_figuras": true
   },
   {
     "termo": "anomalía media",
@@ -3737,7 +3680,7 @@
         "lingua": {
           "gl": {
             "termo": "anomalía media",
-            "definicion": "Considerada a órbita elíptica dun planeta e a circunferencia imaxinada para definir a anomalía excéntrica, chámase anomalía media ao ángulo formado polo vector que vai dende o Sol ao perihelio dun planeta e o que vai dende o Sol á posición que en cada intre ocuparía un corpo ficticio que xírase con velocidade constante por esa circunferencia imaxinaria de tal forma que teña o mesmo tempo de revolución que o planeta real. V. anomalía excéntrica.",
+            "definicion": "Considerada a órbita elíptica dun planeta e a circunferencia imaxinada para definir a anomalía excéntrica, chámase anomalía media ao ángulo formado polo vector que vai dende o Sol ao perihelio dun planeta e o que vai dende o Sol á posición que en cada intre ocuparía un corpo ficticio que xírase con velocidade constante por esa circunferencia imaxinaria de tal forma que teña o mesmo tempo de revolución que o planeta real.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3746,11 +3689,32 @@
     ],
     "relacionadas": [
       "perihelio",
-      "excéntrica",
-      "anomalía"
+      "anomalía excéntrica"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
+  },
+  {
+    "termo": "anomalía  verdadeira",
+    "acepcions": [
+      {
+        "lingua": {
+          "gl": {
+            "termo": "anomalía  verdadeira",
+            "definicion": "Ángulo empregado para indicar a posición dun corpo celeste, como un planeta ou un satélite, que xira arredor doutro seguindo unha órbita elíptica. Para o caso dun planeta defínese como o ángulo, $V$, formado polo vector que vai dende o Sol ao perihelio do planeta e o que vai dende o Sol á posición ocupada polo planeta en cada intre. #html.frame(image(\"/dicionario/figuras/anomalia_verdad_e_excent.svg\"))",
+            "sinonimos": [],
+            "simbolo": ""
+          }
+        }
+      }
+    ],
+    "relacionadas": [
+      "perihelio",
+      "órbita elíptica",
+      "elementos dunha órbita"
+    ],
+    "ten_ecuacions": true,
+    "ten_figuras": true
   },
   {
     "termo": "anomalías da gravidade",
@@ -3759,7 +3723,7 @@
         "lingua": {
           "gl": {
             "termo": "anomalías da gravidade",
-            "definicion": "Diferencia entre o valor calculado da aceleración da gravidade para un lugar da superficie terrestre, empregando a Fórmula Internacional da gravidade (FIG) e a corrección para a altitude do lugar, respecto ao valor obtido experimentalmente nese mesmo lugar. A principal causa destas anomalías é a diferente composición do material que forma a codia terrestre baixo o lugar en cuestión e a inhomoxeneidade do material do manto. V. gravimetría; Bouguer, anomalías de.",
+            "definicion": "Diferencia entre o valor calculado da aceleración da gravidade para un lugar da superficie terrestre, empregando a Fórmula Internacional da gravidade (FIG) e a corrección para a altitude do lugar, respecto ao valor obtido experimentalmente nese mesmo lugar. A principal causa destas anomalías é a diferente composición do material que forma a codia terrestre baixo o lugar en cuestión e a inhomoxeneidade do material do manto.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3767,10 +3731,10 @@
       }
     ],
     "relacionadas": [
-      "aceleración",
-      "a *Fórmula Internacional da gravidade ",
-      "Fórmula",
-      "aceleración da gravidade"
+      "fórmula internacional da gravidade ",
+      "aceleración da gravidade",
+      "gravimetría",
+      "Bouguer, anomalías de"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -3782,14 +3746,14 @@
         "lingua": {
           "gl": {
             "termo": "antena",
-            "definicion": "Estructura deseñada para a recepción e envío de sinais electromagnéticos. A ganancia dunha antena é a relación entre a potencia requirida por una antena de referencia que non teña perdas de sinal e a potencia que necesita unha antena dada para producir na mesma dirección, e á mesma distancia, a mesma intensidade de campo; exprésase normalmente en decibelios. V. radiotransmisión.",
+            "definicion": "Estructura deseñada para a recepción e envío de sinais electromagnéticos. A ganancia dunha antena é a relación entre a potencia requirida por una antena de referencia que non teña perdas de sinal e a potencia que necesita unha antena dada para producir na mesma dirección, e á mesma distancia, a mesma intensidade de campo; exprésase normalmente en decibelios.",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": ["radiotransmisión"],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -3810,8 +3774,7 @@
     "relacionadas": [
       "eixe principal",
       "radioastronomía",
-      "detector",
-      "eixe"
+      "detector"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -3831,13 +3794,11 @@
       }
     ],
     "relacionadas": [
-      "Kepler",
-      "Galileo",
-      "anteollo",
+      "Kepler, telescopio de",
+      "Galileo, telescopio de",
       "anteollo de teatro",
-      "Telescopio refractor",
-      "anteollo terrestre",
-      "Telescopio"
+      "telescopio refractor",
+      "anteollo terrestre"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -3857,7 +3818,7 @@
       }
     ],
     "relacionadas": [
-      "Galileo"
+      "Galileo, anteollo de"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -3869,17 +3830,14 @@
         "lingua": {
           "gl": {
             "termo": "anteollo holandés",
-            "definicion": "Galileo, anteollo de.",
-            "sinonimos": [],
+            "definicion": "",
+            "sinonimos": ["Galileo, anteollo de"],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [
-      "Galileo, anteollo de",
-      "Galileo"
-    ],
+    "relacionadas": [],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -3890,7 +3848,7 @@
         "lingua": {
           "gl": {
             "termo": "anteollo terrestre",
-            "definicion": "Telescopio refractor formado por dúas lentes converxentes, unha como obxectivo, de converxencia pequena, e outra como ocular, de gran converxencia. Como este sistema daría unha imaxe invertida, para obter o anteollo terrestre, entre esas dúas lentes intercálase un par de inversión, formado por outras dúas lentes converxentes, colocadas de forma que distan entre si a suma das súas distancias focais. V. aumento visual; lentes; instrumentos ópticos.",
+            "definicion": "Telescopio refractor formado por dúas lentes converxentes, unha como obxectivo, de converxencia pequena, e outra como ocular, de gran converxencia. Como este sistema daría unha imaxe invertida, para obter o anteollo terrestre, entre esas dúas lentes intercálase un par de inversión, formado por outras dúas lentes converxentes, colocadas de forma que distan entre si a suma das súas distancias focais.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3899,10 +3857,10 @@
     ],
     "relacionadas": [
       "distancias focais",
-      "Telescopio refractor",
-      "distancias",
+      "telescopio refractor",
       "converxencia",
-      "Telescopio"
+      "aumento visual",
+      "lentes"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -3914,7 +3872,7 @@
         "lingua": {
           "gl": {
             "termo": "anticiclón",
-            "definicion": "Centro de alta presión barométrica. Vai asociado a un tempo estable, sen nubes nin precipitacións, xa que impide que se acheguen a el masas de aire. As isóbaras dunha zona anticiclónica son curvas circulares ou ovaladas nas que a presión diminúe cara á periferia. V. Coriolis, aceleración de.",
+            "definicion": "Centro de alta presión barométrica. Vai asociado a un tempo estable, sen nubes nin precipitacións, xa que impide que se acheguen a el masas de aire. As isóbaras dunha zona anticiclónica son curvas circulares ou ovaladas nas que a presión diminúe cara á periferia.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -3922,7 +3880,8 @@
       }
     ],
     "relacionadas": [
-      "isóbaras"
+      "isóbara",
+      "Coriolis, aceleración de"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -3934,16 +3893,14 @@
         "lingua": {
           "gl": {
             "termo": "antielectrón",
-            "definicion": "Positrón.",
-            "sinonimos": [],
+            "definicion": "",
+            "sinonimos": ["positrón"],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [
-      "Positrón"
-    ],
+    "relacionadas": [],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -3982,11 +3939,10 @@
       }
     ],
     "relacionadas": [
-      "momento",
-      "paramagnética",
-      "temperatura de Néel",
+      "paramagnético",
+      "Néel, temperatura de",
       "momento magnético",
-      "ferromagnéticas"
+      "ferromagnético"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -3998,7 +3954,7 @@
         "lingua": {
           "gl": {
             "termo": "antimateria",
-            "definicion": "V. antipartículas.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -4008,7 +3964,7 @@
         "lingua": {
           "gl": {
             "termo": "antimateria",
-            "definicion": "Estructura composta de átomos formados por antipartículas. V. materia.",
+            "definicion": "Estructura composta de átomos formados por antipartículas.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -4016,7 +3972,9 @@
       }
     ],
     "relacionadas": [
-      "átomos"
+      "átomo",
+      "antipartícula",
+      "materia"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -4028,18 +3986,17 @@
         "lingua": {
           "gl": {
             "termo": "antimonio",
-            "definicion": "Sb. Sb. Elemento químico de número atómico 51, coñecido dende a antigüidade, preséntase na natureza en forma de dous isótopos: Sb-121 (57,21%) e Sb-123 (42,79%), atopándose ata 35 isótopos artificiais máis. Ten dúas formas alotrópicas: a forma metálica, que é a máis normal e estable, e a gris amorfa. O antimonio metálico é branco prateado, quebradizo e mal conductor da electricidade. MA. 121,760 u; Pf. 630,5 ºC; Pe. 1 380 ºC;  6 691 kgm-3.",
+            "definicion": "Elemento químico de número atómico 51, coñecido dende a antigüidade, preséntase na natureza en forma de dous isótopos: Sb-121 (57,21%) e Sb-123 (42,79%), atopándose ata 35 isótopos artificiais máis. Ten dúas formas alotrópicas: a forma metálica, que é a máis normal e estable, e a gris amorfa. O antimonio metálico é branco prateado, quebradizo e mal conductor da electricidade. MA. 121.760 u; Pf. 630.5 ºC; Pe. 1380 ºC; $rho$ 6691 kg m⁻³.",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$#[Sb]$"
           }
         }
       }
     ],
     "relacionadas": [
-      "número",
-      "isótopos",
-      "*número atómico",
-      "Elemento químico"
+      "isótopo",
+      "número atómico",
+      "elemento químico"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -4051,22 +4008,24 @@
         "lingua": {
           "gl": {
             "termo": "antineutrino",
-            "definicion": "Sb. . Antipartícula do neutrino. Segundo o chamado modelo estándar, a masa en repouso do neutrino sería cero e, como consecuencia de tal feito, o antineutrino diferénciase do neutrino en que teñen helicidade oposta, pois mentres o antineutrino presenta helicidade positiva o neutrino ten helicidade negativa. Segundo outros modelos ou teorías, o neutrino podería ter unha masa en repouso non nula e, neste caso, o neutrino e o antineutrino coincidirían, resultando que o neutrino sería a súa propia antipartícula. V. leptóns; fermións; Majorana, neutrino de; desintegración beta dobre.",
+            "definicion": "Antipartícula do neutrino. Segundo o chamado modelo estándar, a masa en repouso do neutrino sería cero e, como consecuencia de tal feito, o antineutrino diferénciase do neutrino en que teñen helicidade oposta, pois mentres o antineutrino presenta helicidade positiva o neutrino ten helicidade negativa. Segundo outros modelos ou teorías, o neutrino podería ter unha masa en repouso non nula e, neste caso, o neutrino e o antineutrino coincidirían, resultando que o neutrino sería a súa propia antipartícula.",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$macron(nu)$"
           }
         }
       }
     ],
     "relacionadas": [
       "helicidade",
-      "Antipartícula",
+      "antipartícula",
       "modelo estándar",
       "masa en repouso",
-      "masa",
-      "modelo"
+      "leptón",
+      "fermión",
+      "Majorana, neutrino de",
+      "desintegración beta dobre"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -4076,17 +4035,19 @@
         "lingua": {
           "gl": {
             "termo": "antineutrón",
-            "definicion": "Sb. . Antipartícula do neutrón que se diferencia do mesmo por ter helicidade oposta. V. barións; fermións.",
+            "definicion": "Antipartícula do neutrón que se diferencia do mesmo por ter helicidade oposta.",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$macron(n)^0$"
           }
         }
       }
     ],
     "relacionadas": [
-      "helicidade"
+      "helicidade",
+      "barión",
+      "fermión"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -4096,7 +4057,7 @@
         "lingua": {
           "gl": {
             "termo": "antipartícula",
-            "definicion": "Cada partícula leva asociada unha antipartícula, que ten a mesma masa e espín que a partícula, pero algunhas propiedades opostas como a carga eléctrica e/ou o momento magnético. Cada antipartícula represéntase co mesmo signo que o correspondente á partícula pero cunha barra enrriba. A primeira antipartícula observada foi o positrón ou antielectrón,, no 1933; o antiprotón e o antineutrón foron observados no 1955.",
+            "definicion": "Cada partícula leva asociada unha antipartícula, que ten a mesma masa e espín que a partícula, pero algunhas propiedades opostas como a carga eléctrica e/ou o momento magnético. Cada antipartícula represéntase co mesmo signo que o correspondente á partícula pero cunha barra enrriba. A primeira antipartícula observada foi o positrón ou antielectrón, $macron(e)^+$, en 1933; o antiprotón e o antineutrón foron observados no 1955.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -4104,12 +4065,10 @@
       }
     ],
     "relacionadas": [
-      "carga",
       "carga eléctrica",
-      "momento",
       "momento magnético"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -4119,15 +4078,15 @@
         "lingua": {
           "gl": {
             "termo": "antiprotón",
-            "definicion": "Sb. . Antipartícula do protón. O antiprotón ten a mesma masa e espín que o protón e o mesmo valor de carga eléctrica pero de signo contrario. Unha colisión protón-protón pode producir un par protón-antiprotón sempre que a enerxía cinética do protón incidente (respecto ao outro, suposto en repouso) sexa igual ou maior que 5,64 GeV.",
+            "definicion": "Antipartícula do protón. O antiprotón ten a mesma masa e espín que o protón e o mesmo valor de carga eléctrica pero de signo contrario. Unha colisión protón-protón pode producir un par protón-antiprotón sempre que a enerxía cinética do protón incidente (respecto ao outro, suposto en repouso) sexa igual ou maior que 5.64 GeV.",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$macron(p)^+$"
           }
         }
       }
     ],
     "relacionadas": [],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -4137,20 +4096,19 @@
         "lingua": {
           "gl": {
             "termo": "antiquark",
-            "definicion": "Sb. . Partículas de igual masa e espín que o quark correspondente, pero con carga eléctrica e carga cromática contrarias ás do mesmo. A combinación dun quark e o seu antiquark forman unha combinación estable sen carga cromática. V. cromodinámica cuántica.",
+            "definicion": "Partículas de igual masa e espín que o quark correspondente, pero con carga eléctrica e carga cromática contrarias ás do mesmo. A combinación dun quark e o seu antiquark forman unha combinación estable sen carga cromática.",
             "sinonimos": [],
-            "simbolo": ""
+            "simbolo": "$macron(q)_r$"
           }
         }
       }
     ],
     "relacionadas": [
-      "carga",
       "carga cromática",
-      "cromática",
-      "quark"
+      "quark",
+      "cromodinámica cuántica"
     ],
-    "ten_ecuacions": false,
+    "ten_ecuacions": true,
     "ten_figuras": false
   },
   {
@@ -4168,7 +4126,7 @@
       }
     ],
     "relacionadas": [
-      "espectroscopía"
+      "Raman, espectroscopía de"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -4180,14 +4138,14 @@
         "lingua": {
           "gl": {
             "termo": "apantallamento",
-            "definicion": "V. efecto de apantallamento.",
+            "definicion": "",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [],
+    "relacionadas": ["efecto de apantallamento"],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -4210,11 +4168,7 @@
       "obxectivo",
       "eixe principal",
       "poder separador",
-      "microscopio óptico",
-      "microscopio",
-      "eixe",
-      "índice",
-      "poder"
+      "microscopio óptico"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -4236,9 +4190,7 @@
     "relacionadas": [
       "ascensión recta",
       "antiápex",
-      "bóveda celeste",
-      "bóveda",
-      "ascensión"
+      "bóveda celeste"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
