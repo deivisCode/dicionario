@@ -2,7 +2,7 @@
 #let estilo_pdf(doc) = {
     set page(margin: (outside: 2cm, inside: 1cm, top: 1cm, bottom: 1cm), binding: left)
     set par(justify: true, first-line-indent: 0pt)
-    set text(lang: "gl", font: "Common Serif")
+    set text(size: 11pt, lang: "gl", font: "Common Serif")
     show math.equation: set text(font: "Libertinus Math")
     set columns(gutter: 1cm)
     show: columns
@@ -40,7 +40,8 @@
     // Caso de xerar un PDF
     if target() == "paged" {
         // Movemos o termo un pouco á esquerda
-        box[#move(dx: -1em, strong(denominacion))]
+        show heading.where(level: 2): set text(size: 11pt)
+        box[#move(dx: -1em, heading(depth: 2, denominacion))]
         // iteramos polas distintas acepcións
         for (i, acepcion) in acepcions.enumerate(start: 1) {
             let d = acepcion.definicion
@@ -76,6 +77,26 @@
                         }
                     )
                 }
+            }
+        )
+    }
+}
+
+#let letra(letra) = context {
+    if target() == "paged" {
+        block(
+            inset  : (top: 1em, bottom: 1em),
+            outset : (left: 1em),
+            width  : 100%,
+            stroke : 2pt + luma(60%),
+            radius : 5pt,
+            heading(depth: 1, text(size: 2em, fill: luma(60%), letra))
+        )
+    } else if target() == "html" {
+        html.div(
+            class: "nova-letra",
+            {
+                strong(letra)
             }
         )
     }
