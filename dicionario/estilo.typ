@@ -1,6 +1,39 @@
+#let _termos_cache = state("termos_cache", none)
+#let crear_cabeceira() = context {
+    // Se a caché está baleira, engadímoslle os termos
+    if _termos_cache.get() == none {
+        let termos = query(heading.where(level: 2))
+        _termos_cache.update(_ => termos)
+    // Unha vez non esté baleira
+    } else if _termos_cache.get() != none {
+        let termos_aqui = _termos_cache
+            .get() // collemos o valor dos termos gardado na caché
+            // filtramos as que están na páxina actual
+            .filter(h2 => here().page() == h2.location().page())
+        // Páxina actual
+        let num = counter(page).get().first()
+        // se non hai termos na páxina actual (pouco probable)
+        if termos_aqui.len() == 0 { return none }
+        else  {
+            // Páxinas pares (esquerda)
+            if calc.even(num) {
+                align(left, box[#move(dx: -2em, smallcaps[*#termos_aqui.first().body*])])
+            // Páxinas impares (dereita)
+            } else if calc.odd(num) {
+                align(right, box[#move(dx: 2em, smallcaps[*#termos_aqui.last().body*])])
+            }
+        }
+    }
+}
+
+
 // Función que aplica o estilo ao documento PDF
 #let estilo_pdf(doc) = {
-    set page(margin: (outside: 2cm, inside: 1cm, top: 1cm, bottom: 1cm), binding: left)
+    set page(
+        margin: (outside: 2cm, inside: 1cm, top: 1.5cm, bottom: 1.5cm),
+        binding: left,
+        header: crear_cabeceira(),
+    )
     set par(justify: true, first-line-indent: 0pt)
     set text(size: 11pt, lang: "gl", font: "Common Serif")
     show math.equation: set text(font: "Libertinus Math")
