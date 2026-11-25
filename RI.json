@@ -15,7 +15,6 @@
     ],
     "relacionadas": [
       "sistema electromagnético",
-      "absoluto",
       "stat-",
       "c.g.s."
     ],
@@ -63,9 +62,9 @@
       }
     ],
     "relacionadas": [
-      "lonxitudes de onda",
-      "índices de refracción ",
-      "liñas espectrais"
+      "lonxitude de onda",
+      "índice de refracción",
+      "liña espectral"
     ],
     "ten_ecuacions": true,
     "ten_figuras": false
@@ -112,7 +111,11 @@
         }
       }
     ],
-    "relacionadas": ["aberración cromática", "aberracións xeométricas", "sistemas ópticos"],
+    "relacionadas": [
+        "aberración cromática",
+        "aberracións xeométricas",
+        "sistema óptico"
+    ],
     "ten_ecuacions": false,
     "ten_figuras": true
   },
@@ -132,8 +135,8 @@
     ],
     "relacionadas": [
       "aberración",
-      "coordenadas ecuatoriais",
-      "aberración anual"
+      "coordenadas ecuatoriais absolutas",
+      "coordenadas ecuatoriais horarias"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -154,7 +157,7 @@
     ],
     "relacionadas": [
       "índice de refracción",
-      "lentes acromáticas",
+      "lente acromática",
       "aberración"
     ],
     "ten_ecuacions": false,
@@ -175,16 +178,14 @@
       }
     ],
     "relacionadas": [
-      "aberración esférica transversal en espellos",
       "curvatura",
       "astigmatismo",
       "espello",
       "coma",
       "punto imaxe",
-      "aberración esférica",
       "distorsión",
       "lente",
-      "sistemas ópticos",
+      "sistema óptico",
       "estigmatismo"
     ],
     "ten_ecuacions": false,
@@ -244,7 +245,6 @@
       }
     ],
     "relacionadas": [
-      "extinción",
       "fotocolorimetría",
       "molaridade",
       "Beer, lei de",
@@ -273,7 +273,7 @@
         "lingua": {
           "gl": {
             "termo": "absorción",
-            "definicion": "Termo que recolle diversos procesos físico-químicos nos que unha substancia retén a outra, como a retención dun gas por un líquido ou a dun fluído por un sólido. Afecta a todo o volume do corpo, a diferencia da adsorción que é superficial. absorción atómica ",
+            "definicion": "Termo que recolle diversos procesos físico-químicos nos que unha substancia retén a outra, como a retención dun gas por un líquido ou a dun fluído por un sólido. Afecta a todo o volume do corpo, a diferencia da adsorción que é superficial.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -281,14 +281,11 @@
       }
     ],
     "relacionadas": [
-      "análise",
       "Lambert, lei de",
       "amortecemento",
-      "lonxitudes de onda",
-      "intensidade",
-      "análise espectral",
+      "lonxitude de onda",
+      "intensidade de corrente",
       "adsorción",
-      "absorción",
       "amortecemento"
     ],
     "ten_ecuacions": false,
@@ -313,7 +310,7 @@
         "absorbancia",
         "absorción",
         "análise espectral",
-        "lonxitudes de onda"
+        "lonxitude de onda"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -334,7 +331,6 @@
     ],
     "relacionadas": [
       "corpo negro",
-      "factor de absorción",
       "absorbancia",
       "transmitancia",
       "Lambert, lei de"
@@ -385,7 +381,7 @@
       }
     ],
     "relacionadas": [
-      "isótopo"
+      "isótopos"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -424,10 +420,9 @@
       "enerxía potencial",
       "mecánica analítica",
       "enerxía cinética",
-      "reacción",
       "SI",
       "Newton, leis de",
-      "Maupertius, principio de",
+      "Maupertuis, principio de",
       "Hamilton, principio de",
       "principio de mínima acción"
     ],
@@ -456,15 +451,15 @@
       "acelerómetro",
       "acelerógrafo",
       "sistema de referencia",
-      "sistemas de referencia non inerciais",
-      "aceleración de arrastre",
-      "Galileo, relatividade de",
+      "sistema de referencia non inercial",
+      "arrastre",
+      "Galileo, principio de relatividade de",
       "Coriolis, aceleración de",
-      "compoñentes intrínsecos",
+      "compoñentes intrínsecas da aceleración",
       "aceleración normal",
       "aceleración tanxencial",
       "aceleración angular",
-      "movemento circular"
+      "movemento circular uniforme"
     ],
     "ten_ecuacions": true,
     "ten_figuras": false
@@ -578,8 +573,7 @@
       "empuxe",
       "gravidade",
       "aceleración",
-      "interacción gravitatoria",
-      "forzas de rozamento",
+      "forza de rozamento",
       "caída libre dos corpos",
       "gravidade terrestre"
     ],
@@ -621,8 +615,8 @@
     "relacionadas": [
       "radio de curvatura",
       "aceleración centrípeta",
-      "vector unitario normal",
-      "compoñente intrínseco"
+      "vector unitario",
+      "compoñentes intrínsecas da aceleración"
     ],
     "ten_ecuacions": true,
     "ten_figuras": false
@@ -660,8 +654,8 @@
       }
     ],
     "relacionadas": [
-      "vector unitario tanxente",
-      "compoñente intrínseco"
+      "vector unitario",
+      "compoñentes intrínsecas da aceleración"
     ],
     "ten_ecuacions": true,
     "ten_figuras": false
@@ -686,10 +680,9 @@
       "betatrón",
       "aceleradores lineais",
       "sincrotrón",
-      "cámaras de burbullas",
-      "cámaras de néboa",
-      "enerxía cinética",
-      "electrostáticos"
+      "cámara de burbullas",
+      "cámara de néboa",
+      "enerxía cinética"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -709,7 +702,7 @@
       }
     ],
     "relacionadas": [
-      "acelerador de partículas"
+      "aceleradores de partículas"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -765,7 +758,6 @@
       }
     ],
     "relacionadas": [
-      "semiconductor extrínseco",
       "semiconductor"
     ],
     "ten_ecuacions": false,
@@ -858,9 +850,9 @@
       "acoplamento",
       "electróns opticamente activos",
       "Coulomb, interacción residual de",
-      "momento angulare",
+      "momento angular",
       "interacción spin-órbita",
-      "Russell-Saunders, acomplamento de",
+      "Russell-Saunders, acoplamento de",
       "acoplamento spin-órbita",
       "física cuántica"
     ],
@@ -911,7 +903,7 @@
       "acoplamento",
       "número atómico",
       "fermión",
-      "interaccións spin-órbita",
+      "interacción spin-órbita",
       "Coulomb, interacción residual de"
     ],
     "ten_ecuacions": false,
@@ -932,7 +924,7 @@
       }
     ],
     "relacionadas": [
-      "Russell-Saunder, acoplamento de"
+      "Russell-Saunders, acoplamento de"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -952,8 +944,7 @@
       }
     ],
     "relacionadas": [
-      "disonantes",
-      "intervalos"
+      "intervalo"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -996,7 +987,7 @@
     ],
     "relacionadas": [
         "daltonismo",
-        "visión das cores"
+        "visión fotópica"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -1016,13 +1007,12 @@
       }
     ],
     "relacionadas": [
-      "transición interna",
-      "series radioactivas",
+      "transición electrónica",
+      "serie radioactiva",
       "laurencio",
       "actinio",
       "torio",
-      "orbitais",
-      "transición",
+      "orbital",
       "táboa periódica"
     ],
     "ten_ecuacions": false,
@@ -1043,7 +1033,7 @@
       }
     ],
     "relacionadas": [
-      "partículas alfa",
+      "partícula alfa",
       "vida media",
       "número atómico",
       "isótopos",
@@ -1147,7 +1137,7 @@
         }
       }
     ],
-    "relacionadas": ["ciclo de actividade solar"],
+    "relacionadas": ["ciclo da actividade solar"],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -7355,12 +7345,12 @@
     "ten_figuras": false
   },
   {
-    "termo": "betatron",
+    "termo": "betatrón",
     "acepcions": [
       {
         "lingua": {
           "gl": {
-            "termo": "betatron",
+            "termo": "betatrón",
             "definicion": "Acelerador de electróns, partículas constituindes dos raios beta, de aí o nome. Os electróns son inxectados no interior dunha canle baleira colocada no entreferro dun electroimán. O campo magnético creado polo electroimán, segundo determinadas condicións, mantén aos electróns nunha traxectoria circular de radio calculable e crea, por inducción electromagnética, un campo eléctrico tanxente á traxectoria desas partículas e, polo tanto, capaz de acelerar aos electróns.",
             "sinonimos": [],
             "simbolo": ""
@@ -88013,13 +88003,13 @@
     "ten_figuras": false
   },
   {
-    "termo": "sistema óptico",
+    "termo": "sistema óptico centrado",
     "acepcions": [
       {
         "lingua": {
           "gl": {
-            "termo": "sistema óptico",
-            "definicion": "centrado Sucesión de dioptrios esféricos cos centros situados sobre o mesmo eixe, que resulta un eixe de simetría e recibe o nome de eixe óptico do sistema.",
+            "termo": "sistema óptico centrado",
+            "definicion": "Sucesión de dioptrios esféricos cos centros situados sobre o mesmo eixe, que resulta un eixe de simetría e recibe o nome de eixe óptico do sistema.",
             "sinonimos": [],
             "simbolo": ""
           }
@@ -89152,44 +89142,6 @@
         "lingua": {
           "gl": {
             "termo": "spin",
-            "definicion": "spin.",
-            "sinonimos": [],
-            "simbolo": ""
-          }
-        }
-      }
-    ],
-    "relacionadas": [
-      "spin"
-    ],
-    "ten_ecuacions": false,
-    "ten_figuras": false
-  },
-  {
-    "termo": "spin isotópico",
-    "acepcions": [
-      {
-        "lingua": {
-          "gl": {
-            "termo": "spin isotópico",
-            "definicion": "V. isospin.",
-            "sinonimos": [],
-            "simbolo": ""
-          }
-        }
-      }
-    ],
-    "relacionadas": [],
-    "ten_ecuacions": false,
-    "ten_figuras": false
-  },
-  {
-    "termo": "spin",
-    "acepcions": [
-      {
-        "lingua": {
-          "gl": {
-            "termo": "spin",
             "definicion": "Sb. s. Característica cuántica, intrínseca das partículas subatómicas, asociada coa idea de momento angular de rotación. Mídese por medio dun número enteiro ou semienteiro, sendo a unidade o cuanto de momento angular. As partículas que posúen un spin semienteiro son os fermións, partículas constituíntes da materia como os electróns, protóns ou neutróns, de spin 1/2 ou -1/2 desa unidade, mentres que as que posúen un número enteiro desa unidade son os bosóns. O spin está relacionado coa simetría de rotación, de forma que canto maior é o spin dunha partícula, menor é a fracción de volta que se debe xirar esa partícula para que presente o aspecto inicial: nun bosón de spin 1 debe xirarse 360º e nun bosón de spin 2 consíguese ao xiralo 180º, mentres que nun fermión de spin ½ deberase xirar 720º para volver ao estado inicial. V. Pauli, principio de exclusión de; Fermi-Dirac, estatística de; Bose-Einstein, estatística de; número cuántico de spin.",
             "sinonimos": [],
             "simbolo": ""
@@ -89217,16 +89169,14 @@
         "lingua": {
           "gl": {
             "termo": "spin isotópico",
-            "definicion": "Isospín.",
+            "definicion": "V. isospin.",
             "sinonimos": [],
             "simbolo": ""
           }
         }
       }
     ],
-    "relacionadas": [
-      "Isospín"
-    ],
+    "relacionadas": [],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
