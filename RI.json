@@ -1056,7 +1056,7 @@
         }
       }
     ],
-    "relacionadas": ["radón"],
+    "relacionadas": ["radon"],
     "ten_ecuacions": false,
     "ten_figuras": false
   },
@@ -1179,12 +1179,7 @@
       }
     ],
     "relacionadas": [
-      "acústica-física",
-      "acústica musical",
-      "electroacústica",
-      "acústica arquitectónica",
-      "acústica fisiolóxica",
-      "ondas"
+      "onda"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -1204,10 +1199,8 @@
       }
     ],
     "relacionadas": [
-      "radio ecuatorial",
       "xeodesia",
-      "elipsoide de referencia",
-      "radio polar"
+      "elipsoide de referencia"
     ],
     "ten_ecuacions": true,
     "ten_figuras": false
@@ -1227,8 +1220,7 @@
       }
     ],
     "relacionadas": [
-      "onvertedor analóxico dixital",
-      "Convertedor"
+      "convertedor analóxico dixital"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -1266,7 +1258,7 @@
       }
     ],
     "relacionadas": [
-      "razón de capacidade calorífica",
+      "razón de capacidade calorífica gamma",
       "Laplace, ecuación de",
       "proceso adiabático"
     ],
@@ -1312,9 +1304,8 @@
       }
     ],
     "relacionadas": [
-      "túneles",
       "Reynolds, número de",
-      "túneles de vento"
+      "túnel de vento"
     ],
     "ten_ecuacions": true,
     "ten_figuras": false
@@ -1334,7 +1325,7 @@
       }
     ],
     "relacionadas": [
-      "tubos sonoros"
+      "tubo sonoro"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -1503,9 +1494,9 @@
       }
     ],
     "relacionadas": [
-      "focos",
+      "foco",
       "sistema óptico",
-      "lentes"
+      "lente"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -1568,8 +1559,7 @@
     "relacionadas": [
       "condicións normais",
       "atmosfera terrestre",
-      "atmosfera",
-      "condicións"
+      "atmosfera"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -1681,7 +1671,7 @@
       }
     ],
     "relacionadas": [
-      "Círculos horizontais"
+      "círculo horizontal"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -1742,7 +1732,7 @@
       }
     ],
     "relacionadas": [
-      "píxeles"
+      "píxel"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -1782,18 +1772,17 @@
       }
     ],
     "relacionadas": [
-      "campo",
       "corrente alterna",
       "corrente monofásica",
       "inducido",
-      "campo magnético ",
+      "campo magnético",
       "inducción electromagnética",
       "rotor",
       "corrente bifásica",
       "corrente polifásica",
       "inducción",
       "imán",
-      "estator",
+      "estátor",
       "bobina",
       "inductor",
       "corrente trifásica",
@@ -1981,8 +1970,8 @@
     ],
     "relacionadas": [
       "Bernouilli, ecuación de",
-      "fluxos turbulentos",
-      "fluxos laminares"
+      "fluxo turbulento",
+      "fluxo laminar"
     ],
     "ten_ecuacions": true,
     "ten_figuras": false
@@ -2105,7 +2094,7 @@
       }
     ],
     "relacionadas": [
-      "Altura piezométrica"
+      "altura piezométrica"
     ],
     "ten_ecuacions": false,
     "ten_figuras": false
@@ -2125,7 +2114,7 @@
       }
     ],
     "relacionadas": [
-      "isótopo",
+      "isótopos",
       "número atómico",
       "elemento químico"
     ],
@@ -2200,8 +2189,7 @@
     "relacionadas": [
       "forza de rozamento",
       "atenuación",
-      "intensidade",
-      "oscilacións",
+      "oscilación",
       "amplitude",
       "amortecemento crítico",
       "coeficiente de amortecemento",
@@ -2249,7 +2237,7 @@
     "relacionadas": [
       "constante de amortecemento",
       "amortecemento",
-      "forzas de rozamento"
+      "forza de rozamento"
     ],
     "ten_ecuacions": true,
     "ten_figuras": false
@@ -2270,7 +2258,6 @@
     ],
     "relacionadas": [
       "intensidade de corrente",
-      "intensidade",
       "SI"
     ],
     "ten_ecuacions": true,
@@ -2316,7 +2303,7 @@
       "circulación dun vector",
       "Maxwell, ecuacións de",
       "inducción magnética",
-      "Ampere, lei de",
+      "Ampère, lei de",
       "corrente",
       "fluxo eléctrico"
     ],
@@ -2398,9 +2385,9 @@
       }
     ],
     "relacionadas": [
-      "válvulas",
-      "circuítos integrados",
-      "transistores",
+      "válvula",
+      "circuíto integrado",
+      "transistor",
       "ganancia"
     ],
     "ten_ecuacions": false,
@@ -72549,12 +72536,12 @@
     "ten_figuras": false
   },
   {
-    "termo": "pixel",
+    "termo": "píxel",
     "acepcions": [
       {
         "lingua": {
           "gl": {
-            "termo": "pixel",
+            "termo": "píxel",
             "definicion": "En informática, acrónimo de PICture Element (elemento de imaxe). Cada un dos puntos que forman a imaxe na pantalla dun ordenador. Nos monitores a cor, cada pixel corresponde realmente a tres puntos: vermello, azul e verde. V. modo gráfico; gráfico de mapa de bits.",
             "sinonimos": [],
             "simbolo": ""

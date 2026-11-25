@@ -8,10 +8,11 @@ Termos concretos:
 - Relación de dispersión -> Tampouco está
 - 'Ritcher, escala de' ten un ' 4. ' problemático
 - referencias a 'Sellmeier, ecuación de', pero non está no dicionario (dixital nin papel)
-- no dicionario en papel, faltan as páxinas 416 a 449 (parte da P, toda a Q, parte da R)
+- 'intensidade' non está
 
 Notas xerais:
 - Hai termos que están no dicionario real e non nos DOCX
 - Hai termos que no XML están case duplicados pero con notas para usar un e non o outro
 - Hai termos (prágrafos do XML) completamente baleiros
 - Hai termos (prágrafos do XML) con termos pero sen definción
+- no dicionario en papel, faltan as páxinas 416 a 449 (parte da P, toda a Q, parte da R)
